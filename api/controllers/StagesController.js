@@ -88,7 +88,7 @@ module.exports = {
     	var id = req.param('id');
 
         res.send({
-            stages: _stages[id]
+            stage: _stages[id]
         });
     }    
 };
