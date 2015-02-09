@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 
 RUN DEBIAN_FRONTEND=noninteractive
+RUN apt-get update
 
 # Install NodeJS from PPA
 RUN apt-get install software-properties-common -y
