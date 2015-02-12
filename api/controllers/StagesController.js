@@ -85,10 +85,14 @@ module.exports = {
     },
 
     findOne: function(req, res, next) {
-    	var id = req.param('id');
+        var id = req.param('id');
+
+        if (id >= _sessions.length) {
+            return res.send(500, 'Item with id "' + +'" is not available.');
+        }
 
         res.send({
             stage: _stages[id]
         });
-    }    
+    }
 };
