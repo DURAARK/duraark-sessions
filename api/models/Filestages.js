@@ -8,10 +8,11 @@
 module.exports = {
 
     attributes: {
-    	name: 'string',
-    	files: {
-    		collection: 'files'
-    	},
+        name: 'string',
+        // files: {
+        // 	collection: 'files'
+        // },
+        files: 'array',	
         session: {
             model: 'sessions'
         }

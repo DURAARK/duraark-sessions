@@ -78,21 +78,21 @@ var _stages = [{
 }];
 
 module.exports = {
-    find: function(req, res, next) {
-        res.send({
-            stages: _stages
-        });
-    },
+    // find: function(req, res, next) {
+    //     res.send({
+    //         stages: _stages
+    //     });
+    // },
 
-    findOne: function(req, res, next) {
-        var id = req.param('id');
+    // findOne: function(req, res, next) {
+    //     var id = req.param('id');
 
-        if (id >= _sessions.length) {
-            return res.send(500, 'Item with id "' + +'" is not available.');
-        }
+    //     if (id >= _sessions.length) {
+    //         return res.send(500, 'Item with id "' + +'" is not available.');
+    //     }
 
-        res.send({
-            stage: _stages[id]
-        });
-    }
+    //     res.send({
+    //         stage: _stages[id]
+    //     });
+    // }
 };
