@@ -14,7 +14,8 @@ var _ = require('underscore');
 module.exports.bootstrap = function(cb) {
 
     initSessions();
-    initStages();
+    initFilestages();
+    initMetadatastages();
 
     cb();
 };
@@ -34,11 +35,13 @@ function initSessions() {
                 var items = [{
                     name: 'Inffeldgasse 16c',
                     creator: 'Martin Hecher',
-                    filestage: 1
+                    filestage: 1,
+                    metadatastage: 1
                 }, {
                     name: 'Power Socket Scan',
                     creator: 'Martin Hecher',
-                    filestage: 2
+                    filestage: 2,
+                    metadatastage: 2
                 }];
 
                 _.forEach(items, function(item) {
@@ -62,7 +65,7 @@ function initSessions() {
         });
 }
 
-function initStages() {
+function initFilestages() {
     Filestages.find()
         .where({
             id: {
@@ -86,6 +89,49 @@ function initStages() {
 
                 _.forEach(items, function(item) {
                     Filestages.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                console.log('   done');
+            }
+        });
+}
+
+function initMetadatastages() {
+    Metadatastages.find()
+        .where({
+            id: {
+                '>': 0
+            }
+        })
+        .then(function(records) {
+            if (records.length) {
+                console.log('"Metadatastage" already in place, skipping creation.');
+                return;
+            } else {
+                var items = [{
+                    name: 'metadata',
+                    files: [],
+                    session: 1
+                }, {
+                    name: 'metadata',
+                    files: [],
+                    session: 2
+                }];
+
+                _.forEach(items, function(item) {
+                    Metadatastages.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
