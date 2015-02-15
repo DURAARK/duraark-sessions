@@ -16,6 +16,7 @@ module.exports.bootstrap = function(cb) {
     initSessions();
     initFilestages();
     initMetadatastages();
+    initMetadata();
 
     cb();
 };
@@ -122,16 +123,65 @@ function initMetadatastages() {
             } else {
                 var items = [{
                     name: 'metadata',
-                    files: [],
+                    metadata: [1, 2],
                     session: 1
                 }, {
                     name: 'metadata',
-                    files: [],
+                    metadata: [1],
                     session: 2
                 }];
 
                 _.forEach(items, function(item) {
                     Metadatastages.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                console.log('   done');
+            }
+        });
+}
+
+function initMetadata() {
+    Metadata.find()
+        .where({
+            id: {
+                '>': 0
+            }
+        })
+        .then(function(records) {
+            if (records.length) {
+                console.log('"Metadata" already in place, skipping creation.');
+                return;
+            } else {
+                var items = [{
+                    schema: 'e57m',
+                    format: 'application/json',
+                    model: {
+                        floors: 3,
+                        numScans: 2
+                    }
+                }, {
+                    schema: 'ifcm',
+                    format: 'application/json',
+                    model: {
+                        address: 'Inffeldgasse 16c/III',
+                        numRooms: 5
+                    }
+                }];
+
+                _.forEach(items, function(item) {
+                    Metadata.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {

@@ -8,8 +8,7 @@
 module.exports = {
 
 	attributes: {
-		path: 'string',
 		schema: 'string',
-		data: 'object'
+		content: 'object'
 	}
 };
