@@ -123,11 +123,11 @@ function initMetadatastages() {
             } else {
                 var items = [{
                     name: 'metadata',
-                    metadata: [1, 2],
+                    metadata: [1, 3],
                     session: 1
                 }, {
                     name: 'metadata',
-                    metadata: [1],
+                    metadata: [2, 3],
                     session: 2
                 }];
 
@@ -165,14 +165,28 @@ function initMetadata() {
                 return;
             } else {
                 var items = [{
-                    schema: 'e57m',
+                    schema: 'buildm',
                     format: 'application/json',
                     model: {
-                        floors: 3,
-                        numScans: 2
+                        creator: 'Martin Hecher',
+                        createdAt: new Date()
+                    }
+                },{
+                    schema: 'buildm',
+                    format: 'application/json',
+                    model: {
+                        creator: 'Sebastian Bach',
+                        createdAt: new Date()
                     }
                 }, {
                     schema: 'ifcm',
+                    format: 'application/json',
+                    model: {
+                        address: 'Inffeldgasse 16c/III',
+                        numRooms: 5
+                    }
+                },{
+                    schema: 'e57m',
                     format: 'application/json',
                     model: {
                         address: 'Inffeldgasse 16c/III',
