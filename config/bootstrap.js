@@ -17,6 +17,8 @@ module.exports.bootstrap = function(cb) {
     initFilestages();
     initMetadatastages();
     initMetadata();
+    initSemenrichmentstages();
+    initGeoenrichmentstages();
 
     cb();
 };
@@ -37,12 +39,16 @@ function initSessions() {
                     name: 'Inffeldgasse 16c',
                     creator: 'Martin Hecher',
                     filestage: 1,
-                    metadatastage: 1
+                    metadatastage: 1,
+                    semenrichmentstage: 1,
+                    geoenrichmentstage: 1,
                 }, {
                     name: 'Power Socket Scan',
                     creator: 'Martin Hecher',
                     filestage: 2,
-                    metadatastage: 2
+                    metadatastage: 2,
+                    semenrichmentstage: 2,
+                    geoenrichmentstage: 2,
                 }];
 
                 _.forEach(items, function(item) {
@@ -118,7 +124,7 @@ function initMetadatastages() {
         })
         .then(function(records) {
             if (records.length) {
-                console.log('"Metadatastage" already in place, skipping creation.');
+                console.log('"Metadatastages" already in place, skipping creation.');
                 return;
             } else {
                 var items = [{
@@ -133,6 +139,92 @@ function initMetadatastages() {
 
                 _.forEach(items, function(item) {
                     Metadatastages.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                console.log('   done');
+            }
+        });
+}
+
+function initSemenrichmentstages() {
+    Semenrichmentstages.find()
+        .where({
+            id: {
+                '>': 0
+            }
+        })
+        .then(function(records) {
+            if (records.length) {
+                console.log('"Semenrichmentstages" already in place, skipping creation.');
+                return;
+            } else {
+                var items = [{
+                    name: 'semenrichment',
+                    metadata: [5, 6, 7, 8],
+                    session: 1
+                }, {
+                    name: 'semenrichment',
+                    metadata: [6, 7, 8],
+                    session: 2
+                }];
+
+                _.forEach(items, function(item) {
+                    Semenrichmentstages.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                console.log('   done');
+            }
+        });
+}
+
+function initGeoenrichmentstages() {
+    Geoenrichmentstages.find()
+        .where({
+            id: {
+                '>': 0
+            }
+        })
+        .then(function(records) {
+            if (records.length) {
+                console.log('"Geoenrichmentstages" already in place, skipping creation.');
+                return;
+            } else {
+                var items = [{
+                    name: 'geoenrichment',
+                    metadata: [9, 10, 11],
+                    session: 1
+                }, {
+                    name: 'geoenrichment',
+                    metadata: [9, 10, 11],
+                    session: 2
+                }];
+
+                _.forEach(items, function(item) {
+                    Geoenrichmentstages.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
@@ -171,7 +263,7 @@ function initMetadata() {
                         creator: 'Martin Hecher',
                         createdAt: new Date()
                     }
-                },{
+                }, {
                     schema: 'buildm',
                     format: 'application/json',
                     model: {
@@ -185,12 +277,80 @@ function initMetadata() {
                         address: 'Inffeldgasse 16c/III',
                         numRooms: 5
                     }
-                },{
+                }, {
                     schema: 'e57m',
                     format: 'application/json',
                     model: {
                         address: 'Inffeldgasse 16c/III',
                         numRooms: 5
+                    }
+                }, {
+                    schema: 'semenrich',
+                    format: 'application/ld+json',
+                    model: {
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Graz",
+                            "addressRegion": "AT",
+                            "streetAddress": "Inffeldgasse 16c"
+                        }
+                    }
+                }, {
+                    schema: 'semenrich',
+                    format: 'application/ld+json',
+                    model: {
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Graz",
+                            "addressRegion": "AT",
+                            "streetAddress": "Inffeldgasse 16c"
+                        }
+                    }
+                }, {
+                    schema: 'semenrich',
+                    format: 'application/ld+json',
+                    model: {
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Graz",
+                            "addressRegion": "AT",
+                            "streetAddress": "Inffeldgasse 16c"
+                        }
+                    }
+                }, {
+                    schema: 'semenrich',
+                    format: 'application/ld+json',
+                    model: {
+                        "address": {
+                            "@type": "PostalAddress",
+                            "addressLocality": "Graz",
+                            "addressRegion": "AT",
+                            "streetAddress": "Inffeldgasse 16c"
+                        }
+                    }
+                }, {
+                    schema: 'geoenrich',
+                    format: 'application/duraark+geoenrich',
+                    model: {
+                        application: 'RISE',
+                        inputFiles: [1, 2, 3],
+                        outputFiles: [1, 2, 3]
+                    }
+                }, {
+                    schema: 'geoenrich',
+                    format: 'application/duraark+geoenrich',
+                    model: {
+                        application: 'DifferenceDetection',
+                        inputFiles: [1, 2, 3],
+                        outputFiles: [1, 2, 3]
+                    }
+                }, {
+                    schema: 'geoenrich',
+                    format: 'application/duraark+geoenrich',
+                    model: {
+                        application: 'IFCReconstruction ',
+                        inputFiles: [1, 2, 3],
+                        outputFiles: [1, 2, 3]
                     }
                 }];
 
