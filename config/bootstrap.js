@@ -43,7 +43,7 @@ function initSessions() {
                     semenrichmentstage: 1,
                     geoenrichmentstage: 1,
                 }, {
-                    name: 'Power Socket Scan',
+                    name: 'Nygade',
                     creator: 'Martin Hecher',
                     filestage: 2,
                     metadatastage: 2,
