@@ -17,7 +17,8 @@ module.exports.bootstrap = function(cb) {
     initFilestages();
     initMetadatastages();
     initMetadata();
-    initSemenrichmentstages();
+    initSemanticenrichmentstages();
+    initSemanticenrichmentMetadata();
     initGeoenrichmentstages();
 
     cb();
@@ -40,15 +41,15 @@ function initSessions() {
                     creator: 'Martin Hecher',
                     filestage: 1,
                     metadatastage: 1,
-                    semenrichmentstage: 1,
-                    geoenrichmentstage: 1,
+                    semanticenrichmentstage: 1,
+                    geometricenrichmentstage: 1,
                 }, {
                     name: 'Nygade',
                     creator: 'Martin Hecher',
                     filestage: 2,
                     metadatastage: 2,
-                    semenrichmentstage: 2,
-                    geoenrichmentstage: 2,
+                    semanticenrichmentstage: 2,
+                    geometricenrichmentstage: 2,
                 }];
 
                 _.forEach(items, function(item) {
@@ -158,8 +159,8 @@ function initMetadatastages() {
         });
 }
 
-function initSemenrichmentstages() {
-    Semenrichmentstages.find()
+function initSemanticenrichmentstages() {
+    Semanticenrichmentstages.find()
         .where({
             id: {
                 '>': 0
@@ -167,25 +168,110 @@ function initSemenrichmentstages() {
         })
         .then(function(records) {
             if (records.length) {
-                console.log('"Semenrichmentstages" already in place, skipping creation.');
+                console.log('"Semanticenrichmentstages" already in place, skipping creation.');
                 return;
             } else {
                 var items = [{
-                    name: 'semenrichment',
-                    metadata: [5, 6, 7, 8],
+                    name: 'semanticenrichment',
+                    availableItems: [],
+                    selectedItems: [],
                     session: 1
                 }, {
-                    name: 'semenrichment',
-                    metadata: [6, 7, 8],
+                    name: 'semanticenrichment',
+                    availableItems: [],
+                    selectedItems: [],
                     session: 2
                 }];
 
                 _.forEach(items, function(item) {
-                    Semenrichmentstages.create(item).exec(function(err, record) {
+                    Semanticenrichmentstages.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
-                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+                            console.log('created semanticenrichmentstage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                console.log('   done');
+            }
+        });
+}
+
+function initSemanticenrichmentMetadata() {
+    Enrichment.find()
+        .where({
+            id: {
+                '>': 0
+            }
+        })
+        .then(function(records) {
+            if (records.length) {
+                console.log('"Enrichment" already in place, skipping creation.');
+                return;
+            } else {
+                var items = [{
+                    id: 1,
+                    metadata: [{
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }, {
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }, {
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }, {
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }, {
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }]
+                }, {
+                    id: 2,
+                    metadata: [{
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }, {
+                        datasetId: 'datasetId',
+                        datasetName: 'datasetName',
+                        resourceId: 'resourceId',
+                        resourceUri: 'resourceUri',
+                        propertyUri: 'propertyUri'
+                    }]
+                }];
+
+                _.forEach(items, function(item) {
+                    Enrichment.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created enrichment: ' + JSON.stringify(record, null, 4));
 
                             record.save(function(err) {
                                 if (err) {
@@ -228,7 +314,7 @@ function initGeoenrichmentstages() {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
-                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+                            console.log('created geoenrichmentstage: ' + JSON.stringify(record, null, 4));
 
                             record.save(function(err) {
                                 if (err) {
