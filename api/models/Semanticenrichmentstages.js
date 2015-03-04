@@ -9,9 +9,20 @@ module.exports = {
 
     attributes: {
         name: 'string',
-        enrichment: 'enrichment',	
+
+        selectedItems: {
+            type: 'array',
+            required: false
+        },
+
+        availableItems: {
+            type: 'array',
+            required: false
+        },
+
         session: {
-            model: 'sessions'
+            model: 'sessions',
+            required: false
         }
     }
 };
