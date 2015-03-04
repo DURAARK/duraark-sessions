@@ -130,11 +130,15 @@ function initMetadatastages() {
             } else {
                 var items = [{
                     name: 'metadata',
-                    metadata: [1, 3],
+                    buildm: 1,
+                    ifcm: 1,
+                    e57m: 1,
                     session: 1
                 }, {
                     name: 'metadata',
-                    metadata: [2, 3],
+                    buildm: 2,
+                    ifcm: 2,
+                    e57m: 2,
                     session: 2
                 }];
 
@@ -331,7 +335,7 @@ function initGeoenrichmentstages() {
 }
 
 function initMetadata() {
-    Metadata.find()
+    Buildms.find()
         .where({
             id: {
                 '>': 0
@@ -342,106 +346,70 @@ function initMetadata() {
                 console.log('"Metadata" already in place, skipping creation.');
                 return;
             } else {
-                var items = [{
+                var buildmItems = [{
                     schema: 'buildm',
-                    format: 'application/json',
-                    model: {
-                        creator: 'Martin Hecher',
-                        createdAt: new Date()
-                    }
+                    latitude: 13,
+                    longitude: 45
                 }, {
                     schema: 'buildm',
-                    format: 'application/json',
-                    model: {
-                        creator: 'Sebastian Bach',
-                        createdAt: new Date()
-                    }
-                }, {
-                    schema: 'ifcm',
-                    format: 'application/json',
-                    model: {
-                        address: 'Inffeldgasse 16c/III',
-                        numRooms: 5
-                    }
-                }, {
-                    schema: 'e57m',
-                    format: 'application/json',
-                    model: {
-                        address: 'Inffeldgasse 16c/III',
-                        numRooms: 5
-                    }
-                }, {
-                    schema: 'semenrich',
-                    format: 'application/ld+json',
-                    model: {
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressLocality": "Graz",
-                            "addressRegion": "AT",
-                            "streetAddress": "Inffeldgasse 16c"
-                        }
-                    }
-                }, {
-                    schema: 'semenrich',
-                    format: 'application/ld+json',
-                    model: {
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressLocality": "Graz",
-                            "addressRegion": "AT",
-                            "streetAddress": "Inffeldgasse 16c"
-                        }
-                    }
-                }, {
-                    schema: 'semenrich',
-                    format: 'application/ld+json',
-                    model: {
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressLocality": "Graz",
-                            "addressRegion": "AT",
-                            "streetAddress": "Inffeldgasse 16c"
-                        }
-                    }
-                }, {
-                    schema: 'semenrich',
-                    format: 'application/ld+json',
-                    model: {
-                        "address": {
-                            "@type": "PostalAddress",
-                            "addressLocality": "Graz",
-                            "addressRegion": "AT",
-                            "streetAddress": "Inffeldgasse 16c"
-                        }
-                    }
-                }, {
-                    schema: 'geoenrich',
-                    format: 'application/duraark+geoenrich',
-                    model: {
-                        application: 'RISE',
-                        inputFiles: [1, 2, 3],
-                        outputFiles: [1, 2, 3]
-                    }
-                }, {
-                    schema: 'geoenrich',
-                    format: 'application/duraark+geoenrich',
-                    model: {
-                        application: 'DifferenceDetection',
-                        inputFiles: [1, 2, 3],
-                        outputFiles: [1, 2, 3]
-                    }
-                }, {
-                    schema: 'geoenrich',
-                    format: 'application/duraark+geoenrich',
-                    model: {
-                        application: 'IFCReconstruction ',
-                        inputFiles: [1, 2, 3],
-                        outputFiles: [1, 2, 3]
-                    }
+                    latitude: 13,
+                    longitude: 45
                 }];
 
-                _.forEach(items, function(item) {
-                    Metadata.create(item).exec(function(err, record) {
+                _.forEach(buildmItems, function(item) {
+                    Buildms.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                var ifcmItems = [{
+                    schema: 'ifcm',
+                    creator: 'Martin Hecher',
+                    streetAdress: 'Inffeldgasse 16c'
+                }, {
+                    schema: 'ifcm',
+                    creator: 'Nelson Silva',
+                    streetAdress: 'Neue Gasse 16c'
+                }];
+
+                _.forEach(ifcmItems, function(item) {
+                    Ifcms.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created filestage: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                var e57mItems = [{
+                    schema: 'e57m',
+                    scans: 2,
+                    floors: 3
+                }, {
+                    schema: 'e57m',
+                    scans: 5,
+                    floors: 5
+                }];
+
+                _.forEach(e57mItems, function(item) {
+                    E57ms.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
