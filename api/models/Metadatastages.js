@@ -9,7 +9,8 @@ module.exports = {
 
     attributes: {
         name: 'string',
-        metadata: 'array',	
+        ifcm: 'array',  
+        e57m: 'array',	
         session: {
             model: 'sessions'
         }

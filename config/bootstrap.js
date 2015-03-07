@@ -130,18 +130,14 @@ function initMetadatastages() {
             } else {
                 var items = [{
                     name: 'metadata',
-                    buildm: 1,
-                    ifcm: 1,
-                    e57m: 1,
-                    session: 1,
-                    file: 1
+                    ifcm: [1],
+                    e57m: [1],
+                    session: 1
                 }, {
                     name: 'metadata',
-                    buildm: 2,
-                    //ifcm: 2,
-                    e57m: 2,
-                    session: 2,
-                    file: 2
+                    ifcm: [],
+                    e57m: [2],
+                    session: 2
                 }];
 
                 _.forEach(items, function(item) {
@@ -348,7 +344,7 @@ function initMetadata() {
                 console.log('"Metadata" already in place, skipping creation.');
                 return;
             } else {
-               var e57mItems = [{
+                var e57mItems = [{
                     schema: 'e57m',
                     file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/BunnyFloat.e57',
                     instance: {
