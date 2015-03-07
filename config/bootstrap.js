@@ -130,13 +130,17 @@ function initMetadatastages() {
             } else {
                 var items = [{
                     name: 'metadata',
-                    ifcm: [1],
-                    e57m: [1],
+                    physicalAssets: [1],
+                    digitalObjects: [1],
+                    ifcms: [1],
+                    e57ms: [1],
                     session: 1
                 }, {
                     name: 'metadata',
-                    ifcm: [],
-                    e57m: [2],
+                    physicalAssets: [2],
+                    digitalObjects: [],
+                    ifcms: [],
+                    e57ms: [2],
                     session: 2
                 }];
 
@@ -596,7 +600,42 @@ function initMetadata() {
                     schema: 'ifcm',
                     file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
-                        filesize: 138234
+                        header: {
+                            creationDate: new Date(),
+                            author: 'Martin Hecher',
+                            organization: 'TU Graz',
+                            preprocessor: 'none',
+                            originatingSystem: 'none',
+                            authorization: 'none',
+                            fileSchema: 'IFC-SPF',
+                            viewDefinition: 'none',
+                            exportOptions: 'none'
+                        },
+                        ifcparameters: {
+                            ifcApplication: 'Blender',
+                            IfcGeometricRepresentationContext: 'none',
+                            ifcSiUnit: 'none'
+                        },
+                        countObjects: {
+                            floorCount: 3,
+                            roomCount: 3,
+                            wallCount: 3,
+                            windowsCount: 3,
+                            doorCount: 3,
+                            pipeCount: 3,
+                            columnCount: 3,
+                            numberOfComponents: 3,
+                            numberOfRelations: 3,
+                            numberOfActors: 3
+                        },
+                        informationMetric: {
+                            numberOfEntityTypesUsed: 3,
+                            numberOfTotalEntitiesUsed: 3,
+                            optionalAttributes: 0
+                        },
+                        dependencies: {
+                            webResourceLink: 'none'
+                        }
                     }
                 }];
 
@@ -606,6 +645,142 @@ function initMetadata() {
                             console.log('err create: ' + err);
                         } else {
                             console.log('created ifcm: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                var physicalAssetItems = [{
+                    schema: 'buildm',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    instance: {
+                        Identifier: '1234-2345-3456-4567',
+                        latitude: 13,
+                        longitude: 44,
+                        owner: 'TU Graz',
+                        buildingArea: 4932,
+                        floorCount: 3,
+                        numberOfRooms: 145,
+                        'function': 'Educational building',
+                        architecturalStyle: 'reduced',
+                        description: 'Campus building',
+                        location: 'At the campus',
+                        streetAddress: 'Inffeldgasse 16c, III',
+                        postalCodeStart: '16',
+                        postalCodeEnd: '16',
+                        postOfficeBoxNumber: '',
+                        addressRegion: 'Graz',
+                        postalLocality: 'Graz',
+                        architect: 'Martina Musterfrau',
+                        contributor: 'Max Mustermann',
+                        startDate: 2001,
+                        completionDate: 2004,
+                        constructionTime: 1024,
+                        rebuildingDate: 0,
+                        modificationDetails: 'none',
+                        cost: 1,
+                        rightsDetails: 'unknown'
+                    }
+                }, {
+                    schema: 'buildm',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    instance: {
+                        Identifier: '1234-2345-3456-4567',
+                        latitude: 13,
+                        longitude: 44,
+                        owner: 'TU Graz',
+                        buildingArea: 4932,
+                        floorCount: 3,
+                        numberOfRooms: 145,
+                        'function': 'Educational building',
+                        architecturalStyle: 'reduced',
+                        description: 'Campus building',
+                        location: 'At the campus',
+                        streetAddress: 'Inffeldgasse 16c, III',
+                        postalCodeStart: '16',
+                        postalCodeEnd: '16',
+                        postOfficeBoxNumber: '',
+                        addressRegion: 'Graz',
+                        postalLocality: 'Graz',
+                        architect: 'Martina Musterfrau',
+                        contributor: 'Max Mustermann',
+                        startDate: 2001,
+                        completionDate: 2004,
+                        constructionTime: 1024,
+                        rebuildingDate: 0,
+                        modificationDetails: 'none',
+                        cost: 1,
+                        rightsDetails: 'unknown'
+                    }
+                }];
+
+                _.forEach(physicalAssetItems, function(item) {
+                    Physicalassets.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created physical asset: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                var digitalObjectItems = [{
+                    schema: 'buildm',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    instance: {
+                        Identifier: '2345-3456-4567-5678',
+                        creator: 'Martin Hecher',
+                        name: '3DSDI.ifc',
+                        dateCreated: new Date(),
+                        isPartOf: '1234-2345-3456-4567',
+                        hasPart: '',
+                        format: 'IFC-SPF',
+                        hasType: 'plan',
+                        hasFormatDetails: 'SPF',
+                        description: 'no description given',
+                        provenance: 'none',
+                        license: 'unknown',
+                        unitCode: 'sii',
+                        levelOfDetail: 'none'
+                    }
+                }, {
+                    schema: 'buildm',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    instance: {
+                        Identifier: '2345-3456-4567-5678',
+                        creator: 'Martin Hecher',
+                        name: '3DSDI.ifc',
+                        dateCreated: new Date(),
+                        isPartOf: '1234-2345-3456-4567',
+                        hasPart: '',
+                        format: 'IFC-SPF',
+                        hasType: 'plan',
+                        hasFormatDetails: 'SPF',
+                        description: 'no description given',
+                        provenance: 'none',
+                        license: 'unknown',
+                        unitCode: 'sii',
+                        levelOfDetail: 'none'
+                    }
+                }];
+
+                _.forEach(digitalObjectItems, function(item) {
+                    Digitalobjects.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created digital object: ' + JSON.stringify(record, null, 4));
 
                             record.save(function(err) {
                                 if (err) {

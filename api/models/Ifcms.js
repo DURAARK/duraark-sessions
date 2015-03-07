@@ -8,8 +8,8 @@
 module.exports = {
 
 	attributes: {
+		file: 'string',
 		schema: 'string',
-		creator: 'string',
-		streetAdress: 'string'
+		instance: 'object'
 	}
 };

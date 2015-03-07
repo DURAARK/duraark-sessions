@@ -9,8 +9,10 @@ module.exports = {
 
     attributes: {
         name: 'string',
-        ifcm: 'array',  
-        e57m: 'array',	
+        physicalAssets: 'array',
+        digitalObjects: 'array',
+        ifcms: 'array',  
+        e57ms: 'array',	
         session: {
             model: 'sessions'
         }
