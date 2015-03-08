@@ -18,7 +18,6 @@ module.exports.bootstrap = function(cb) {
     initMetadatastages();
     initMetadata();
     initSemanticenrichmentstages();
-    initSemanticenrichmentMetadata();
     initGeoenrichmentstages();
 
     cb();
@@ -195,89 +194,6 @@ function initSemanticenrichmentstages() {
                             console.log('err create: ' + err);
                         } else {
                             console.log('created semanticenrichmentstage: ' + JSON.stringify(record, null, 4));
-
-                            record.save(function(err) {
-                                if (err) {
-                                    console.log('save err: ' + err);
-                                }
-                            });
-                        }
-                    });
-                });
-
-                console.log('   done');
-            }
-        });
-}
-
-function initSemanticenrichmentMetadata() {
-    Enrichment.find()
-        .where({
-            id: {
-                '>': 0
-            }
-        })
-        .then(function(records) {
-            if (records.length) {
-                console.log('"Enrichment" already in place, skipping creation.');
-                return;
-            } else {
-                var items = [{
-                    id: 1,
-                    metadata: [{
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }, {
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }, {
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }, {
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }, {
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }]
-                }, {
-                    id: 2,
-                    metadata: [{
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }, {
-                        datasetId: 'datasetId',
-                        datasetName: 'datasetName',
-                        resourceId: 'resourceId',
-                        resourceUri: 'resourceUri',
-                        propertyUri: 'propertyUri'
-                    }]
-                }];
-
-                _.forEach(items, function(item) {
-                    Enrichment.create(item).exec(function(err, record) {
-                        if (err) {
-                            console.log('err create: ' + err);
-                        } else {
-                            console.log('created enrichment: ' + JSON.stringify(record, null, 4));
 
                             record.save(function(err) {
                                 if (err) {
