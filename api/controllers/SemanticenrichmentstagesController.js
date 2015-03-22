@@ -15,6 +15,7 @@ function _arrayWorkaround(req, res, next) {
     var availableItems = req.param('availableItems');
     var selectedItems = req.param('selectedItems');
     var session = req.param('session'),
+        name = req.param('name'),
         available = [],
         selected = [];
 
@@ -32,7 +33,8 @@ function _arrayWorkaround(req, res, next) {
     var item = {
         availableItems: available,
         selectedItems: selected,
-        session: session
+        session: session,
+        name: name
     };
 
     Semanticenrichmentstages.findOrCreate({
