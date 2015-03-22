@@ -16,6 +16,9 @@ module.exports = {
 		},
 		metadatastage: {
 			model: 'metadatastages'
+		},
+		geometricenrichmentstage: {
+			model: 'geometricenrichmentstages'
 		}
 	}
 };

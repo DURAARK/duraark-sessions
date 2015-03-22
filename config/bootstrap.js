@@ -210,7 +210,7 @@ function initSemanticenrichmentstages() {
 }
 
 function initGeoenrichmentstages() {
-    Geoenrichmentstages.find()
+    Geometricenrichmentstages.find()
         .where({
             id: {
                 '>': 0
@@ -221,18 +221,69 @@ function initGeoenrichmentstages() {
                 console.log('"Geoenrichmentstages" already in place, skipping creation.');
                 return;
             } else {
-                var items = [{
-                    name: 'geoenrichment',
-                    metadata: [9, 10, 11],
-                    session: 1
+                var enrichments = [{
+                    id: 1,
+                    path: 'groundfloor.e57',
+                    ifcReconstruction: {
+                        label: 'vergleich',
+                        description: 'dvije kuce'
+                    },
+                    hiddenFeatures: {
+                        label: 'raum 24',
+                        description: 'description raum 24'
+                    }
                 }, {
-                    name: 'geoenrichment',
-                    metadata: [9, 10, 11],
-                    session: 2
+                    id: 2,
+                    path: 'haus30.e57',
+                    ifcReconstruction: {
+                        label: 'vergleich',
+                        description: 'dvije kuce'
+                    },
+                    hiddenFeatures: {
+                        label: 'raum 24',
+                        description: 'description raum 24'
+                    }
+                },{
+                    id: 3,
+                    path: 'inffeldgasse.e57',
+                    ifcReconstruction: {
+                        label: 'vergleich',
+                        description: 'dvije kuce'
+                    },
+                    hiddenFeatures: {
+                        label: 'raum 24',
+                        description: 'description raum 24'
+                    }
+                }];
+
+                _.forEach(enrichments, function(item) {
+                    Geometricenrichments.create(item).exec(function(err, record) {
+                        if (err) {
+                            console.log('err create: ' + err);
+                        } else {
+                            console.log('created geoenrichment: ' + JSON.stringify(record, null, 4));
+
+                            record.save(function(err) {
+                                if (err) {
+                                    console.log('save err: ' + err);
+                                }
+                            });
+                        }
+                    });
+                });
+
+                var items = [{
+                    id: 1,
+                    name: 'editor.geometric-enrichment',
+                    enrichments: [1,3]
+                }, {
+                    id: 2,
+                    name: 'editor.geometric-enrichment',
+                    enrichments: [2]
                 }];
 
                 _.forEach(items, function(item) {
-                    Geoenrichmentstages.create(item).exec(function(err, record) {
+                    Geometricenrichmentstages.create(item).exec(function(err, record) {
                         if (err) {
                             console.log('err create: ' + err);
                         } else {
@@ -266,7 +317,7 @@ function initMetadata() {
             } else {
                 var e57mItems = [{
                     schema: 'e57m',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/BunnyFloat.e57',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/BunnyFloat.e57',
                     instance: {
                         "guid": "{36B88E64-E378-465E-BB4D-A6122DA3271B}",
                         "version_major": 1,
@@ -381,7 +432,7 @@ function initMetadata() {
                     }
                 }, {
                     schema: 'e57m',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/BunnyFloat.e57',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/BunnyFloat.e57',
                     instance: {
                         "guid": "{36B88E64-E378-465E-BB4D-A6122DA3271B}",
                         "version_major": 1,
@@ -514,7 +565,7 @@ function initMetadata() {
 
                 var ifcmItems = [{
                     schema: 'ifcm',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
                         header: {
                             creationDate: new Date(),
@@ -573,65 +624,65 @@ function initMetadata() {
 
                 var physicalAssetItems = [{
                     schema: 'buildm',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
-                        identifier: ['1234-2345-3456-4567'],
-                        latitude: [13],
-                        longitude: [44],
-                        owner: ['TU Graz'],
-                        buildingArea: [4932],
-                        floorCount: [3],
-                        numberOfRooms: [145],
-                        'function': ['Educational building'],
-                        architecturalStyle: ['reduced'],
-                        description: ['Campus building'],
-                        location: ['At the campus'],
-                        streetAddress: ['Inffeldgasse 16c, III'],
-                        postalCodeStart: ['16'],
-                        postalCodeEnd: ['16'],
-                        postOfficeBoxNumber: [''],
-                        addressRegion: ['Graz'],
-                        postalLocality: ['Graz'],
-                        architect: ['Martina Musterfrau'],
-                        contributor: ['Max Mustermann'],
-                        startDate: [2001],
-                        completionDate: [2004],
-                        constructionTime: [1024],
-                        rebuildingDate: [0],
-                        modificationDetails: ['none'],
-                        cost: [1],
-                        rightsDetails: ['unknown']
+                        identifier: '1234-2345-3456-4567',
+                        latitude: 13,
+                        longitude: 44,
+                        owner: 'TU Graz',
+                        buildingArea: 4932,
+                        floorCount: 3,
+                        numberOfRooms: 145,
+                        'function': 'Educational building',
+                        architecturalStyle: 'reduced',
+                        description: 'Campus building',
+                        location: 'At the campus',
+                        streetAddress: 'Inffeldgasse 16c, III',
+                        postalCodeStart: '16',
+                        postalCodeEnd: '16',
+                        postOfficeBoxNumber: '',
+                        addressRegion: 'Graz',
+                        postalLocality: 'Graz',
+                        architect: 'Martina Musterfrau',
+                        contributor: 'Max Mustermann',
+                        startDate: 2001,
+                        completionDate: 2004,
+                        constructionTime: 1024,
+                        rebuildingDate: 0,
+                        modificationDetails: 'none',
+                        cost: 1,
+                        rightsDetails: 'unknown'
                     }
                 }, {
                     schema: 'buildm',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
-                        identifier: ['1234-2345-3456-4567'],
-                        latitude: [13],
-                        longitude: [44],
-                        owner: ['TU Graz'],
-                        buildingArea: [4932],
-                        floorCount: [3],
-                        numberOfRooms: [145],
-                        'function': ['Educational building'],
-                        architecturalStyle: ['reduced'],
-                        description: ['Campus building'],
-                        location: ['At the campus'],
-                        streetAddress: ['Inffeldgasse 16c, III'],
-                        postalCodeStart: ['16'],
-                        postalCodeEnd: ['16'],
-                        postOfficeBoxNumber: [''],
-                        addressRegion: ['Graz'],
-                        postalLocality: ['Graz'],
-                        architect: ['Martina Musterfrau'],
-                        contributor: ['Max Mustermann'],
-                        startDate: [2001],
-                        completionDate: [2004],
-                        constructionTime: [1024],
-                        rebuildingDate: [0],
-                        modificationDetails: ['none'],
-                        cost: [1],
-                        rightsDetails: ['unknown']
+                        identifier: '1234-2345-3456-4567',
+                        latitude: 13,
+                        longitude: 44,
+                        owner: 'TU Graz',
+                        buildingArea: 4932,
+                        floorCount: 3,
+                        numberOfRooms: 145,
+                        'function': 'Educational building',
+                        architecturalStyle: 'reduced',
+                        description: 'Campus building',
+                        location: 'At the campus',
+                        streetAddress: 'Inffeldgasse 16c, III',
+                        postalCodeStart: '16',
+                        postalCodeEnd: '16',
+                        postOfficeBoxNumber: '',
+                        addressRegion: 'Graz',
+                        postalLocality: 'Graz',
+                        architect: 'Martina Musterfrau',
+                        contributor: 'Max Mustermann',
+                        startDate: 2001,
+                        completionDate: 2004,
+                        constructionTime: 1024,
+                        rebuildingDate: 0,
+                        modificationDetails: 'none',
+                        cost: 1,
+                        rightsDetails: 'unknown'
                     }
                 }];
 
@@ -653,41 +704,41 @@ function initMetadata() {
 
                 var digitalObjectItems = [{
                     schema: 'buildm',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
-                        identifier: ['2345-3456-4567-5678'],
-                        creator: ['Martin Hecher'],
-                        name: ['3DSDI.ifc'],
-                        dateCreated: [new Date()],
-                        isPartOf: ['1234-2345-3456-4567'],
-                        hasPart: [''],
-                        format: ['IFC-SPF'],
-                        hasType: ['plan'],
-                        hasFormatDetails: ['SPF'],
-                        description: ['no description given'],
-                        provenance: ['none'],
-                        license: ['unknown'],
-                        unitCode: ['sii'],
-                        levelOfDetail: ['none']
+                        identifier: '2345-3456-4567-5678',
+                        creator: 'Martin Hecher',
+                        name: '3DSDI.ifc',
+                        dateCreated: new Date(),
+                        isPartOf: '1234-2345-3456-4567',
+                        hasPart: '',
+                        format: 'IFC-SPF',
+                        hasType: 'plan',
+                        hasFormatDetails: 'SPF',
+                        description: 'no description given',
+                        provenance: 'none',
+                        license: 'unknown',
+                        unitCode: 'sii',
+                        levelOfDetail: 'none'
                     }
                 }, {
                     schema: 'buildm',
-                    file: '/data/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
+                    file: '/home/martin/Coding/Projekte/duraark/duraark-platform-api/microservice-files/src/fixtures/storage/3DSDI.ifc',
                     instance: {
-                        identifier: ['2345-3456-4567-5678'],
-                        creator: ['Martin Hecher'],
-                        name: ['3DSDI.ifc'],
-                        dateCreated: [new Date()],
-                        isPartOf: ['1234-2345-3456-4567'],
-                        hasPart: [''],
-                        format: ['IFC-SPF'],
-                        hasType: ['plan'],
-                        hasFormatDetails: ['SPF'],
-                        description: ['no description given'],
-                        provenance: ['none'],
-                        license: ['unknown'],
-                        unitCode: ['sii'],
-                        levelOfDetail: ['none']
+                        identifier: '2345-3456-4567-5678',
+                        creator: 'Martin Hecher',
+                        name: '3DSDI.ifc',
+                        dateCreated: new Date(),
+                        isPartOf: '1234-2345-3456-4567',
+                        hasPart: '',
+                        format: 'IFC-SPF',
+                        hasType: 'plan',
+                        hasFormatDetails: 'SPF',
+                        description: 'no description given',
+                        provenance: 'none',
+                        license: 'unknown',
+                        unitCode: 'sii',
+                        levelOfDetail: 'none'
                     }
                 }];
 
