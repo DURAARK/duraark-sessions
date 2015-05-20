@@ -7,35 +7,23 @@
 
 var _ = require('underscore');
 
-// FIXXME: when sending an availableItems array with more then 20 entries the array is
-// automagically converted into an object (there seems to be an error in sails). This
-// is a workaround for that issue:
-function _arrayWorkaround(req, res, next) {
-    var params = req.params.all();
-    var availableItems = req.param('availableItems');
-    var selectedItems = req.param('selectedItems');
+function store(req, res, next) {
+    var payload = JSON.parse(req.param('json'));
+    var availableItems = payload.availableItems;
+    var selectedItems = payload.selectedItems;
     var session = req.param('session'),
         name = req.param('name'),
         available = [],
         selected = [];
 
-
-    _.forEach(availableItems, function(value, key) {
-        available.push(value);
-    });
-
-    _.forEach(selectedItems, function(value, key) {
-        selected.push(value);
-    });
-
-    console.log('selected/available: ' + selected.length + ' / ' + available.length);
-
     var item = {
-        availableItems: available,
-        selectedItems: selected,
+        availableItems: availableItems,
+        selectedItems: selectedItems,
         session: session,
         name: name
     };
+
+    console.log('selected/available: ' + availableItems.length + ' / ' + selectedItems.length);
 
     Semanticenrichmentstages.findOrCreate({
         session: session
@@ -45,8 +33,8 @@ function _arrayWorkaround(req, res, next) {
             res.send(err);
         }
 
-        record.availableItems = available;
-        record.selectedItems = selected;
+        record.availableItems = availableItems;
+        record.selectedItems = selectedItems;
         record.session = session;
 
         record.save().then(function(record) {
@@ -60,10 +48,10 @@ function _arrayWorkaround(req, res, next) {
 
 module.exports = {
     create: function(req, res, next) {
-        _arrayWorkaround(req, res, next);
+        store(req, res, next);
     },
 
     update: function(req, res, next) {
-        _arrayWorkaround(req, res, next);
-    },
+        store(req, res, next);
+    }
 };
