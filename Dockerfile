@@ -13,7 +13,7 @@ RUN sudo npm install sails -g
 # Bundle app, install, expose and finally run it
 COPY ./ /microservice
 WORKDIR /microservice
-EXPOSE 1337
+EXPOSE 5004
 
 RUN npm install
 
