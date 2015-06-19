@@ -11,18 +11,15 @@ module.exports = {
         name: 'string',
 
         selectedItems: {
-            type: 'array',
-            required: false
+            type: 'array'
         },
 
         availableItems: {
-            type: 'array',
-            required: false
+            type: 'array'
         },
 
         session: {
-            model: 'sessions',
-            required: false
+            model: 'sessions'
         }
     }
 };
