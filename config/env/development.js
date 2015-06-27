@@ -21,5 +21,6 @@ module.exports = {
   //   connection: 'someMongodbServer'
   // }
 
-  port: 5004
+  port: 5001,
+  storagePath: '/duraark-storage/files'
 };

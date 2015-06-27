@@ -8,17 +8,5 @@
 module.exports = {
 
 	attributes: {
-		name: 'string',
-		creator: 'string',
-		created: 'date',
-		filestage: {
-			model: 'filestages'
-		},
-		metadatastage: {
-			model: 'metadatastages'
-		},
-		geometricenrichmentstage: {
-			model: 'geometricenrichmentstages'
-		}
 	}
 };
