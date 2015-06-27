@@ -1,43 +1,58 @@
 var fs = require('fs'),
-    path = require('path');
+  path = require('path');
+
+function _getExt(filepath) {
+  return (/[.]/.exec(filepath)) ? /[^.]+$/.exec(filepath) : null;
+}
 
 module.exports = {
 
-    getFileList: function(opts) {
-        var filelist = [],
-            paths = [];
+  getFileList: function(opts) {
+    var filelist = [],
+      paths = [];
 
-        var pathStrings = fs.readdirSync(opts.path);
+    var pathStrings = fs.readdirSync(opts.path);
 
-        if (!pathStrings) throw new Error('Cannot read directory, error: ' + err);
+    if (!pathStrings) throw new Error('Cannot read directory, error: ' + err);
 
-        for (var idx = 0; idx < pathStrings.length; idx++) {
-            var pathString = pathStrings[idx];
+    for (var idx = 0; idx < pathStrings.length; idx++) {
+      var pathString = pathStrings[idx];
 
-            var absPath = path.join(opts.path, pathString);
-            paths.push(absPath);
-        };
+      var absPath = path.join(opts.path, pathString);
+      paths.push(absPath);
+    };
 
-        // TODO: add support for directories!
+    // TODO: add support for directories!
 
-        for (var idx = 0; idx < paths.length; idx++) {
-            var filepath = paths[idx];
+    for (var idx = 0; idx < paths.length; idx++) {
+      var filepath = paths[idx];
 
-            var stats = fs.statSync(filepath);
-            if (!stats) {
-                throw new Error('Cannot stat file, error: ' + err);
-            }
+      var stats = fs.statSync(filepath);
+      if (!stats) {
+        throw new Error('Cannot stat file, error: ' + err);
+      }
 
-            filelist.push({
-                path: filepath,
-                size: stats.size,
-                directory: stats.isDirectory(),
-                atime: stats.atime,
-                mtime: stats.mtime,
-                ctime: stats.ctime
-            });
+      var ext = _getExt(filepath)[0],
+        type = 'unknown';
+console.log('asdfasdf: ' + ext);
+      if (ext) {
+        type = ext;
+        if (ext.toLowerCase() === 'ifc') {
+          type = 'ifc-spf'
         }
+      }
 
-        return filelist;
+      filelist.push({
+        path: filepath,
+        type: type,
+        size: stats.size,
+        directory: stats.isDirectory(),
+        atime: stats.atime,
+        mtime: stats.mtime,
+        ctime: stats.ctime
+      });
     }
+
+    return filelist;
+  }
 };

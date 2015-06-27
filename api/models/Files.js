@@ -9,11 +9,12 @@ module.exports = {
 
     attributes: {
         path: 'string',
+        type: 'string',
         size: 'integer',
         directory: 'boolean',
         atime: 'date',
         mtime: 'date',
         ctime: 'date'
     }
-    
+
 };
