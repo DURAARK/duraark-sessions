@@ -8,5 +8,8 @@
 module.exports = {
 
 	attributes: {
+		label: 'string',
+		physicalAssets: 'array',
+		digitalObjects: 'array'
 	}
 };
