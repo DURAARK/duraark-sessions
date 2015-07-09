@@ -36,7 +36,7 @@ function initSessions() {
     });
 }
 
-var paMD = [{
+var paMD = {
   "@id": "http://data.duraark.eu/resource/physicalasset_d86c761c42e440659a8a5b945f695b76",
   "@type": [
     "http://data.duraark.eu/vocab/PhysicalAsset"
@@ -91,7 +91,7 @@ var paMD = [{
     "@value": "14",
     "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
   }]
-}];
+};
 
 var doMD = {
   "@id": "http://data.duraark.eu/resource/ifcspffile_d86c761c42e440659a8a5b945f695b76",
@@ -184,9 +184,9 @@ var doMD = {
 };
 
 var semMD = {
-  candidates: [{}], // TODO
-  seeds: [{}], // TODO
-  selection: [{}] // TODO
+  candidates: [], // TODO
+  topics: [], // TODO
+  selection: [] // TODO
 };
 
 var derivatives = [{
