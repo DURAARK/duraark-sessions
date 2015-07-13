@@ -10,9 +10,11 @@ RUN apt-get update -y
 RUN apt-get -y install nodejs -y
 RUN sudo npm install sails -g
 
+RUN mkdir -p /duraark/microservice
+
 # Bundle app, install, expose and finally run it
-COPY ./ /microservice
-WORKDIR /microservice
+COPY ./ /duraark/microservice
+WORKDIR /duraark/microservice
 
 EXPOSE 5011
 
