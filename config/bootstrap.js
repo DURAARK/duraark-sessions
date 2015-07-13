@@ -193,7 +193,7 @@ var derivatives = [{
   label: 'Haus 30 (Reconstruction)',
   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30-reconstruction.ifc',
   type: 'reconstruction', // NOTE: necessary only for GUI at the moment
-  buildm: paMD,
+  buildm: doMD,
   semMD: semMD
     // derivatives: [{...},{...}] // TODO: do we need 'derivatives' here or not?
 }, {
@@ -201,27 +201,27 @@ var derivatives = [{
   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30-electrical-appliances.ifc',
   type: 'electrical-appliances', // NOTE: necessary only for GUI at the moment
   physicalAssets: [0],
-  buildm: paMD,
+  buildm: doMD,
   semMD: semMD
 }, {
   label: 'Haus 30 (Reconstruction)',
   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30-reconstruction.ifc',
   type: 'hidden-features', // NOTE: necessary only for GUI at the moment
-  buildm: paMD,
+  buildm: doMD,
   semMD: semMD,
 }, {
   label: 'Difference to: Haus 30 (Scan: 2014-03-22)',
   path: '/storage/1234-1234-1234-1234/digitalObjects/deviation-2014-03-22.rdf',
   type: 'difference-detection', // NOTE: necessary only for GUI at the moment
   physicalAssets: [0],
-  buildm: paMD,
+  buildm: doMD,
   semMD: semMD
 }, {
   label: 'Registration to: Haus 30 (Scan: 2014-03-22)',
   path: '/storage/1234-1234-1234-1234/digitalObjects/registraction-2014-03-22.rdf',
   type: 'registration', // NOTE: necessary only for GUI at the moment
   physicalAssets: [0],
-  buildm: paMD,
+  buildm: doMD,
   semMD: semMD
 }];
 
@@ -237,14 +237,14 @@ var sessions = [{
     label: 'Haus 30 BIM file',
     path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
     physicalAssets: [0],
-    buildm: paMD,
+    buildm: doMD,
     semMD: semMD,
     derivatives: []
   }, {
     label: 'Haus 30 point cloud scan',
     path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
     physicalAssets: [0],
-    buildm: paMD,
+    buildm: doMD,
     semMD: semMD,
     derivatives: derivatives
   }]
