@@ -32,12 +32,12 @@ module.exports = {
         throw new Error('Cannot stat file, error: ' + err);
       }
 
-      var ext = _getExt(filepath)[0],
+      var ext = _getExt(filepath),
         type = 'unknown';
-console.log('asdfasdf: ' + ext);
-      if (ext) {
-        type = ext;
-        if (ext.toLowerCase() === 'ifc') {
+
+      if (ext && ext.length) {
+        type = ext[0];
+        if (type.toLowerCase() === 'ifc') {
           type = 'ifc-spf'
         }
       }
