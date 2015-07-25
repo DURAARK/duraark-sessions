@@ -26,7 +26,7 @@ function initSessions() {
     })
     .then(function(records) {
       if (records.length) {
-        console.log('"Sessions" already in place, skipping creation.');
+        console.log('\n[bootstrapping] "Session" fixtures cached, skipping creation.\n');
         return;
       } else {
         Sessions.create(sessions).then(function(sessions) {
