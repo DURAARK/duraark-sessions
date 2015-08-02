@@ -226,26 +226,73 @@ var derivatives = [{
 }];
 
 var sessions = [{
-  label: 'Haus 30 Session (your Workbench!)',
+  label: 'Haus 30',
 
-  physicalAssets: [{
-    label: 'Haus 30 Building Site',
-    buildm: paMD
-  }],
+  physicalAssets: [],
+  digitalObjects: [],
 
-  digitalObjects: [{
-    label: 'Haus 30 BIM file',
-    path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
-    physicalAssets: [0],
-    buildm: doMD,
-    semMD: semMD,
-    derivatives: []
-  }, {
-    label: 'Haus 30 point cloud scan',
-    path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
-    physicalAssets: [0],
-    buildm: doMD,
-    semMD: semMD,
-    derivatives: derivatives
-  }]
+  // physicalAssets: [{
+  //   label: 'Haus 30 Building Site',
+  //   buildm: paMD
+  // }],
+  //
+  // digitalObjects: [{
+  //   label: 'Haus 30 BIM file',
+  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
+  //   physicalAssets: [0],
+  //   buildm: doMD,
+  //   semMD: semMD,
+  //   derivatives: []
+  // }, {
+  //   label: 'Haus 30 point cloud scan',
+  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
+  //   physicalAssets: [0],
+  //   buildm: doMD,
+  //   semMD: semMD,
+  //   derivatives: derivatives
+  // }],
+
+  config: {
+    sda: {
+      topics: ["Haus 30 (general context)", "Haus 30 (political context)"]
+    },
+    geometricenrichment: {
+      tools: ["IFC Reconstruction"]
+    }
+  }
+},{
+  label: 'Nygade',
+
+  physicalAssets: [],
+  digitalObjects: [],
+
+  // physicalAssets: [{
+  //   label: 'Haus 30 Building Site',
+  //   buildm: paMD
+  // }],
+  //
+  // digitalObjects: [{
+  //   label: 'Haus 30 BIM file',
+  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
+  //   physicalAssets: [0],
+  //   buildm: doMD,
+  //   semMD: semMD,
+  //   derivatives: []
+  // }, {
+  //   label: 'Haus 30 point cloud scan',
+  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
+  //   physicalAssets: [0],
+  //   buildm: doMD,
+  //   semMD: semMD,
+  //   derivatives: derivatives
+  // }],
+
+  config: {
+    sda: {
+      topics: ["Nygade (general context)"]
+    },
+    geometricenrichment: {
+      tools: ["IFC Reconstruction", "Electrical Appliance Detection"]
+    }
+  }
 }];

@@ -5,6 +5,8 @@
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
 
+var _storagePath = sails.config.storagePath;
+
 module.exports = {
   /**
    * @apiDefine PhysicalAsset
@@ -65,4 +67,15 @@ module.exports = {
    *       "error": "SessionNotFound"
    *     }
    */
+  //  find: function(req, res, next) {
+  //    var files = FileService.getFileList({
+  //        path: _storagePath
+  //    });
+   //
+  //    _.forEach(files, function(item, idx) {
+  //      item.id = idx;
+  //    });
+   //
+  //    res.send(files).status(200);
+  //  }
 };
