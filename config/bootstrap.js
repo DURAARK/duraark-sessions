@@ -259,8 +259,33 @@ var sessions = [{
     geometricenrichment: {
       tools: ["IFC Reconstruction"]
     }
-  }
-},{
+  },
+
+  fixedInputFiles: [{
+    path: "/duraark-storage/files/Plan3D_Haus30_PREVIEW.ifc",
+    type: "ifc-spf",
+    size: 21656908,
+    directory: false,
+    atime: "2015-07-30T16:16:10.000Z",
+    mtime: "2015-07-30T16:16:15.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.384Z",
+    updatedAt: "2015-08-02T09:00:41.042Z",
+    id: 1,
+    metadata: {}
+  }, {
+    path: "/duraark-storage/files/Plan3D_OG_subsampled.e57",
+    type: "e57",
+    size: 258907136,
+    directory: false,
+    atime: "2015-07-30T16:16:15.000Z",
+    mtime: "2015-07-30T16:16:19.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.415Z",
+    updatedAt: "2015-07-31T14:20:40.432Z",
+    id: 2
+  }]
+}, {
   label: 'Nygade',
 
   physicalAssets: [],
@@ -294,5 +319,29 @@ var sessions = [{
     geometricenrichment: {
       tools: ["IFC Reconstruction", "Electrical Appliance Detection"]
     }
-  }
+  },
+
+  fixedInputFiles: [{
+    path: "/duraark-storage/files/Nygade_Scan1001.e57",
+    type: "e57",
+    size: 270408704,
+    directory: false,
+    atime: "2015-07-30T16:16:04.000Z",
+    mtime: "2015-07-30T16:16:08.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.373Z",
+    updatedAt: "2015-07-31T14:20:40.402Z",
+    id: 1
+  }, {
+    path: "/duraark-storage/files/Nygade_Scan1001.ifc",
+    type: "ifc-spf",
+    size: 18194,
+    directory: false,
+    atime: "2015-07-30T16:16:08.000Z",
+    mtime: "2015-07-30T16:16:10.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.378Z",
+    updatedAt: "2015-08-02T09:00:34.781Z",
+    id: 2
+  }]
 }];
