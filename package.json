@@ -1,7 +1,7 @@
 {
   "name": "duraark-sessions",
   "private": false,
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Service for managing DURAARK user sessions.",
   "keywords": ["session", "long term preservation", "duraark", "api", "sailsjs"],
   "dependencies": {
@@ -43,11 +43,13 @@
   },
   "apidoc": {
     "name": "duraark-sessions",
-    "version": "0.6.0",
+    "version": "0.7.0",
     "title": "DURAARK Session Service",
-    "url": "http://juliet.cgv.tugraz.at/api/v0.7/sessions",
+    "url": "http://data.duraark.eu/services/api/sessions",
+    "sampleUrl": "http://data.duraark.eu/services/api/sessions",
     "order": [
-      "Session"
+      "Session",
+      "File"
     ]
   }
 

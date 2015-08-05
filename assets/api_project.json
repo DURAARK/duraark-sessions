@@ -1,17 +1,18 @@
 {
   "name": "duraark-sessions",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "title": "DURAARK Session Service",
-  "url": "http://juliet.cgv.tugraz.at/api/v0.7/sessions",
+  "url": "http://data.duraark.eu/services/api/sessions",
+  "sampleUrl": "http://data.duraark.eu/services/api/sessions",
   "order": [
-    "Session"
+    "Session",
+    "File"
   ],
   "description": "Service for managing DURAARK user sessions.",
-  "sampleUrl": false,
   "apidoc": "0.2.0",
   "generator": {
     "name": "apidoc",
-    "time": "2015-07-25T20:30:16.728Z",
+    "time": "2015-08-05T16:05:51.948Z",
     "url": "http://apidocjs.com",
     "version": "0.13.1"
   }
