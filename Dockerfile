@@ -8,7 +8,7 @@ RUN apt-get install software-properties-common -y
 RUN add-apt-repository ppa:chris-lea/node.js -y
 RUN apt-get update -y
 RUN apt-get -y install nodejs -y
-RUN sudo npm install sails -g
+RUN npm install sails nodemon -g
 
 RUN mkdir -p /duraark/microservice
 
