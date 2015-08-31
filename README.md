@@ -1,52 +1,102 @@
-# microservice-sip
+# duraark-sessions
 
-The purpose of this microservice is to collect all the content that should be stored in the Long Time Digital Preservation (LTDP)system, and store it in a SIP together with technical metadata about the content (such as number of floors if there is an IFC file), enrichment metadata provided by the user (such a building style being Gothic), and also metadata about the package from a archival system perspective (such a checksum for each of the files contained).
+[![Circle CI](https://circleci.com/gh/DURAARK/duraark-sessions.svg?style=svg)](https://circleci.com/gh/DURAARK/duraark-sessions)
 
-The way this works is that content (enrichment files from the user, technical metadata, and the arhcitectual content in the form of IFC and/or e57 files) is stored in a folder unique for the session that the user is currently working on. On this folder a file identificator (Droid) is run when the user inititiates it from the gui. It produces file identification if the file matches a known profile (e57 is known and IFC has been added to the official Droid-profile set by the Duraark project). This Droid identification data is also added to the set of content to be stored. After the files (the basic content and diffent types of metadata) is stored in a temporary directory this is then stored in a SIP-package which can then be inserted into a LTDP-system.
+## Overview
 
-The session handling is also done by the SIP microservice.
+This library is part of the [DURAARK](http://github.com/duraark/duraark-system) system and manages sessions and files.
 
-## Demo-Server
+### Format support
 
-A showcasing demo incorporating the service running on our [development system](http://juliet.cgv.tugraz.at). It is a development system, not a production one. You will always have the newest version running there, but it is also possible to experience bugs. A production demo will be available soon at http://workbench.duraark.eu. Currently we have the first prototype version running there.
+The following file types are supported for the extraction of data:
 
-## Setup & Installation
+* IFC-SPF
+* E57
+* HDF5 (in development)
 
-The deployment setup is based on the repository [microservice-base](https://github.com/DURAARK/microservice-base). It provides development scripts and docker deployment. Have a look at the link to get more detailed information.
-## API Documentation
+After the metadata extraction the information can be exported into the following formats (depending on the input file type):
 
-The following API endpoints are available:
+* Input: IFC-SPF -> Output-Schema: buildm -> Serialization: JSON-LD
+* Input: IFC-SPF -> Output-Schema: ifcm   -> Serialization: XML
+* Input: E57     -> Output-Schema: e57m   -> Serialization: XML
 
-### POST http://localhost:5005/enrichment/extract
+### Plugins
 
-### Description
+The extraction service comes with a plugin system to extend support for other file formats. Currently two core extractors are implemented:
 
-Starts enrichment search based on a location property (or 'information seed').
+* IFC-SPF
+* E57
 
-#### Payload
+A plugin for the HDF5 file format is in development and will be available end of 2015.
 
-```json  
-{
-  "locationProperties": "$PROPERTY"
-}
+### Dependencies
+
+The service depends on no other DURAARK components.
+
+### Used By
+
+This service is used by the
+
+* [DURAARK System](https://github.com/duraark/duraark-system)
+
+## Installation
+
+The following instructions will deploy the SailsJS-based service which exports a REST API.
+
+### Prerequisites
+
+The deployment is tested on Ubuntu 14.04 LTS. Other Linux distribution should work too, but are not tested. [Docker](https://docs.docker.com/userguide/) and [Docker Compose](https://docs.docker.com/compose/) are used for installation and have to be installed on the system you want to deploy the DURAARK system on. The following instructions assume that Docker and Docker Compose are installed on working on the system. See the above links on how to install them for various platforms. [Git](https://git-scm.com/downloads) has to be installed, too.
+
+It is also possible to install DURAARK on Windows and Mac users via the [Docker Toolbox](https://docs.docker.com/installation/windows/). Installing Docker Compose on windows is possible, but seems to be a bit of a hurdle. See this [Stackoverflow answer](http://stackoverflow.com/questions/29289785/how-to-install-docker-compose-on-windows) for details.
+
+Our recommended stack is to install DURAARK on a Docker-compatible Linux system or to use [VirtualBox](https://www.virtualbox.org/) to install a Linux virtual machine on your Windows host.
+
+### Installation Steps
+
+On the host you want to deploy the service execute the following steps (assuming that Docker and Docker Compose are installed and working):
+
+```js
+> git clone https://github.com/DURAARK/duraark-sessions.git
+> cd duraark-sessions
+> docker-compose up -d
 ```
-where $PROPERTY is one of
-* IFCPOSTALADDRESS
-* IFCBUILDING
-* IFCORGANIZATION
 
-#### Response
+This will deploy the system in the current stable version (v0.7.0) which exposes its API at **http://HOST_IP:5011/** (http://localhost:5011/ if you did the setup on your local host).
 
-```json
-[{
-	"datasetId": "datasetId",
-	"name": "name",
-	"resourceId": "esourceId",
-	"resourceUri": "resourceUri",
-	"propertyUri": "propertyUri",
-	"resourceValue": "resourceValue"
-}]
+The files you want to have available via the API have to be put into the folder **/tmp/duraark/files**. The folder is mapped into the Docker container as **/duraark-storage/files**.
+
+## Development Environment
+
+To setup the environment follow these steps:
+
+```js
+> git clone https://github.com/DURAARK/duraark-sessions.git
+> cd duraark-sessions
+> npm install
+> docker-compose -f devenv-compose.yml build
+> docker-compose -f devenv-compose.yml up -d
 ```
 
-Enjoy!
+This will build the dockerized development environment. After building the docker container is started and you can access the service at **http://localhost:5011**. Changing the source code will live reload the container.
 
+The files you want to use have to be put into the folder **/tmp/duraark/files**.
+
+### Testing
+
+Run **npm test** in the **src** folder.
+
+## Platform Support
+
+This library is running on [NodeJS](https://nodejs.org/) and provides a Dockerfile for deployments on [Docker](https://www.docker.com/)-enabled hosts.
+
+## Public API
+
+We are hosting a public API endpoint at
+
+* http://data.duraark.eu/services/api/sessions/
+
+which also provides API documentation for the current stable version.
+
+## Demo
+
+A public demo of the [DURAARK System](http://github.com/duraark/duraark-system) which incorporates this service is available [here](http://workbench.duraark.eu).
