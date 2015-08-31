@@ -6,28 +6,7 @@
 
 This library is part of the [DURAARK](http://github.com/duraark/duraark-system) system and manages sessions and files.
 
-### Format support
-
-The following file types are supported for the extraction of data:
-
-* IFC-SPF
-* E57
-* HDF5 (in development)
-
-After the metadata extraction the information can be exported into the following formats (depending on the input file type):
-
-* Input: IFC-SPF -> Output-Schema: buildm -> Serialization: JSON-LD
-* Input: IFC-SPF -> Output-Schema: ifcm   -> Serialization: XML
-* Input: E57     -> Output-Schema: e57m   -> Serialization: XML
-
-### Plugins
-
-The extraction service comes with a plugin system to extend support for other file formats. Currently two core extractors are implemented:
-
-* IFC-SPF
-* E57
-
-A plugin for the HDF5 file format is in development and will be available end of 2015.
+A description on the provided functionality can be found in the report [D2.5 Software prototype v2, Section 4.1](http://duraark.eu/wp-content/uploads/2015/08/DURAARK_D2_5_final.pdf).
 
 ### Dependencies
 
