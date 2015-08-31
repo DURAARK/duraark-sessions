@@ -1,0 +1,9 @@
+duraark-sessions:
+  # image: duraark/duraark-sessions:0.7.0
+  build: .
+  command: nodemon --watch /duraark/microservice/api -w /duraark/microservice/config app.js
+  ports:
+    - "5011:5011"
+  volumes:
+    - /duraark-storage:/duraark-storage
+    - .:/duraark/microservice

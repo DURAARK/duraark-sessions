@@ -1,0 +1,6 @@
+duraark-metadata:
+  image: duraark/duraark-sessions:0.7.0
+  ports:
+    - "5011:5011"
+  volumes:
+    - /tmp/duraark:/duraark-storage
