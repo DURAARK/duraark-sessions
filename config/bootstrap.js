@@ -226,7 +226,10 @@ var derivatives = [{
 }];
 
 var sessions = [{
+  state: 'wip',
   label: 'Haus 30',
+  address: 'Haus30er Strasse, Berlin',
+  description: 'Session documenting the renovation of the Haus30 in Berlin.',
 
   physicalAssets: [],
   digitalObjects: [],
@@ -286,7 +289,10 @@ var sessions = [{
     id: 2
   }]
 }, {
+  state: 'archived',
   label: 'Nygade',
+  address: 'Nygade Straat, Kopenhagen',
+  description: 'Session documenting the renovation of the Nygade building.',
 
   physicalAssets: [],
   digitalObjects: [],
