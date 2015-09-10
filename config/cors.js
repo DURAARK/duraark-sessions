@@ -72,7 +72,7 @@ module.exports.cors = {
   * response to preflight requests.                                          *
   *                                                                          *
   ***************************************************************************/
+  // exposeHeaders: 'X-File-Size',
 
-  // headers: 'content-type'
-
+  headers: 'X-File-Size'
 };

@@ -5,6 +5,7 @@
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
 
+var fs = require('fs');
 var _storagePath = sails.config.storagePath;
 
 /**
@@ -116,4 +117,45 @@ module.exports = {
   //
   //    res.send(files).status(200);
   //  }
+
+  /**
+   * @api {post} /upload Upload file
+   * @apiVersion 0.8.0
+   * @apiName PostUploadFile
+   * @apiGroup File
+   * @apiPermission none
+   *
+   * @apiDescription Upload a new file.
+   *
+   */
+  upload: function(req, res, next) {
+    var config = req.body;
+    var storageDir = '/duraark-storage/files/';
+
+    // console.log('storageDir: ' + storageDir);
+
+    res.setTimeout(0);
+
+    req.file('file').upload({
+      saveAs: function(fileStream, cb) {
+        var outputFile = storageDir + fileStream.filename;
+        console.log('Storing file as: ' + outputFile);
+
+        // FIXXME: Handle existing files!
+        var writeStream = fs.createWriteStream(outputFile);
+        fileStream.pipe(writeStream);
+
+        cb(null, outputFile);
+      }
+    }, function(err, uploadedFiles) {
+      if (err) return res.negotiate(err);
+
+      console.log('uploaded: ' + JSON.stringify(uploadedFiles, null, 4));
+
+      return res.json({
+        files: uploadedFiles,
+        message: uploadedFiles.length + ' file(s) uploaded successfully!',
+      });
+    });
+  },
 };
