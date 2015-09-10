@@ -5,8 +5,12 @@
  * @help        :: See http://links.sailsjs.org/docs/controllers
  */
 
-var fs = require('fs');
-var _storagePath = sails.config.storagePath;
+var fs = require('fs'),
+  _storagePath = sails.config.storagePath;
+
+function _getExt(filepath) {
+  return (/[.]/.exec(filepath)) ? /[^.]+$/.exec(filepath) : null;
+}
 
 /**
  * @apiDefine FileParam
@@ -152,10 +156,62 @@ module.exports = {
 
       console.log('uploaded: ' + JSON.stringify(uploadedFiles, null, 4));
 
-      return res.json({
-        files: uploadedFiles,
-        message: uploadedFiles.length + ' file(s) uploaded successfully!',
+      // var files = [{
+      //   path: "/duraark-storage/files/Nygade_Scan5001.e57",
+      //   type: "e57",
+      //   size: 270408704,
+      //   directory: false,
+      //   atime: "2015-09-02T15:03:29.000Z",
+      //   mtime: "2015-08-05T10:42:03.000Z",
+      //   ctime: "2015-08-05T10:42:03.000Z",
+      //   createdAt: "2015-09-10T07:29:12.971Z",
+      //   updatedAt: "2015-09-10T07:29:13.000Z",
+      //   id: 1
+      // }, {
+      //   path: "/duraark-storage/files/Nygade_Scan5751.ifc",
+      //   type: "ifc",
+      //   size: 270408704,
+      //   directory: false,
+      //   atime: "2015-09-02T15:03:29.000Z",
+      //   mtime: "2015-08-05T10:42:03.000Z",
+      //   ctime: "2015-08-05T10:42:03.000Z",
+      //   createdAt: "2015-09-10T07:29:12.971Z",
+      //   updatedAt: "2015-09-10T07:29:13.000Z",
+      //   id: 1
+      // }];
+
+      var files = [];
+
+      _.forEach(uploadedFiles, function(file) {
+
+        var ext = _getExt(file.fd),
+          type = 'unknown';
+
+        if (ext && ext.length) {
+          type = ext[0];
+          if (type.toLowerCase() === 'ifc') {
+            type = 'ifc-spf'
+          }
+        }
+
+        files.push({
+          path: file.fd,
+          size: file.size,
+          directory: false,
+          type: type
+        });
       });
+
+      Files.create(files).then(function(records) {
+        return res.send({
+          files: records
+        }).status(200);
+      });
+
+      // return res.json({
+      //   files: uploadedFiles,
+      //   message: uploadedFiles.length + ' file(s) uploaded successfully!',
+      // });
     });
   },
 };
