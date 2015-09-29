@@ -73,7 +73,7 @@ var paMD = {
     "@type": "http://www.w3.org/TR/xmlschema11-2/#double"
   }],
   "http://data.duraark.eu/vocab/name": [{
-    "@value": "001",
+    "@value": "Haus 30",
     "@type": "http://schema.org/Text"
   }],
   "http://data.duraark.eu/vocab/spaceCount": [{
