@@ -14,7 +14,8 @@ module.exports = {
         directory: 'boolean',
         atime: 'date',
         mtime: 'date',
-        ctime: 'date'
+        ctime: 'date',
+        metadata: 'object'
     }
 
 };
