@@ -234,27 +234,6 @@ var sessions = [{
   physicalAssets: [],
   digitalObjects: [],
 
-  // physicalAssets: [{
-  //   label: 'Haus 30 Building Site',
-  //   buildm: paMD
-  // }],
-  //
-  // digitalObjects: [{
-  //   label: 'Haus 30 BIM file',
-  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
-  //   physicalAssets: [0],
-  //   buildm: doMD,
-  //   semMD: semMD,
-  //   derivatives: []
-  // }, {
-  //   label: 'Haus 30 point cloud scan',
-  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
-  //   physicalAssets: [0],
-  //   buildm: doMD,
-  //   semMD: semMD,
-  //   derivatives: derivatives
-  // }],
-
   config: {
     sda: {
       topics: ["Haus 30 (general context)", "Haus 30 (political context)"]
@@ -264,8 +243,8 @@ var sessions = [{
     }
   },
 
-  fixedInputFiles: [{
-    path: "/duraark-storage/files/Plan3D_Haus30_PREVIEW.ifc",
+  files: [{
+    path: "/duraark-storage/sessions/haus30-fixed/master/Plan3D_Haus30_PREVIEW.ifc",
     type: "ifc-spf",
     size: 21656908,
     directory: false,
@@ -277,7 +256,7 @@ var sessions = [{
     id: 1,
     metadata: {}
   }, {
-    path: "/duraark-storage/files/Plan3D_OG_subsampled.e57",
+    path: "/duraark-storage/sessions/haus30-fixed/master/Plan3D_OG_subsampled.e57",
     type: "e57",
     size: 258907136,
     directory: false,
@@ -297,27 +276,6 @@ var sessions = [{
   physicalAssets: [],
   digitalObjects: [],
 
-  // physicalAssets: [{
-  //   label: 'Haus 30 Building Site',
-  //   buildm: paMD
-  // }],
-  //
-  // digitalObjects: [{
-  //   label: 'Haus 30 BIM file',
-  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.ifc',
-  //   physicalAssets: [0],
-  //   buildm: doMD,
-  //   semMD: semMD,
-  //   derivatives: []
-  // }, {
-  //   label: 'Haus 30 point cloud scan',
-  //   path: '/storage/1234-1234-1234-1234/digitalObjects/haus30.e57',
-  //   physicalAssets: [0],
-  //   buildm: doMD,
-  //   semMD: semMD,
-  //   derivatives: derivatives
-  // }],
-
   config: {
     sda: {
       topics: ["Nygade (general context)"]
@@ -327,10 +285,10 @@ var sessions = [{
     }
   },
 
-  fixedInputFiles: [{
-    path: "/duraark-storage/files/Nygade_Scan1001.e57",
+  files: [{
+    path: "/duraark-storage/sessions/nygade1005-1006-fixed/master/Nygade_Scan1005-1006.e57",
     type: "e57",
-    size: 270408704,
+    size: 538401792,
     directory: false,
     atime: "2015-07-30T16:16:04.000Z",
     mtime: "2015-07-30T16:16:08.000Z",
@@ -339,9 +297,9 @@ var sessions = [{
     updatedAt: "2015-07-31T14:20:40.402Z",
     id: 1
   }, {
-    path: "/duraark-storage/files/Nygade_Scan1001.ifc",
+    path: "/duraark-storage/sessions/nygade1005-1006-fixed/master/Nygade_Scan1005-1006.ifc",
     type: "ifc-spf",
-    size: 18194,
+    size: 54495,
     directory: false,
     atime: "2015-07-30T16:16:08.000Z",
     mtime: "2015-07-30T16:16:10.000Z",
