@@ -5,8 +5,7 @@
  * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
  */
 
-var fs = require('fs'),
-  mv = require('node-mv'),
+var fs = require('fs-extra'),
   path = require('path'),
   _ = require('underscore'),
   _storagePath = sails.config.storagePath;
@@ -75,7 +74,11 @@ module.exports = {
         // console.log('src: ' + src);
         // console.log('target: ' + target);
 
-        fs.renameSync(src, target);
+        // FIXXME: use Promise.all() to wait for all moves! This is error prone, as it does
+        // not wait for the move to be successfully finished before moving on ...
+        fs.move(src, target, function(err) {
+          if (err) return console.error(err);
+        });
 
         var ext = _getExt(file.fd),
           type = 'unknown';
