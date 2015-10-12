@@ -133,15 +133,18 @@ module.exports = {
    *
    */
   upload: function(req, res, next) {
+    console.log('asdfasdfasdf');
     var config = req.body;
-    var storageDir = '/duraark-storage/files/';
+    var storageDir = '/duraark-storage/sessions/a-uuid-number';
 
-    // console.log('storageDir: ' + storageDir);
+    console.log('storageDir: ' + storageDir);
 
     res.setTimeout(0);
 
+      console.log('1asdfasdfasdf');
     req.file('file').upload({
       saveAs: function(fileStream, cb) {
+        console.log('2asdfasdfasdf');
         var outputFile = storageDir + fileStream.filename;
         console.log('Storing file as: ' + outputFile);
 
@@ -149,6 +152,7 @@ module.exports = {
         var writeStream = fs.createWriteStream(outputFile);
         fileStream.pipe(writeStream);
 
+          console.log('3asdfasdfasdf');
         cb(null, outputFile);
       }
     }, function(err, uploadedFiles) {
@@ -213,5 +217,5 @@ module.exports = {
       //   message: uploadedFiles.length + ' file(s) uploaded successfully!',
       // });
     });
-  },
+  }
 };

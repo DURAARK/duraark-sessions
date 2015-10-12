@@ -73,6 +73,6 @@ module.exports.cors = {
   *                                                                          *
   ***************************************************************************/
   // exposeHeaders: 'X-File-Size',
-
+  
   headers: 'content-type, X-File-Size'
 };
