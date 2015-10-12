@@ -253,8 +253,7 @@ var sessions = [{
     ctime: "2015-07-30T16:18:51.000Z",
     createdAt: "2015-07-31T14:20:40.384Z",
     updatedAt: "2015-08-02T09:00:41.042Z",
-    id: 1,
-    metadata: {}
+    id: 1
   }, {
     path: "/duraark-storage/sessions/haus30-fixed/master/Plan3D_OG_subsampled.e57",
     type: "e57",
