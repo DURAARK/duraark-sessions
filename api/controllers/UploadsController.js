@@ -22,18 +22,7 @@ module.exports = {
     res.setTimeout(0);
 
     req.file('file').upload({
-      // saveAs: function(fileStream, cb) {
-      // 	var outputFile = storageDir + fileStream.filename;
-      // 	console.log('Storing file as: ' + outputFile);
-      //
-      // 	// FIXXME: Handle existing files!
-      // 	var writeStream = fs.createWriteStream(outputFile);
-      // 	console.log('asdfasdfasdfasdfasdfasdfasdfasdfasdfadsfasdf');
-      // 	//fileStream.pipe(writeStream);
-      // 	console.log('vor cb');
-      // 	//cb(null, outputFile);
-      // 	cb(null, 'asdf');
-      // }
+      maxBytes: 1024 * 1024 * 1024 * 15 // (15GB, which is also set as limit in nginx)
     }, function(err, uploadedFiles) {
       if (err) return res.negotiate(err);
 
@@ -70,6 +59,7 @@ module.exports = {
 
         var src = file.fd;
         var target = path.join(storageDir, file.filename);
+        var size = fs.statSync(file.fd)['size']; // NOTE: fd.size is wrong in many cases
 
         // console.log('src: ' + src);
         // console.log('target: ' + target);
@@ -94,7 +84,7 @@ module.exports = {
 
         files.push({
           path: target,
-          size: file.size,
+          size: size,
           type: type
         });
       });
