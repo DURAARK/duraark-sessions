@@ -9,6 +9,8 @@ module.exports = {
 
 	attributes: {
 		label: 'string',
+		address: 'string',
+		description: 'string',
 		physicalAssets: 'array',
 		digitalObjects: 'array'
 	}

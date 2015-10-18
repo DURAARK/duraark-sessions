@@ -26,7 +26,7 @@ module.exports = {
    ***************************************************************************/
 
   port: 5011,
-  storagePath: '/duraark-storage/files'
+  storagePath: '/duraark-storage/'
 
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *

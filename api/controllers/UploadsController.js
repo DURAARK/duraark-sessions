@@ -10,10 +10,6 @@ var fs = require('fs-extra'),
   _ = require('underscore'),
   _storagePath = sails.config.storagePath;
 
-function _getExt(filepath) {
-  return (/[.]/.exec(filepath)) ? /[^.]+$/.exec(filepath) : null;
-}
-
 module.exports = {
   upload: function(req, res, next) {
     var config = req.body;
