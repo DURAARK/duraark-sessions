@@ -28,6 +28,9 @@
  * @apiSuccess (SemanticMD) {Array} selections List of semantic links which will be connected to the DigitalObject in the SDAS knowledge graph.
  */
 
+var path = require('path'),
+  fs = require('fs-extra');
+
 module.exports = {
   /**
    * @api {get} /sessions/:id Request Session
@@ -130,6 +133,42 @@ module.exports = {
   remove: function(req, res, next) {
     var session = {}; // FIXXME!
     Duraark.deleteSession(res, session);
+  },
+
+  addFilesToSession: function(req, res, next) {
+    var sessionId = req.param('sessionId'),
+      files = req.param('files');
+
+    Sessions.findOne(sessionId).then(function(session) {
+      // console.log('session: ' + JSON.stringify(session, null, 4));
+
+      // FIXXME: use Promise.all()!
+      var numFiles = files.length,
+        fileCounter = 0;
+
+      _.forEach(files, function(file) {
+        var filename = file.path.split('/').pop(),
+          target = path.join(session.sessionFolder, 'master', filename);
+
+        fs.move(file.path, target, function() {
+          var fileInfo = FileService.getFileStats(target);
+          session.files.push(fileInfo);
+
+          console.log('Added file to session: ' + fileInfo.path);
+
+          // TODO: extract metadata already here and trigger potree processing, etc.!
+
+          fileCounter++;
+
+          if (numFiles === fileCounter) {
+            res.send(session).status(200);
+          }
+        });
+      });
+
+      console.log('sessionFolder: ' + session.sessionFolder);
+      // console.log('files: ' + JSON.stringify(files, null, 4));
+    });
   }
 
   //  find: function(req, res, next) {
