@@ -120,5 +120,17 @@ module.exports = {
         res.send(err).status(500);
       });
     }
+  },
+
+  deleteSession: function(res, session) {
+    // FIXXME: add check if sessionFolder exists!
+    fs.rm(session.sessionFolder);
+
+    Sessions.delete(session).then(function() {
+      console.log('Deleted session');
+      res.send(session).status(200);
+    }).catch(function(err) {
+      res.send(err).status(500);
+    });
   }
 };

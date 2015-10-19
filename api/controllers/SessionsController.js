@@ -117,13 +117,19 @@ module.exports = {
    * @apiSuccess {Number} ID of the Session.
    *
    */
-  create: function(req, res, nex) {
+  create: function(req, res, next) {
     var initialSessionData = req.body;
 
     console.log('Requesting new session for: ' + initialSessionData.label);
 
     // FIXXME: make independent from 'res'!
     Duraark.createSession(res, initialSessionData);
+  },
+
+  // FIXXME: find correct blueprint name!
+  remove: function(req, res, next) {
+    var session = {}; // FIXXME!
+    Duraark.deleteSession(res, session);
   }
 
   //  find: function(req, res, next) {
