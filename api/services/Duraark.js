@@ -8,7 +8,6 @@ function _generateURI(duraarkType) {
   return 'http://data.duraark.eu/' + type + '_' + uuid.v4();
 }
 
-
 module.exports = {
   // FIXXME: change to Promise-based implementation!
   createSession: function(res, initialSessionData) {
@@ -60,9 +59,28 @@ module.exports = {
     // otherwise an error is returned. Files can be uploaded via the 'files/upload'
     // endpoint, or they can be directly copied there (e.g. our Grasshopper integration
     // is creating sessions with files that way).
+    if (!session.files) {
+      session.files = [];
+    }
+
     if (initialSessionData.files && initialSessionData.files.length) {
       var fileCounter = 0,
         numFiles = initialSessionData.files.length;
+
+      if (!session.files) {
+        session.files = [];
+      }
+
+      console.log('numFiles' + numFiles);
+      if (!numFiles) {
+        console.log('asdfasdf');
+        Sessions.create(session).then(function(sessionRecord) {
+          console.log('Created session: ' + sessionRecord.label);
+          res.send(sessionRecord).status(200);
+        }).catch(function(err) {
+          res.send(err).status(500);
+        });
+      }
 
       _.forEach(initialSessionData.files, function(filename) {
         var absFilename = path.join(_storagePath, 'uploads', filename);
@@ -73,13 +91,9 @@ module.exports = {
         try {
           var target = path.join(sessionFolder, 'master', filename);
           fs.move(absFilename, target, function(err) {
-            if (err) return res.send('Error: file "' + filename + '" does not exist in "/duraark-storage/uploads". Use the "files/upload" endpoint or directly copy the file there before calling this function!\nError: ' + err);
+            if (err) return res.send('Error: file "' + filename + '" does not exist in "' + _storagePath + '/uploads". Use the "files/upload" endpoint or directly copy the file there before calling this function!\nError: ' + err);
 
             fileInfo = FileService.getFileStats(target);
-
-            if (!session.files) {
-              session.files = [];
-            }
 
             session.files.push(fileInfo);
             fileCounter++;
@@ -95,8 +109,15 @@ module.exports = {
             }
           });
         } catch (err) {
-          res.send('Error: file "' + filename + '" does not exist in "/duraark-storage/uploads". Use the "files/upload" endpoint or directly copy the file there before calling this function!\nError: ' + err);
+          res.send('Error: file "' + filename + '" does not exist in "' + _storagePath + '/uploads". Use the "files/upload" endpoint or directly copy the file there before calling this function!\nError: ' + err);
         }
+      });
+    } else {
+      Sessions.create(session).then(function(sessionRecord) {
+        console.log('Created session: ' + sessionRecord.label);
+        res.send(sessionRecord).status(200);
+      }).catch(function(err) {
+        res.send(err).status(500);
       });
     }
   }
