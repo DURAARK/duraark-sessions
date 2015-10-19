@@ -51,6 +51,8 @@ module.exports = {
     fs.mkdirSync(sessionFolder + '/derivatives');
     fs.mkdirSync(sessionFolder + '/tmp');
 
+    session.sessionFolder = sessionFolder;
+
     console.log('Created session folder at: ' + sessionFolder);
 
     // The initial session data can contain an array of files which should go into

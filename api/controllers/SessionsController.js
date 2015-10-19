@@ -83,32 +83,35 @@ module.exports = {
    * @apiDescription Creates a new Session on the server.
    *
    * @apiParam {String} label Display name of the Session.
-   * @apiParam {Array} physicalAssets List of PhysicalAssets in the Session.
-   * @apiParam {Array} digitalObjects List of DigitalObjects in the Session.
-   * @apiParam {Object} config Configuration options for this Session to set available information topics and geometric enrichment tools.
-   * @apiParam {Array} fixedInputFiles If present the WorkbenchUI will only display the files defined here. This allows to configure 'showcase' sessions.
-   * @apiParam {Date} createdAt Creation date of the Session.
-   * @apiParam {Date} modifiedAt date of the Session.
-   * @apiParam {Number} ID of the Session.
+   * @apiParam {String} address Address of the building worked on in the Session.
+   * @apiParam {String} description Description of the Session.
+   * @apiParam {String} files An array of 'files' which will be moved to the session folder from the 'uploads' folder. The files have to exist in the 'uploads' folder before creating the session, otherwise an error will be thrown.
+   * @apiParam {Object} config Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.
    *
    * @apiSuccessExample Success-Response:
    *     HTTP/1.1 200 OK
    *     {
-   *       "label": "Haus 30",
+   *       "label": "Inffeldgasse",
+   *       "address": "Inffeldgasse 16c",
+   *       "description": "Home of FhA",
    *       "physicalAssets": [],
    *       "digitalObjects": [],
    *       "config": [],
-   *       "fixedInputFiles": [],
+   *       "files": [],
+   *       "sessionFolder": "/duraark-storage/sessions/duraark-session-651982aa-143b-484a-a1ed-090aab9427e4",
    *       "createdAt": [],
    *       "modifiedAt": [],
    *       "id": 1,
    *     }
    *
    * @apiSuccess {String} label Display name of the Session.
+   * @apiSuccess {String} address Address of the building worked on in the Session.
+   * @apiSuccess {String} description Description of the Session.
+   * @apiSuccess {Object} config Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.
    * @apiSuccess {Array} physicalAssets List of PhysicalAssets in the Session.
    * @apiSuccess {Array} digitalObjects List of DigitalObjects in the Session.
-   * @apiSuccess {Object} config Configuration options for this Session to set available information topics and geometric enrichment tools.
-   * @apiSuccess {Array} fixedInputFiles If present the WorkbenchUI will only display the files defined here. This allows to configure 'showcase' sessions.
+   * @apiSuccess {String} files An array of 'files' which are part of the Session.
+   * @apiSuccess {String} sessionFolder The name of the session folder where master, derivative and tmp files are stored.
    * @apiSuccess {Date} createdAt Creation date of the Session.
    * @apiSuccess {Date} modifiedAt date of the Session.
    * @apiSuccess {Number} ID of the Session.

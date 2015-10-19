@@ -1,17 +1,18 @@
 /**
  * Sessions.js
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
- * @docs        :: http://sailsjs.org/#!documentation/models
+ * @description :: 'Session' model definition
  */
 
 module.exports = {
-
 	attributes: {
 		label: 'string',
 		address: 'string',
 		description: 'string',
+		config: 'object',
 		physicalAssets: 'array',
-		digitalObjects: 'array'
+		digitalObjects: 'array',
+		files: 'array',
+		sessionFolder: 'string'
 	}
 };
