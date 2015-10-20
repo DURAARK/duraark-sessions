@@ -22,5 +22,5 @@ module.exports = {
   // }
 
   port: 5011,
-  storagePath: '/duraark-storage/files'
+  storagePath: '/duraark-storage/'
 };

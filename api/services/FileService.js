@@ -7,6 +7,28 @@ function _getExt(filepath) {
 
 module.exports = {
 
+  // NOTE: this function is not used anymore, but left here for reference ...
+  // addFileToDatabase: function(file) {
+  //   Files.findOne().where({
+  //     path: file.path
+  //   }).then(function(file) {
+  //     if (!file) {
+  //       Files.create(file).exec(function(err, file) {
+  //         if (err) {
+  //           console.log('err create: ' + err);
+  //         } else {
+  //           file.save(function(err) {
+  //             if (err) {
+  //               console.log('save err: ' + err);
+  //             }
+  //             console.log('Added file to database: ' + JSON.stringify(file, null, 4));
+  //           });
+  //         }
+  //       });
+  //     }
+  //   });
+  // },
+
   getFileList: function(opts) {
     var filelist = [],
       paths = [];
@@ -27,32 +49,36 @@ module.exports = {
     for (var idx = 0; idx < paths.length; idx++) {
       var filepath = paths[idx];
 
-      var stats = fs.statSync(filepath);
-      if (!stats) {
-        throw new Error('Cannot stat file, error: ' + err);
-      }
-
-      var ext = _getExt(filepath),
-        type = 'unknown';
-
-      if (ext && ext.length) {
-        type = ext[0];
-        if (type.toLowerCase() === 'ifc') {
-          type = 'ifc-spf'
-        }
-      }
-
-      filelist.push({
-        path: filepath,
-        type: type,
-        size: stats.size,
-        directory: stats.isDirectory(),
-        atime: stats.atime,
-        mtime: stats.mtime,
-        ctime: stats.ctime
-      });
+      var stats = this.getFileStats(filepath);
+      filelist.push(stats);
     }
 
     return filelist;
+  },
+
+  getFileStats: function(filepath) {
+    var stats = fs.statSync(filepath);
+    if (!stats) {
+      throw new Error('Cannot stat file, error: ' + err);
+    }
+
+    var ext = _getExt(filepath),
+      type = 'unknown';
+
+    if (ext && ext.length) {
+      type = ext[0];
+      if (type.toLowerCase() === 'ifc') {
+        type = 'ifc-spf'
+      }
+    }
+
+    return {
+      path: filepath,
+      type: type,
+      size: stats.size,
+      atime: stats.atime,
+      mtime: stats.mtime,
+      ctime: stats.ctime
+    }
   }
 };
