@@ -1,20 +1,19 @@
 FROM ubuntu:14.04
 
 RUN DEBIAN_FRONTEND=noninteractive
-RUN apt-get update
 
 # Install NodeJS from PPA
-RUN apt-get install software-properties-common -y
-RUN add-apt-repository ppa:chris-lea/node.js -y
-RUN apt-get update -y
+RUN apt-get install curl -y
+RUN curl -sL https://deb.nodesource.com/setup_0.12 | sudo bash -
 RUN apt-get -y install nodejs -y
+
 RUN npm install sails nodemon -g
 
-RUN mkdir -p /duraark/microservice
+RUN mkdir -p /opt/duraark-sessions
 
 # Bundle app, install, expose and finally run it
-COPY ./ /duraark/microservice
-WORKDIR /duraark/microservice
+COPY ./ /opt/duraark-sessions
+WORKDIR /opt/duraark-sessions
 
 EXPOSE 5011
 
