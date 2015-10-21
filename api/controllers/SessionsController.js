@@ -123,6 +123,8 @@ module.exports = {
   create: function(req, res, next) {
     var initialSessionData = req.body;
 
+console.log('incoming session request: ' + JSON.stringify(req.body, null, 4));
+
     console.log('Requesting new session for: ' + initialSessionData.label);
 
     // FIXXME: make independent from 'res'!
@@ -139,46 +141,7 @@ module.exports = {
     var sessionId = req.param('sessionId'),
       files = req.param('files');
 
-    Sessions.findOne(sessionId).then(function(session) {
-      if (!session) {
-        res.send('No session with ID ' + sessionId + ' found.').status(500);
-      }
-
-      // console.log('session: ' + JSON.stringify(session, null, 4));
-      // console.log('files: ' + JSON.stringify(files, null, 4));
-
-      // FIXXME: use Promise.all()!
-      var numFiles = files.length,
-        fileCounter = 0;
-
-      _.forEach(files, function(file) {
-        var filename = file.path.split('/').pop(),
-          target = path.join(session.sessionFolder, 'master', filename);
-
-        fs.move(file.path, target, function(err) {
-          if (err) {
-            res.send('Error adding file ' + file.path + ' to session. Did you upload the file correctly?\n\nDetailes error: ' + err);
-          }
-          var fileInfo = FileService.getFileStats(target);
-          session.files.push(fileInfo);
-
-          console.log('Added file to session: ' + fileInfo.path);
-
-          // TODO: extract metadata already here and trigger potree processing, etc.!
-
-          fileCounter++;
-
-          if (numFiles === fileCounter) {
-            session.save().then(function(sessionRecord) {
-              res.send(sessionRecord).status(200);
-            });
-          }
-        });
-      });
-
-      console.log('sessionFolder: ' + session.sessionFolder);
-      // console.log('files: ' + JSON.stringify(files, null, 4));
-    });
+    Duraark.addFilesToSession(res, sessionId, files);
   }
 
   //  find: function(req, res, next) {

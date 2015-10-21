@@ -14,8 +14,8 @@ module.exports = {
     // 1. Create initial session data structure:
     var session = {
       state: "new",
-      label: initialSessionData.label,
-      address: initialSessionData.address,
+      label: initialSessionData.label || "No label given",
+      address: initialSessionData.address || "No address given",
       description: initialSessionData.description || "No description",
       physicalAssets: [{
         label: initialSessionData.label,
@@ -71,9 +71,8 @@ module.exports = {
         session.files = [];
       }
 
-      console.log('numFiles' + numFiles);
+      console.log('numFiles: ' + numFiles);
       if (!numFiles) {
-        console.log('asdfasdf');
         Sessions.create(session).then(function(sessionRecord) {
           console.log('Created session: ' + sessionRecord.label);
           res.send(sessionRecord).status(200);
@@ -82,8 +81,10 @@ module.exports = {
         });
       }
 
-      _.forEach(initialSessionData.files, function(filename) {
-        var absFilename = path.join(_storagePath, 'uploads', filename);
+      _.forEach(initialSessionData.files, function(file) {
+        var absFilename = file.path,
+          filename = absFilename.split('/').pop();
+
         console.log('Adding file: ' + absFilename);
 
         var fileInfo = null;
@@ -97,7 +98,6 @@ module.exports = {
 
             session.files.push(fileInfo);
             fileCounter++;
-
             // FIXXME: replace with Promise.all() implementation!
             if (fileCounter === numFiles) {
               Sessions.create(session).then(function(sessionRecord) {
@@ -131,6 +131,49 @@ module.exports = {
       res.send(session).status(200);
     }).catch(function(err) {
       res.send(err).status(500);
+    });
+  },
+
+  addFilesToSession: function(res, sessionId, files) {
+    Sessions.findOne(sessionId).then(function(session) {
+      if (!session) {
+        res.send('No session with ID ' + sessionId + ' found.').status(500);
+      }
+
+      // console.log('session: ' + JSON.stringify(session, null, 4));
+      // console.log('files: ' + JSON.stringify(files, null, 4));
+
+      // FIXXME: use Promise.all()!
+      var numFiles = files.length,
+        fileCounter = 0;
+
+      _.forEach(files, function(file) {
+        var filename = file.path.split('/').pop(),
+          target = path.join(session.sessionFolder, 'master', filename);
+
+        fs.move(file.path, target, function(err) {
+          if (err) {
+            res.send('Error adding file ' + file.path + ' to session. Did you upload the file correctly?\n\nDetailes error: ' + err);
+          }
+          var fileInfo = FileService.getFileStats(target);
+          session.files.push(fileInfo);
+
+          console.log('Added file to session: ' + fileInfo.path);
+
+          // TODO: extract metadata already here and trigger potree processing, etc.!
+
+          fileCounter++;
+
+          if (numFiles === fileCounter) {
+            session.save().then(function(sessionRecord) {
+              res.send(sessionRecord).status(200);
+            });
+          }
+        });
+      });
+
+      console.log('sessionFolder: ' + session.sessionFolder);
+      // console.log('files: ' + JSON.stringify(files, null, 4));
     });
   }
 };
