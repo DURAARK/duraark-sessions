@@ -140,7 +140,12 @@ module.exports = {
       files = req.param('files');
 
     Sessions.findOne(sessionId).then(function(session) {
+      if (!session) {
+        res.send('No session with ID ' + sessionId + ' found.').status(500);
+      }
+
       // console.log('session: ' + JSON.stringify(session, null, 4));
+      // console.log('files: ' + JSON.stringify(files, null, 4));
 
       // FIXXME: use Promise.all()!
       var numFiles = files.length,
@@ -150,7 +155,10 @@ module.exports = {
         var filename = file.path.split('/').pop(),
           target = path.join(session.sessionFolder, 'master', filename);
 
-        fs.move(file.path, target, function() {
+        fs.move(file.path, target, function(err) {
+          if (err) {
+            res.send('Error adding file ' + file.path + ' to session. Did you upload the file correctly?\n\nDetailes error: ' + err);
+          }
           var fileInfo = FileService.getFileStats(target);
           session.files.push(fileInfo);
 
@@ -161,7 +169,9 @@ module.exports = {
           fileCounter++;
 
           if (numFiles === fileCounter) {
-            res.send(session).status(200);
+            session.save().then(function(sessionRecord) {
+              res.send(sessionRecord).status(200);
+            });
           }
         });
       });
