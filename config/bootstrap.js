@@ -13,7 +13,7 @@
 var _ = require('underscore');
 
 module.exports.bootstrap = function(cb) {
-  initSessions();
+  //initSessions();
   cb();
 };
 
