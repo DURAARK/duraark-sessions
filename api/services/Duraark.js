@@ -1,16 +1,39 @@
 var uuid = require('node-uuid'),
   fs = require('fs-extra'),
   path = require('path'),
-  _storagePath = sails.config.storagePath;
+  Promise = require('bluebird'),
+  got = require('got');
+
+var _storagePath = sails.config.storagePath;
 
 function _generateURI(duraarkType) {
   var type = duraarkType.split('/').pop().toLowerCase();
   return 'http://data.duraark.eu/' + type + '_' + uuid.v4();
 }
 
+var _baseUrl = process.env.DURAARK_APIENDPOINT || 'http://juliet.cgv.tugraz.at';
+// var _baseUrl = 'http://localhost';
+
 module.exports = {
+  apiConfig: {
+    sessionsUrl: _baseUrl + '/api/v0.7/sessions',
+    metadataUrl: _baseUrl + '/api/v0.7/metadata',
+    sdaUrl: _baseUrl + '/api/v0.7/sda',
+    geometricEnrichmentUrl: _baseUrl + '/api/v0.7/geometricenrichment',
+    digitalPreservationUrl: _baseUrl + '/api/v0.7/digitalPreservation'
+  },
+
+  getAPIUrl: function(service) {
+    return this.apiConfig[service + 'Url'];
+  },
+
+  // geoTools: {
+
+
   // FIXXME: change to Promise-based implementation!
-  createSession: function(res, initialSessionData) {
+  createSession: function(res, initialSessionData, startPreprocessing) {
+    var controller = this;
+
     // 1. Create initial session data structure:
     var session = {
       state: "new",
@@ -114,6 +137,10 @@ module.exports = {
       });
     } else {
       Sessions.create(session).then(function(sessionRecord) {
+        if (startPreprocessing) {
+          controller._startPreprocessing(sessionRecord);
+        }
+
         console.log('Created session: ' + sessionRecord.label);
         res.send(sessionRecord).status(200);
       }).catch(function(err) {
@@ -175,5 +202,48 @@ module.exports = {
       console.log('sessionFolder: ' + session.sessionFolder);
       // console.log('files: ' + JSON.stringify(files, null, 4));
     });
+  },
+
+  extractIfc: function(files, options) {
+    var duraark = this;
+
+    console.log('[duraark-sessions] extractIFC from:\n\n' + JSON.stringify(files, null, 4));
+    console.log('[duraark-sessions]\n');
+
+    return new Promise(function(resolve, reject) {
+      // var geometricEnrichmentUrl = 'http://localhost/api/v0.7/geometricenrichment/pc2bim';
+      var geometricEnrichmentUrl = 'http://localhost:5014/pc2bim';
+      // var geometricEnrichmentUrl = duraark.getAPIUrl('geometricEnrichment') + '/pc2bim';
+      console.log('POST ' + geometricEnrichmentUrl);
+      // got.post(geometricEnrichmentUrl, options).then(function(pc2bim) {
+      got(geometricEnrichmentUrl).then(function(pc2bim) {
+        console.log('asdf: ' + JSON.stringify(pc2bim, null, 4));
+        // console.log('pc2bim: ' + Object.keys(pc2bim));
+        resolve(pc2bim.body);
+      }).catch(function(err) {
+        reject(err);
+      });
+    })
+  },
+
+  _startPreprocessing: function(session) {
+    // console.log('[DEBUG] extractIfc' + JSON.stringify(session, null, 4));
+    session.files = [{
+      label: 'a test',
+      inputFile: '/gibts/nicht.e57'
+    }];
+
+    this.extractIfc(session.files).then(function(pc2bim) {
+      console.log('[duraark-sessions] finished file preprocessing:');
+      console.log('[duraark-sessions] RESPONSE:\n');
+      // console.log(JSON.stringify(pc2bim, null, 4));
+      console.log('\n');
+    }).catch(function(err) {
+      console.log('[duraark-sessions] file preprocessing FAILED');
+      console.log('[duraark-sessions] ERROR:\n');
+      console.log(err);
+      console.log('\n');
+    });
+    console.log('[duraark-sessions] scheduled preprocessing tasks for "' + session.label + '"');
   }
 };

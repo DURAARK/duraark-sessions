@@ -123,12 +123,10 @@ module.exports = {
   create: function(req, res, next) {
     var initialSessionData = req.body;
 
-console.log('incoming session request: ' + JSON.stringify(req.body, null, 4));
-
-    console.log('Requesting new session for: ' + initialSessionData.label);
+    console.log('[duraark-sessions] POST /sessions\n ' + JSON.stringify(req.body, null, 4));
 
     // FIXXME: make independent from 'res'!
-    Duraark.createSession(res, initialSessionData);
+    Duraark.createSession(res, initialSessionData, true);
   },
 
   // FIXXME: find correct blueprint name!
