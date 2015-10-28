@@ -227,23 +227,23 @@ module.exports = {
   },
 
   _startPreprocessing: function(session) {
-    // console.log('[DEBUG] extractIfc' + JSON.stringify(session, null, 4));
-    session.files = [{
-      label: 'a test',
-      inputFile: '/gibts/nicht.e57'
-    }];
-
-    this.extractIfc(session.files).then(function(pc2bim) {
-      console.log('[duraark-sessions] finished file preprocessing:');
-      console.log('[duraark-sessions] RESPONSE:\n');
-      // console.log(JSON.stringify(pc2bim, null, 4));
-      console.log('\n');
-    }).catch(function(err) {
-      console.log('[duraark-sessions] file preprocessing FAILED');
-      console.log('[duraark-sessions] ERROR:\n');
-      console.log(err);
-      console.log('\n');
-    });
-    console.log('[duraark-sessions] scheduled preprocessing tasks for "' + session.label + '"');
+    // // console.log('[DEBUG] extractIfc' + JSON.stringify(session, null, 4));
+    // session.files = [{
+    //   label: 'a test',
+    //   inputFile: '/gibts/nicht.e57'
+    // }];
+    //
+    // this.extractIfc(session.files).then(function(pc2bim) {
+    //   console.log('[duraark-sessions] finished file preprocessing:');
+    //   console.log('[duraark-sessions] RESPONSE:\n');
+    //   // console.log(JSON.stringify(pc2bim, null, 4));
+    //   console.log('\n');
+    // }).catch(function(err) {
+    //   console.log('[duraark-sessions] file preprocessing FAILED');
+    //   console.log('[duraark-sessions] ERROR:\n');
+    //   console.log(err);
+    //   console.log('\n');
+    // });
+    // console.log('[duraark-sessions] scheduled preprocessing tasks for "' + session.label + '"');
   }
 };
