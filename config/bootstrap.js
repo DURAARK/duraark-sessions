@@ -13,7 +13,7 @@
 var _ = require('underscore');
 
 module.exports.bootstrap = function(cb) {
-  //initSessions();
+  initSessions();
   cb();
 };
 
@@ -306,5 +306,35 @@ var sessions = [{
     createdAt: "2015-07-31T14:20:40.378Z",
     updatedAt: "2015-08-02T09:00:34.781Z",
     id: 2
+  }]
+},{
+  state: 'archived',
+  label: 'Bygade 72',
+  address: 'Somewhere, Kopenhagen',
+  description: '2nd scan of the building',
+
+  physicalAssets: [],
+  digitalObjects: [],
+
+  config: {
+    sda: {
+      topics: ["Haus 30 (general context)", "Haus 30 (political context)"]
+    },
+    geometricenrichment: {
+      tools: ["IFC Reconstruction", "Electrical Appliance Detection"]
+    }
+  },
+
+  files: [{
+    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan.e57",
+    type: "ifc-spf",
+    size: 1096586908,
+    directory: false,
+    atime: "2015-07-30T16:16:10.000Z",
+    mtime: "2015-07-30T16:16:15.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.384Z",
+    updatedAt: "2015-08-02T09:00:41.042Z",
+    id: 1
   }]
 }];
