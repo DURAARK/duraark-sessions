@@ -4,7 +4,7 @@ MAINTAINER Martin Hecher <martin.hecher@fraunhofer.at>
 
 RUN mkdir /opt/duraark-sessions
 
-COPY ./app /opt/duraark-sessions
+COPY ./ /opt/duraark-sessions
 
 WORKDIR /opt/duraark-sessions
 
