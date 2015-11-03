@@ -266,7 +266,8 @@ var sessions = [{
     updatedAt: "2015-07-31T14:20:40.432Z",
     id: 2
   }]
-}, {
+},
+{
   state: 'archived',
   label: 'Nygade',
   address: 'Nygade Straat, Kopenhagen',

@@ -13,6 +13,7 @@ module.exports = {
 		physicalAssets: 'array',
 		digitalObjects: 'array',
 		files: 'array',
-		sessionFolder: 'string'
+		sessionFolder: 'string',
+		url: 'string'
 	}
 };

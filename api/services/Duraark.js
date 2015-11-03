@@ -97,9 +97,14 @@ module.exports = {
       console.log('numFiles: ' + numFiles);
       if (!numFiles) {
         Sessions.create(session).then(function(sessionRecord) {
-          console.log('Created session: ' + sessionRecord.label);
-          res.send(sessionRecord).status(200);
+          session.url = '/preingest/' + session.id + '/files';
+          session.save().then(function(sessionRecord) {
+            console.log('Created session: ' + sessionRecord.label);
+            console.log('Available in the Workbench at: ' + sessionRecord.url);
+            res.send(sessionRecord).status(200);
+          });
         }).catch(function(err) {
+          console.log('Error0: ' + err);
           res.send(err).status(500);
         });
       }
@@ -120,18 +125,22 @@ module.exports = {
             fileInfo = FileService.getFileStats(target);
 
             session.files.push(fileInfo);
+
             fileCounter++;
             // FIXXME: replace with Promise.all() implementation!
             if (fileCounter === numFiles) {
               Sessions.create(session).then(function(sessionRecord) {
+                sessionRecord.url = '/preingest/' + session.id + '/files';
                 console.log('Created session: ' + sessionRecord.label);
                 res.send(sessionRecord).status(200);
               }).catch(function(err) {
+                console.log('Error1: ' + err);
                 res.send(err).status(500);
               });
             }
           });
         } catch (err) {
+          console.log('Error2: ' + err);
           res.send('Error: file "' + filename + '" does not exist in "' + _storagePath + '/uploads". Use the "files/upload" endpoint or directly copy the file there before calling this function!\nError: ' + err);
         }
       });
@@ -141,9 +150,15 @@ module.exports = {
           controller._startPreprocessing(sessionRecord);
         }
 
-        console.log('Created session: ' + sessionRecord.label);
-        res.send(sessionRecord).status(200);
+        sessionRecord.url = '/preingest/' + sessionRecord.id + '/files';
+
+        sessionRecord.save().then(function(sessionRecord) {
+          console.log('Created session: ' + sessionRecord.label);
+          console.log('Available in the Workbench at: ' + sessionRecord.url);
+          res.send(sessionRecord).status(200);
+        });
       }).catch(function(err) {
+        console.log('Error3: ' + err);
         res.send(err).status(500);
       });
     }
