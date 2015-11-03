@@ -70,8 +70,9 @@ module.exports = {
     var sessionFolder = path.join(_storagePath, 'sessions', 'duraark-session-' + uuid.v4());
     fs.mkdirSync(sessionFolder);
     fs.mkdirSync(sessionFolder + '/master');
-    fs.mkdirSync(sessionFolder + '/derivatives');
-    fs.mkdirSync(sessionFolder + '/tmp');
+    fs.mkdirSync(sessionFolder + '/derivative_copy');
+    fs.mkdirSync(sessionFolder + '/sourcemd');
+    fs.mkdirSync(sessionFolder + '/tools');
 
     session.sessionFolder = sessionFolder;
 
