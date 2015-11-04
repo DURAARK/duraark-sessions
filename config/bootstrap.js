@@ -356,7 +356,7 @@ var sessions = [{
   },
 
   files: [{
-    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/LysLab_Scan03.e57",
+    path: "/duraark-storage/sessions/lyslab_03-fixed/master/LysLab_Scan03.e57",
     type: "e57",
     size: 1071950848,
     directory: false,
@@ -386,7 +386,7 @@ var sessions = [{
   },
 
   files: [{
-    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/Nygade_Scan037.e57",
+    path: "/duraark-storage/sessions/nygade_037-fixed/master/Nygade_Scan037.e57",
     type: "e57",
     size: 268553216,
     directory: false,
@@ -416,7 +416,7 @@ var sessions = [{
   },
 
   files: [{
-    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/Nygade_Scan1001.e57",
+    path: "/duraark-storage/sessions/nygade_1001-fixed/master/Nygade_Scan1001.e57",
     type: "e57",
     size: 270408704,
     directory: false,
@@ -446,7 +446,7 @@ var sessions = [{
   },
 
   files: [{
-    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/Nygade_Scan1002.e57",
+    path: "/duraark-storage/sessions/nygade_1002-fixed/master/Nygade_Scan1002.e57",
     type: "e57",
     size: 269388800,
     directory: false,
@@ -476,7 +476,7 @@ var sessions = [{
   },
 
   files: [{
-    path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/Nygade_Scan1005-1006.e57",
+    path: "/duraark-storage/sessions/nygade_1005-1006-fixed/master/Nygade_Scan1005-1006.e57",
     type: "e57",
     size: 538401792,
     directory: false,
