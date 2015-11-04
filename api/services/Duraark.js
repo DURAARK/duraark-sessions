@@ -73,6 +73,7 @@ module.exports = {
     fs.mkdirSync(sessionFolder + '/derivative_copy');
     fs.mkdirSync(sessionFolder + '/sourcemd');
     fs.mkdirSync(sessionFolder + '/tools');
+    fs.mkdirSync(sessionFolder + '/tmp');
 
     session.sessionFolder = sessionFolder;
 
