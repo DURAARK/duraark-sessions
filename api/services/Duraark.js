@@ -40,6 +40,7 @@ module.exports = {
       label: initialSessionData.label || "No label given",
       address: initialSessionData.address || "No address given",
       description: initialSessionData.description || "No description",
+      type: initialSessionData.type || "new",
       physicalAssets: [{
         label: initialSessionData.label,
         buildm: {
@@ -51,19 +52,19 @@ module.exports = {
         }
       }],
       digitalObjects: [],
-      config: {
-        sda: {
-          topics: [
-            "Haus 30 (general context)",
-            "Haus 30 (political context)"
-          ]
-        },
-        geometricenrichment: {
-          tools: [
-            "IFC Reconstruction"
-          ]
-        }
-      }
+      // config: {
+      //   sda: {
+      //     topics: [
+      //       "Haus 30 (general context)",
+      //       "Haus 30 (political context)"
+      //     ]
+      //   },
+      //   geometricenrichment: {
+      //     tools: [
+      //       "IFC Reconstruction"
+      //     ]
+      //   }
+      // }
     }
 
     // 2. Create a session folder to store master, derivatives and temporary files:
@@ -86,6 +87,16 @@ module.exports = {
     // is creating sessions with files that way).
     if (!session.files) {
       session.files = [];
+    }
+
+    // FIXXME: this is a temporary hack to have some file associated with a session opened from the SDAS archive:
+    if (session.type === 'fromArchive') {
+      var files = ['/duraark-storage/sessions/haus30-fixed/master/Plan3D_Haus30_PREVIEW.ifc', '/duraark-storage/sessions/haus30-fixed/master/Plan3D_OG_subsampled.e57'];
+
+      _.forEach(files, function(file) {
+        var fileInfo = FileService.getFileStats(file);
+        session.files.push(fileInfo);
+      });
     }
 
     if (initialSessionData.files && initialSessionData.files.length) {
@@ -261,6 +272,6 @@ module.exports = {
     //   console.log(err);
     //   console.log('\n');
     // });
-    // console.log('[duraark-sessions] scheduled preprocessing tasks for "' + session.label + '"');
+    console.log('[duraark-sessions] scheduled preprocessing tasks for "' + session.label + '"');
   }
 };
