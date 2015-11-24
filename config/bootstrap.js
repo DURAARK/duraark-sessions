@@ -124,7 +124,7 @@ var sessions = [{
   }]
 }, {
   state: 'archived',
-  label: 'Bygade 72',
+  label: 'Bygade 72 - 2nd scan',
   address: 'Somewhere, Kopenhagen',
   description: '2nd scan of the building',
 
@@ -144,8 +144,40 @@ var sessions = [{
 
   files: [{
     path: "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan.e57",
-    type: "ifc-spf",
+    type: "e57",
     size: 1096586908,
+    directory: false,
+    atime: "2015-07-30T16:16:10.000Z",
+    mtime: "2015-07-30T16:16:15.000Z",
+    ctime: "2015-07-30T16:18:51.000Z",
+    createdAt: "2015-07-31T14:20:40.384Z",
+    updatedAt: "2015-08-02T09:00:41.042Z",
+    id: 5
+  }]
+},{
+  state: 'archived',
+  label: 'Bygade 72 - 3rd scan',
+  address: 'Somewhere, Kopenhagen',
+  description: '3rd scan of the building',
+
+  physicalAssets: [],
+  digitalObjects: [],
+
+  config: {
+    sda: {
+      topics: ["Haus 30 (general context)", "Haus 30 (political context)"]
+    },
+    geometricenrichment: {
+      tools: ["IFC Reconstruction", "Electrical Appliance Detection"]
+    }
+  },
+
+  sessionFolder: "/duraark-storage/sessions/byg72-2nd-scan_fixed",
+
+  files: [{
+    path: "/duraark-storage/sessions/byg72-3rd-scan-fixed/master/CITA_Byg72_3rd_Scan_09-2015.e57",
+    type: "e57",
+    size: 14393704448,
     directory: false,
     atime: "2015-07-30T16:16:10.000Z",
     mtime: "2015-07-30T16:16:15.000Z",
