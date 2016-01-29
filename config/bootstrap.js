@@ -49,7 +49,10 @@ function initSessions() {
 
 
           Sessions.create(fixedSessions).then(function(fixedSessions) {
-            console.log('   created fixed sessions: ' + fixedSessions.length);
+            for (var idx = 0; idx < fixedSessions.length; idx++) {
+              var session = fixedSessions[idx];
+              console.log('[init] Added session: ' + session.label)
+            }
           })
         }
       }
