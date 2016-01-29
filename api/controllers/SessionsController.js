@@ -1,3 +1,4 @@
+/* global Duraark */
 /**
  * SessionsController
  *
@@ -6,6 +7,7 @@
  */
 
 var path = require('path'),
+  Duraark = require('../services/Duraark'),
   fs = require('fs-extra');
 
 module.exports = {
@@ -63,7 +65,7 @@ module.exports = {
   create: function(req, res, next) {
     var initialSessionData = req.body;
 
-    console.log('[duraark-sessions] POST /sessions\n ' + JSON.stringify(req.body, null, 4));
+    console.log('[duraark-ssessions] POST /sessions\n ' + JSON.stringify(req.body, null, 4));
 
     // FIXXME: make independent from 'res'!
     Duraark.createSession(res, initialSessionData, true);

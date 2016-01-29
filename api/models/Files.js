@@ -7,13 +7,27 @@
 
 module.exports = {
 
-    attributes: {
-        path: 'string',
-        type: 'string',
-        size: 'integer',
-        atime: 'date',
-        mtime: 'date',
-        ctime: 'date'
-    }
+  attributes: {
+      technicalMetdata: {
+        type: 'string'
+      },
+
+      digitalObjectMetadata: {
+        type: 'string'
+      },
+
+      derivatives: {
+        type: 'derivative'
+      }
+  }
+
+    // attributes: {
+    //     path: 'string',
+    //     type: 'string',
+    //     size: 'integer',
+    //     atime: 'date',
+    //     mtime: 'date',
+    //     ctime: 'date'
+    // }
 
 };
