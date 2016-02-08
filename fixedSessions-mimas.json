@@ -16,8 +16,8 @@
   "sessionFolder": "/duraark-storage/sessions/byg72-2nd-scan_fixed",
   "files": [{
     "path": "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan.e57",
-    "type": "ifc-spf",
-    "size": 1096586908,
+    "type": "e57",
+    "size": 9592209408,
     "directory": false,
     "atime": "2015-07-30T16:16:10.000Z",
     "mtime": "2015-07-30T16:16:15.000Z",
@@ -25,6 +25,18 @@
     "createdAt": "2015-07-31T14:20:40.384Z",
     "updatedAt": "2015-08-02T09:00:41.042Z",
     "id": 5
+  },{
+    "path": "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72.ifc",
+    "type": "ifc-spf",
+    "size": 231198,
+    "directory": false,
+    "thumbnail": "/api/v0.7/geometricenrichment/sessions/byg72-2nd-scan_fixed/screenshots/byg72-2nd_scan_textured_geometry.png",
+    "atime": "2015-07-30T16:16:10.000Z",
+    "mtime": "2015-07-30T16:16:15.000Z",
+    "ctime": "2015-07-30T16:18:51.000Z",
+    "createdAt": "2015-07-31T14:20:40.384Z",
+    "updatedAt": "2015-08-02T09:00:41.042Z",
+    "id": 2
   }]
 }, {
   "state": "archived",
