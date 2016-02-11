@@ -190,5 +190,16 @@ module.exports = {
       files = req.param('files');
 
     Duraark.addFilesToSession(res, sessionId, files);
+  },
+
+  fixxmeSaveSession: function(req, res, next) {
+    var session = req.body;
+    Sessions.update(session.id, session).exec(function(err, updated) {
+      if (err) {
+        console.log(err);
+        return res.send(err).status(500);
+      }
+      res.send(updated).status(200);
+    });
   }
 }
