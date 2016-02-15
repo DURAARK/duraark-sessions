@@ -14,7 +14,7 @@ var _ = require('underscore'),
   fs = require('fs'),
   path = require('path'),
   // FIXXME: make path configurable!
-  fixedSessionsPath = path.join(__dirname, '../fixedSessions.json'),
+  fixedSessionsPath = path.join(__dirname, '..', 'fixtures', 'sessions'),
   fixedSessions = [];
 
 module.exports.bootstrap = function(cb) {
@@ -34,27 +34,44 @@ function initSessions() {
         console.log('\n[bootstrapping] "Session" fixtures cached, skipping creation.\n');
         return;
       } else {
-        var exists = false;
         console.log('Looking for fixed session configuration at: ', fixedSessionsPath);
 
         try {
-          fs.statSync(fixedSessionsPath);
-          exists = true;
+          var sessionFiles = FileService.getFileList({
+            path: fixedSessionsPath
+          });
         } catch (err) {
-          console.log('No fixed sessions file detected, skipping session creation');
+          console.log('No fixed sessions available, skipping.');
         }
 
-        if (exists) {
-          fixedSessions = require(fixedSessionsPath);
+        _.forEach(sessionFiles, function(sessionFile) {
+          var session = require(sessionFile.path);
 
+          console.log('processing files: #', session.files.length);
+          _.forEach(session.files, function(file) {
+            console.log('     file: ' + file.path);
+            Files.create(file).then(function(fileRecord) {
+              console.log('       created');
+              file.id = fileRecord.id;
 
-          Sessions.create(fixedSessions).then(function(fixedSessions) {
-            for (var idx = 0; idx < fixedSessions.length; idx++) {
-              var session = fixedSessions[idx];
-              console.log('[init] Added session: ' + session.label)
-            }
-          })
-        }
+              console.log('fileid:       ', file.id);
+              console.log('fileRecordid: ', fileRecord.id);
+              // var foundFile = _.findWhere(session.files, { 'path': fileRecord.path});
+              // if (foundFile) {
+              //   console.log('      id: ', id);
+              //   foundFile.id = fileRecord.id;
+              // } else {
+              //   throw Error('This should not happen, investigate!');
+              // }
+            });
+          });
+
+          console.log('Session: ', session);
+          
+          Sessions.create(session).then(function(sessionRecord) {
+            console.log('[init] Added session: ' + session.label)
+          });
+        });
       }
     });
 }

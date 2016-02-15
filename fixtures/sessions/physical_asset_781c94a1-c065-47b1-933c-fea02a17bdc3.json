@@ -1,0 +1,109 @@
+{
+    "state": "archived",
+    "label": "Nygade1-3",
+    "address": "Nygade1-3, Knabrostræde 6-8, Nytorv 5-5A",
+    "description": "Office in one floor over 3 buildings.",
+    "physicalAssets": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3",
+                "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/name": {
+                    "@value": "Nygade1-3"
+                },
+                "http://data.duraark.eu/vocab/buildm/owner": {
+                    "@value": "NYGADE 1-3 ApS"
+                },
+                "http://data.duraark.eu/vocab/buildm/buildingArea": {
+                    "@value": "https://docs.google.com/spreadsheets/d/17MgmWnv2BwIkFTIlq5GM6EhUGSkJVA5O6M5RSAm3CEo/edit#gid=0&vpid=A5"
+                },
+                "http://data.duraark.eu/vocab/buildm/floorCount": {
+                    "@value": "1"
+                },
+                "http://data.duraark.eu/vocab/buildm/numberOfRooms": {
+                    "@value": "70"
+                },
+                "http://data.duraark.eu/vocab/buildm/description": {
+                    "@value": "Office in one floor over 3 buildings."
+                },
+                "http://data.duraark.eu/vocab/buildm/location": {
+                    "@value": "Located in central Copenhagen next to Nytorv square"
+                },
+                "http://data.duraark.eu/vocab/buildm/streetAddress": {
+                    "@value": "Nygade1-3, Knabrostræde 6-8, Nytorv 5-5A"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
+                    "@value": "1164"
+                },
+                "http://data.duraark.eu/vocab/buildm/addressRegion": {
+                    "@value": "København K"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalLocality": {
+                    "@value": "Copenhagen"
+                },
+                "http://data.duraark.eu/vocab/buildm/architect": {
+                    "@value": "ZESO"
+                },
+                "http://data.duraark.eu/vocab/buildm/contributor": {
+                    "@value": "JL Engineering"
+                },
+                "http://data.duraark.eu/vocab/buildm/startDate": {
+                    "@value": "2015"
+                },
+                "http://data.duraark.eu/vocab/buildm/completionDate": {
+                    "@value": "ongoing - 2016"
+                },
+                "http://data.duraark.eu/vocab/buildm/rebuildingDate": {
+                    "@value": "2015"
+                },
+                "http://data.duraark.eu/vocab/buildm/modificationDetails": {
+                    "@value": "Renovation of existing properties by Nygade 1-3 , Knabrostræde 6-8 and Nytorv 5-5A . The properties respectively  worthy of preservation and conservation. Approximately 60 % of the land renovated and converted from commercial to private homes, other areas renovated for professional services and retail stores."
+                },
+                "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
+                    {
+                        "@value": "http://data.duraark.eu/e57file_7deb85afe58a3df3969fe879099ab82a"
+                    }
+                ]
+            }
+        }
+    ],
+    "digitalObjects": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_7deb85afe58a3df3969fe879099ab82a",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, ZESO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        }
+    ],
+    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "files": [
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/ZESO/ZESO_Nygade_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        }
+    ],
+    "createdAt": "2016-02-11T22:48:24.118Z",
+    "updatedAt": "2016-02-11T22:48:24.118Z"
+}

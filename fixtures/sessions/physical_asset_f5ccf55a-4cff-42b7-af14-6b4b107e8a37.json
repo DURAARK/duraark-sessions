@@ -1,0 +1,237 @@
+{
+    "state": "archived",
+    "label": "Hojbro Plads 4",
+    "address": "Højbro Plads 4",
+    "description": "For the last 20 years it has been an office building. Recently renovated into a large retail space on the street level, and luxuriuous apartments on the other floors.",
+    "physicalAssets": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37",
+                "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/name": {
+                    "@value": "Hojbro Plads 4"
+                },
+                "http://data.duraark.eu/vocab/buildm/owner": {
+                    "@value": "Barfoed Group"
+                },
+                "http://data.duraark.eu/vocab/buildm/buildingArea": {
+                    "@value": "2790"
+                },
+                "http://data.duraark.eu/vocab/buildm/floorCount": {
+                    "@value": "5"
+                },
+                "http://data.duraark.eu/vocab/buildm/numberOfRooms": {
+                    "@value": "Real Estate Management"
+                },
+                "http://data.duraark.eu/vocab/buildm/architecturalStyle": {
+                    "@value": "Nordic Classicism"
+                },
+                "http://data.duraark.eu/vocab/buildm/description": {
+                    "@value": "For the last 20 years it has been an office building. Recently renovated into a large retail space on the street level, and luxuriuous apartments on the other floors."
+                },
+                "http://data.duraark.eu/vocab/buildm/location": {
+                    "@value": "One of the most prominent addresses across Højbro from the governmental palace Christiansborg."
+                },
+                "http://data.duraark.eu/vocab/buildm/streetAddress": {
+                    "@value": "Højbro Plads 4"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
+                    "@value": "1200"
+                },
+                "http://data.duraark.eu/vocab/buildm/addressRegion": {
+                    "@value": "København K"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalLocality": {
+                    "@value": "Copenhagen"
+                },
+                "http://data.duraark.eu/vocab/buildm/architect": {
+                    "@value": "Casper Frederik Harsdorff"
+                },
+                "http://data.duraark.eu/vocab/buildm/startDate": {
+                    "@value": "1796"
+                },
+                "http://data.duraark.eu/vocab/buildm/completionDate": {
+                    "@value": "1797"
+                },
+                "http://data.duraark.eu/vocab/buildm/rebuildingDate": {
+                    "@value": "2014"
+                },
+                "http://data.duraark.eu/vocab/buildm/modificationDetails": {
+                    "@value": "For bygningsejeren Barfoed Group har BS Arkitekter lavet en gennemgribende renovering af ejendommen, der nu rummer detail- og restaurant lejemål i stueplan og 20 eksklusive lejelejligheder på de øvrige etager i forskellige størrelser fra ca. 100 m² til ca. 250 m².Den karakteristiske facade fra 1850 med de sammenhængende indfatninger fra kælder til første sal med bueafslutning har fået store vinduespartier og er udvidet til Læderstræde.\nPå stueniveauet er gulvet blevet sænket, så det giver en stor, sammenhængende butik med direkte adgang fra pladsen og gaden. Dog er der indsat et tilbagetrukket plateau en halv-etage over gulvplan, der kan bruges til restauration og events."
+                },
+                "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
+                    {
+                        "@value": "http://data.duraark.eu/e57file_c2007c965a0b1683cca4c617ad6cf0f3"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_ae43a5d142e377eaad3b5aa7d79b2a10"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_d3aa0404aeeeee856ffa2f235fb1a87b"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_07e4ea9ca1b9a84008854a1c31ab328a"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_d3a05d2884c68af02e627c538c3a332f"
+                    }
+                ]
+            }
+        }
+    ],
+    "digitalObjects": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_c2007c965a0b1683cca4c617ad6cf0f3",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "Le34"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_ae43a5d142e377eaad3b5aa7d79b2a10",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "Le34"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_d3aa0404aeeeee856ffa2f235fb1a87b",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "Le34"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_07e4ea9ca1b9a84008854a1c31ab328a",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "Le34"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_d3a05d2884c68af02e627c538c3a332f",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "Le34"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        }
+    ],
+    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "files": [
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_Facade_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        }
+    ],
+    "createdAt": "2016-02-11T22:48:24.118Z",
+    "updatedAt": "2016-02-11T22:48:24.118Z"
+}

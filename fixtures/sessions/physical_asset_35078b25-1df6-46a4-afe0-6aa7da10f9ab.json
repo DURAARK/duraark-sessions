@@ -1,0 +1,166 @@
+{
+    "state": "archived",
+    "label": "DTU Compute",
+    "address": "Danmarks Tekniske Universitet, Bygning 324",
+    "description": "Part of a 0.5 billion USD upgrade of the campus",
+    "physicalAssets": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/physical_asset_35078b25-1df6-46a4-afe0-6aa7da10f9ab",
+                "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Confidential"
+                },
+                "http://data.duraark.eu/vocab/buildm/name": {
+                    "@value": "DTU Compute"
+                },
+                "http://data.duraark.eu/vocab/buildm/owner": {
+                    "@value": "Technical University of Denmark (DTU)"
+                },
+                "http://data.duraark.eu/vocab/buildm/buildingArea": {
+                    "@value": "4.600 m2"
+                },
+                "http://data.duraark.eu/vocab/buildm/floorCount": {
+                    "@value": "3"
+                },
+                "http://data.duraark.eu/vocab/buildm/numberOfRooms": {
+                    "@value": "Research and education"
+                },
+                "http://data.duraark.eu/vocab/buildm/architecturalStyle": {
+                    "@value": "Modern"
+                },
+                "http://data.duraark.eu/vocab/buildm/description": {
+                    "@value": "Part of a 0.5 billion USD upgrade of the campus"
+                },
+                "http://data.duraark.eu/vocab/buildm/location": {
+                    "@value": "In Greater Copenhagen, Kongens Lyngby a suburb to the city of Copenhagen"
+                },
+                "http://data.duraark.eu/vocab/buildm/streetAddress": {
+                    "@value": "Danmarks Tekniske Universitet, Bygning 324"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
+                    "@value": "2800"
+                },
+                "http://data.duraark.eu/vocab/buildm/addressRegion": {
+                    "@value": "Lyngby-Taarbæk Kommune"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalLocality": {
+                    "@value": "Kgs. Lyngby By, Lundtofte"
+                },
+                "http://data.duraark.eu/vocab/buildm/architect": {
+                    "@value": "Christensen & Co"
+                },
+                "http://data.duraark.eu/vocab/buildm/startDate": {
+                    "@value": "2011"
+                },
+                "http://data.duraark.eu/vocab/buildm/completionDate": {
+                    "@value": "2013"
+                },
+                "http://data.duraark.eu/vocab/buildm/cost": {
+                    "@value": "14,5 million USD"
+                },
+                "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_04766d5cc0ed098085a1e4f18495f49b"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_1a81c5fecbac60fb7c97a6919e2cf46b"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_e7b59948cb8dbfa4429674e5cc1290f4"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_37fcf414b099bfd31a0fd94ce23eefed"
+                    }
+                ]
+            }
+        }
+    ],
+    "digitalObjects": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_04766d5cc0ed098085a1e4f18495f49b",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_35078b25-1df6-46a4-afe0-6aa7da10f9ab"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Confidential"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_1a81c5fecbac60fb7c97a6919e2cf46b",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_35078b25-1df6-46a4-afe0-6aa7da10f9ab"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Confidential"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_e7b59948cb8dbfa4429674e5cc1290f4",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_35078b25-1df6-46a4-afe0-6aa7da10f9ab"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Confidential"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_37fcf414b099bfd31a0fd94ce23eefed",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_35078b25-1df6-46a4-afe0-6aa7da10f9ab"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Confidential"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        }
+    ],
+    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "files": [
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Architectural.ifc",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Electrical.ifc",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Structure.ifc",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Ventilation.ifc",
+            "type": "e57",
+            "size": 270408704
+        }
+    ],
+    "createdAt": "2016-02-11T22:48:24.118Z",
+    "updatedAt": "2016-02-11T22:48:24.118Z"
+}

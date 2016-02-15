@@ -1,7 +1,7 @@
 [{
   "state": "archived",
   "label": "Bygade 72 - 2nd Scan",
-  "address": "Philip de Langes Allé 11Philip de Langes Allé 11",
+  "address": "Philip de Langes Allé 11",
   "description": "Scan August 2015",
   "physicalAssets": [],
   "digitalObjects": [],
@@ -15,7 +15,48 @@
   },
   "sessionFolder": "/duraark-storage/sessions/byg72-2nd-scan_fixed",
   "files": [{
-    "path": "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan-0.02.e57",
+    "path": "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan.e57",
+    "type": "ifc-spf",
+    "size": 231253,
+    "directory": false,
+    "thumbnail": "/api/v0.7/geometricenrichment/sessions/byg72-2nd-scan_fixed/screenshots/byg72-2nd_scan_cloud.png",
+    "atime": "2015-07-30T16:16:10.000Z",
+    "mtime": "2015-07-30T16:16:15.000Z",
+    "ctime": "2015-07-30T16:18:51.000Z",
+    "createdAt": "2015-07-31T14:20:40.384Z",
+    "updatedAt": "2015-08-02T09:00:41.042Z",
+    "id": 1
+  },{
+    "path": "/duraark-storage/sessions/byg72-2nd-scan_fixed/master/CITA_Byg72_2nd_Scan_reconstruction.ifc",
+    "type": "ifc-spf",
+    "size": 1096586908,
+    "directory": false,
+    "thumbnail": "/api/v0.7/geometricenrichment/sessions/byg72-2nd-scan_fixed/screenshots/byg72-2nd_scan_textured_geometry.png",
+    "atime": "2015-07-30T16:16:10.000Z",
+    "mtime": "2015-07-30T16:16:15.000Z",
+    "ctime": "2015-07-30T16:18:51.000Z",
+    "createdAt": "2015-07-31T14:20:40.384Z",
+    "updatedAt": "2015-08-02T09:00:41.042Z",
+    "id": 2
+  }]
+},{
+  "state": "archived",
+  "label": "Nygade (1001)",
+  "address": "Philip de Langes Allé 12",
+  "description": "RISE Showcase",
+  "physicalAssets": [],
+  "digitalObjects": [],
+  "config": {
+    "sda": {
+      "topics": ["Haus 30 (general context)", "Haus 30 (political context)"]
+    },
+    "geometricenrichment": {
+      "tools": ["IFC Reconstruction", "Electrical Appliance Detection"]
+    }
+  },
+  "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+  "files": [{
+    "path": "/duraark-storage/sessions/nygade_1001-fixednygade_1001-fixed/master/Nygade_Scan1001.e57",
     "type": "ifc-spf",
     "size": 1096586908,
     "directory": false,
@@ -24,6 +65,34 @@
     "ctime": "2015-07-30T16:18:51.000Z",
     "createdAt": "2015-07-31T14:20:40.384Z",
     "updatedAt": "2015-08-02T09:00:41.042Z",
-    "id": 5
+    "id": 3
+  }]
+},{
+  "state": "archived",
+  "label": "Nygade (1005-1006)",
+  "address": "Philip de Langes Allé 15",
+  "description": "Another example ...",
+  "physicalAssets": [],
+  "digitalObjects": [],
+  "config": {
+    "sda": {
+      "topics": ["Haus 30 (general context)", "Haus 30 (political context)"]
+    },
+    "geometricenrichment": {
+      "tools": ["IFC Reconstruction", "Electrical Appliance Detection"]
+    }
+  },
+  "sessionFolder": "/duraark-storage/sessions/nygade_1005-1006-fixed",
+  "files": [{
+    "path": "/duraark-storage/sessions/nygade_1005-1006-fixed/master/Nygade_Scan1005-1006.e57",
+    "type": "ifc-spf",
+    "size": 1096586908,
+    "directory": false,
+    "atime": "2015-07-30T16:16:10.000Z",
+    "mtime": "2015-07-30T16:16:15.000Z",
+    "ctime": "2015-07-30T16:18:51.000Z",
+    "createdAt": "2015-07-31T14:20:40.384Z",
+    "updatedAt": "2015-08-02T09:00:41.042Z",
+    "id": 4
   }]
 }]

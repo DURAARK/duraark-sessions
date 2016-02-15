@@ -1,0 +1,266 @@
+{
+    "state": "archived",
+    "label": "DTU - Institute Of Architectural Engineering - Building 127",
+    "address": "Anker Engelunds Vej 101A, Bygning 127",
+    "description": "A green social study environment designed with a significant flexible architectural identit",
+    "physicalAssets": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed",
+                "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/name": {
+                    "@value": "DTU - Institute Of Architectural Engineering - Building 127"
+                },
+                "http://data.duraark.eu/vocab/buildm/owner": {
+                    "@value": "Technical University of Denmark (DTU)"
+                },
+                "http://data.duraark.eu/vocab/buildm/buildingArea": {
+                    "@value": "2071"
+                },
+                "http://data.duraark.eu/vocab/buildm/floorCount": {
+                    "@value": "2"
+                },
+                "http://data.duraark.eu/vocab/buildm/architecturalStyle": {
+                    "@value": "Modern"
+                },
+                "http://data.duraark.eu/vocab/buildm/description": {
+                    "@value": "A green social study environment designed with a significant flexible architectural identit"
+                },
+                "http://data.duraark.eu/vocab/buildm/location": {
+                    "@value": "In Greater Copenhagen, Kongens Lyngby a suburb to the city of Copenhagen."
+                },
+                "http://data.duraark.eu/vocab/buildm/streetAddress": {
+                    "@value": "Anker Engelunds Vej 101A, Bygning 127"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
+                    "@value": "2800"
+                },
+                "http://data.duraark.eu/vocab/buildm/addressRegion": {
+                    "@value": "Lyngby-Taarbæk Kommune"
+                },
+                "http://data.duraark.eu/vocab/buildm/postalLocality": {
+                    "@value": "Kgs. Lyngby By, Lundtofte"
+                },
+                "http://data.duraark.eu/vocab/buildm/architect": {
+                    "@value": "COO - Christensen & Co"
+                },
+                "http://data.duraark.eu/vocab/buildm/contributor": {
+                    "@value": "ALECTIA"
+                },
+                "http://data.duraark.eu/vocab/buildm/startDate": {
+                    "@value": "2012"
+                },
+                "http://data.duraark.eu/vocab/buildm/completionDate": {
+                    "@value": "2013"
+                },
+                "http://data.duraark.eu/vocab/buildm/cost": {
+                    "@value": "8.850.000 USD"
+                },
+                "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_148fd0be66469bdaf4f499fac8e00d58"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_bcb7c38f3be409edcfdd352173e96a52"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_a8d50dfe8f3e0ff7fefb8ffbf95581fa"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/e57file_6ef6f4ff0dd0bc211a44953465d9b60e"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_f7755ed021aedb76960a0e5a6032f3ec"
+                    },
+                    {
+                        "@value": "http://data.duraark.eu/ifcspffile_fa0ca85e70ea858247e67b3d0c0b4e15"
+                    }
+                ]
+            }
+        }
+    ],
+    "digitalObjects": [
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_148fd0be66469bdaf4f499fac8e00d58",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_bcb7c38f3be409edcfdd352173e96a52",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_a8d50dfe8f3e0ff7fefb8ffbf95581fa",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/e57file_6ef6f4ff0dd0bc211a44953465d9b60e",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_f7755ed021aedb76960a0e5a6032f3ec",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        },
+        {
+            "buildm": {
+                "@id": "http://data.duraark.eu/ifcspffile_fa0ca85e70ea858247e67b3d0c0b4e15",
+                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "http://data.duraark.eu/vocab/buildm/represents": {
+                    "@value": "http://data.duraark.eu/physical_asset_5c6d2a79-7d4d-4f44-b73e-76847aaebbed"
+                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
+                    "@value": "Preview"
+                },
+                "http://data.duraark.eu/vocab/buildm/creator": {
+                    "@value": "CITA, CCO"
+                },
+                "http://data.duraark.eu/vocab/buildm/format": {
+                    "@value": "e57"
+                },
+                "http://data.duraark.eu/vocab/buildm/hasType": {
+                    "@value": "Scan"
+                },
+                "http://data.duraark.eu/vocab/buildm/filename": {
+                    "@value": "undisclosed"
+                }
+            }
+        }
+    ],
+    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "files": [
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_Arch_PREVIEW.ifc",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_CITA-Clean_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_CITA-Sub5x5_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_CITA-UnClean_PREVIEW.e57",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_Eng-CON_PREVIEW.ifc",
+            "type": "e57",
+            "size": 270408704
+        },
+        {
+            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/CCO/DTU-Building127/CCO_DTU-Building127_Eng-HVAC_PREVIEW.ifc",
+            "type": "e57",
+            "size": 270408704
+        }
+    ],
+    "createdAt": "2016-02-11T22:48:24.118Z",
+    "updatedAt": "2016-02-11T22:48:24.118Z"
+}
