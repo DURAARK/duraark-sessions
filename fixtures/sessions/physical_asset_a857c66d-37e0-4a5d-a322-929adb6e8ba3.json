@@ -1,64 +1,95 @@
 {
     "state": "archived",
     "label": "Limhamns Læge Rowhouses",
-    "address": "Lokstallsgatan",
+    "streetAddress": "Lokstallsgatan",
     "description": "Street houses in various sizes with two floors of 144 or 163 square meters to two and a half floor of 170 sqm.",
     "physicalAssets": [
         {
+            "label": "Limhamns Læge Rowhouses",
             "buildm": {
                 "@id": "http://data.duraark.eu/physical_asset_a857c66d-37e0-4a5d-a322-929adb6e8ba3",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Preview"
-                },
-                "http://data.duraark.eu/vocab/buildm/name": {
-                    "@value": "Limhamns Læge Rowhouses"
-                },
-                "http://data.duraark.eu/vocab/buildm/owner": {
-                    "@value": "NCC, (almost all of the rowhouses are sold)"
-                },
-                "http://data.duraark.eu/vocab/buildm/floorCount": {
-                    "@value": "2"
-                },
-                "http://data.duraark.eu/vocab/buildm/numberOfRooms": {
-                    "@value": "Family house"
-                },
-                "http://data.duraark.eu/vocab/buildm/architecturalStyle": {
-                    "@value": "Modern"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "Street houses in various sizes with two floors of 144 or 163 square meters to two and a half floor of 170 sqm."
-                },
-                "http://data.duraark.eu/vocab/buildm/location": {
-                    "@value": "The expansion of Limhamns Läge done at the former cement factory area where the Skånska Cementaktiebolaget, began to produce and ship out cement already in the latter part of the 1800s. 2000 the company shut down the factory, and the area has been left unused and inaccessible. With the new extension the area is for the first time available to the public."
-                },
-                "http://data.duraark.eu/vocab/buildm/streetAddress": {
-                    "@value": "Lokstallsgatan"
-                },
-                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
-                    "@value": "216 12"
-                },
-                "http://data.duraark.eu/vocab/buildm/addressRegion": {
-                    "@value": "SCANIA, Greater Copenhagen"
-                },
-                "http://data.duraark.eu/vocab/buildm/postalLocality": {
-                    "@value": "MALMØ"
-                },
-                "http://data.duraark.eu/vocab/buildm/architect": {
-                    "@value": "WHITE arkitekter"
-                },
-                "http://data.duraark.eu/vocab/buildm/startDate": {
-                    "@value": "2014"
-                },
-                "http://data.duraark.eu/vocab/buildm/completionDate": {
-                    "@value": "2015"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Preview"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/name": [
+                    {
+                        "@value": "Limhamns Læge Rowhouses"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/owner": [
+                    {
+                        "@value": "NCC, (almost all of the rowhouses are sold)"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/floorCount": [
+                    {
+                        "@value": "2"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/numberOfRooms": [
+                    {
+                        "@value": "Family house"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/architecturalStyle": [
+                    {
+                        "@value": "Modern"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "Street houses in various sizes with two floors of 144 or 163 square meters to two and a half floor of 170 sqm."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/location": [
+                    {
+                        "@value": "The expansion of Limhamns Läge done at the former cement factory area where the Skånska Cementaktiebolaget, began to produce and ship out cement already in the latter part of the 1800s. 2000 the company shut down the factory, and the area has been left unused and inaccessible. With the new extension the area is for the first time available to the public."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/streetAddress": [
+                    {
+                        "@value": "Lokstallsgatan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": [
+                    {
+                        "@value": "216 12"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/addressRegion": [
+                    {
+                        "@value": "SCANIA, Greater Copenhagen"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/postalLocality": [
+                    {
+                        "@value": "MALMØ"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/architect": [
+                    {
+                        "@value": "WHITE arkitekter"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/startDate": [
+                    {
+                        "@value": "2014"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/completionDate": [
+                    {
+                        "@value": "2015"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_0b8353c98f810bf0ed4a7d04b578b827"
+                        "@value": "http://data.duraark.eu/e57file_7d557e562ff8fd8b3eb393ddd75ab6db"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_d5f9c71b6d10fed75dac9e9b46d5ea92"
+                        "@value": "http://data.duraark.eu/e57file_0b1e15ca4a794faab9e476c6431744bd"
                     }
                 ]
             }
@@ -66,9 +97,10 @@
     ],
     "digitalObjects": [
         {
+            "label": "1Floor.e57",
             "buildm": {
-                "@id": "http://data.duraark.eu/e57file_0b8353c98f810bf0ed4a7d04b578b827",
-                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
+                "@id": "http://data.duraark.eu/e57file_7d557e562ff8fd8b3eb393ddd75ab6db",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_a857c66d-37e0-4a5d-a322-929adb6e8ba3"
                 },
@@ -96,12 +128,15 @@
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "undisclosed"
                 }
-            }
+            },
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57",
+            "size": 2812039168
         },
         {
+            "label": "2Floor.e57",
             "buildm": {
-                "@id": "http://data.duraark.eu/e57file_d5f9c71b6d10fed75dac9e9b46d5ea92",
-                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
+                "@id": "http://data.duraark.eu/e57file_0b1e15ca4a794faab9e476c6431744bd",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_a857c66d-37e0-4a5d-a322-929adb6e8ba3"
                 },
@@ -129,20 +164,22 @@
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "undisclosed"
                 }
-            }
+            },
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/2Floor.e57",
+            "size": 5641739264
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57",
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57",
             "type": "e57",
-            "size": 270408704
+            "size": 2812039168
         },
         {
-            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/2Floor.e57",
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/2Floor.e57",
             "type": "e57",
-            "size": 270408704
+            "size": 5641739264
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

@@ -1,55 +1,82 @@
 {
     "state": "archived",
     "label": "DTU Chemistry",
-    "address": "Danmarks Tekniske Universitet, Bygning 204",
+    "streetAddress": "Danmarks Tekniske Universitet, Bygning 204",
     "description": "Part of the 2nd (2/4) complex on campus that also includes biology and a sport area",
     "physicalAssets": [
         {
+            "label": "DTU Chemistry",
             "buildm": {
                 "@id": "http://data.duraark.eu/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Confidential"
-                },
-                "http://data.duraark.eu/vocab/buildm/name": {
-                    "@value": "DTU Chemistry"
-                },
-                "http://data.duraark.eu/vocab/buildm/owner": {
-                    "@value": "Technical University of Denmark (DTU)"
-                },
-                "http://data.duraark.eu/vocab/buildm/buildingArea": {
-                    "@value": "7.000 m2"
-                },
-                "http://data.duraark.eu/vocab/buildm/floorCount": {
-                    "@value": "2"
-                },
-                "http://data.duraark.eu/vocab/buildm/numberOfRooms": {
-                    "@value": "Chemistry laboratories"
-                },
-                "http://data.duraark.eu/vocab/buildm/architecturalStyle": {
-                    "@value": "Modern"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "Part of the 2nd (2/4) complex on campus that also includes biology and a sport area"
-                },
-                "http://data.duraark.eu/vocab/buildm/location": {
-                    "@value": "In Greater Copenhagen, Kongens Lyngby a suburb to the city of Copenhagen"
-                },
-                "http://data.duraark.eu/vocab/buildm/streetAddress": {
-                    "@value": "Danmarks Tekniske Universitet, Bygning 204"
-                },
-                "http://data.duraark.eu/vocab/buildm/postalCodeStart": {
-                    "@value": "2800"
-                },
-                "http://data.duraark.eu/vocab/buildm/addressRegion": {
-                    "@value": "Lyngby-Taarbæk Kommune"
-                },
-                "http://data.duraark.eu/vocab/buildm/postalLocality": {
-                    "@value": "Kgs. Lyngby By, Lundtofte"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Confidential"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/name": [
+                    {
+                        "@value": "DTU Chemistry"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/owner": [
+                    {
+                        "@value": "Technical University of Denmark (DTU)"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/buildingArea": [
+                    {
+                        "@value": "7.000 m2"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/floorCount": [
+                    {
+                        "@value": "2"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/numberOfRooms": [
+                    {
+                        "@value": "Chemistry laboratories"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/architecturalStyle": [
+                    {
+                        "@value": "Modern"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "Part of the 2nd (2/4) complex on campus that also includes biology and a sport area"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/location": [
+                    {
+                        "@value": "In Greater Copenhagen, Kongens Lyngby a suburb to the city of Copenhagen"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/streetAddress": [
+                    {
+                        "@value": "Danmarks Tekniske Universitet, Bygning 204"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/postalCodeStart": [
+                    {
+                        "@value": "2800"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/addressRegion": [
+                    {
+                        "@value": "Lyngby-Taarbæk Kommune"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/postalLocality": [
+                    {
+                        "@value": "Kgs. Lyngby By, Lundtofte"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/ifcspffile_fb43c6806c570f8bf04c2e214f904df9"
+                        "@value": "http://data.duraark.eu/ifcspffile_5f8e5edb63823d009bce0b6a525be77d"
                     }
                 ]
             }
@@ -57,9 +84,10 @@
     ],
     "digitalObjects": [
         {
+            "label": "CCO_DTU-Building-204_FM_CONF.ifc",
             "buildm": {
-                "@id": "http://data.duraark.eu/ifcspffile_fb43c6806c570f8bf04c2e214f904df9",
-                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "@type": "http://data.duraark.eu/vocab/buildm/IFCSPFFile",
+                "@id": "http://data.duraark.eu/ifcspffile_5f8e5edb63823d009bce0b6a525be77d",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8"
                 },
@@ -69,15 +97,17 @@
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "undisclosed"
                 }
-            }
+            },
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
+            "size": 38702739
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
-            "type": "e57",
-            "size": 270408704
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
+            "type": "ifc",
+            "size": 38702739
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

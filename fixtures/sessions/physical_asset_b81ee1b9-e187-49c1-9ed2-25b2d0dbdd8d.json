@@ -1,22 +1,27 @@
 {
     "state": "archived",
     "label": "The Royal Danish Academy of Fine Arts\r\nSchools of Architecture, Design and Conservation",
-    "address": "",
+    "streetAddress": "",
     "description": "",
     "physicalAssets": [
         {
+            "label": "The Royal Danish Academy of Fine Arts\r\nSchools of Architecture, Design and Conservation",
             "buildm": {
                 "@id": "http://data.duraark.eu/physical_asset_b81ee1b9-e187-49c1-9ed2-25b2d0dbdd8d",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/name": {
-                    "@value": "The Royal Danish Academy of Fine Arts\r\nSchools of Architecture, Design and Conservation"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/name": [
+                    {
+                        "@value": "The Royal Danish Academy of Fine Arts\r\nSchools of Architecture, Design and Conservation"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_84b9acd41dbe9146b3fdaa948f36768a"
+                        "@value": "http://data.duraark.eu/e57file_e83e312b91d5bc0c8887fdd0c8affe71"
                     }
                 ]
             }
@@ -24,9 +29,10 @@
     ],
     "digitalObjects": [
         {
+            "label": "CITA_UMTS_Exhibition.e57",
             "buildm": {
-                "@id": "http://data.duraark.eu/e57file_84b9acd41dbe9146b3fdaa948f36768a",
-                "@type": "http://data.duraark.eu/vocab/buildm/DigitalObject",
+                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
+                "@id": "http://data.duraark.eu/e57file_e83e312b91d5bc0c8887fdd0c8affe71",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_b81ee1b9-e187-49c1-9ed2-25b2d0dbdd8d"
                 },
@@ -36,15 +42,17 @@
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_UMTS_Exhibition/CITA_UMTS_Exhibition.e57"
                 }
-            }
+            },
+            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_UMTS_Exhibition/CITA_UMTS_Exhibition.e57",
+            "size": 14880409600
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_UMTS_Exhibition/CITA_UMTS_Exhibition.e57",
+            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_UMTS_Exhibition/CITA_UMTS_Exhibition.e57",
             "type": "e57",
-            "size": 270408704
+            "size": 14880409600
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",
