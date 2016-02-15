@@ -191,21 +191,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC.e57"
                 }
@@ -221,21 +231,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC.e57"
                 }
@@ -251,21 +271,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC.e57"
                 }
@@ -281,21 +311,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC.e57"
                 }
@@ -311,21 +351,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC.e57"
                 }
@@ -341,21 +391,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC.e57"
                 }
@@ -371,21 +431,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC.e57"
                 }
@@ -401,21 +471,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC.e57"
                 }
@@ -431,21 +511,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC.e57"
                 }
@@ -461,21 +551,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC.e57"
                 }
@@ -491,21 +591,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC.e57"
                 }
@@ -521,21 +631,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC.e57"
                 }
@@ -551,21 +671,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC.e57"
                 }
@@ -581,21 +711,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC.e57"
                 }
@@ -611,21 +751,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC.e57"
                 }
@@ -641,21 +791,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC.e57"
                 }
@@ -671,21 +831,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC.e57"
                 }
@@ -701,21 +871,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC.e57"
                 }
@@ -731,21 +911,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC.e57"
                 }
@@ -761,21 +951,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC.e57"
                 }
@@ -791,21 +991,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC.e57"
                 }
@@ -821,21 +1031,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC.e57"
                 }
@@ -851,21 +1071,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC.e57"
                 }
@@ -881,21 +1111,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC.e57"
                 }
@@ -911,21 +1151,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC.e57"
                 }
@@ -941,21 +1191,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ceca2851-97ba-40eb-8c3f-7095f64fbeb4"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC.e57"
                 }

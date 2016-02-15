@@ -101,21 +101,31 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_af360052-b440-4bca-a5e1-b26a309acf65"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scan"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scan"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57"
                 }

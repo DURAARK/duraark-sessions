@@ -118,9 +118,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_77235005-ea90-4ec0-ad29-807a752c1cb9"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57"
                 }
@@ -136,9 +138,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_77235005-ea90-4ec0-ad29-807a752c1cb9"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57"
                 }
@@ -154,9 +158,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_77235005-ea90-4ec0-ad29-807a752c1cb9"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57"
                 }
@@ -172,9 +178,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_77235005-ea90-4ec0-ad29-807a752c1cb9"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57"
                 }
@@ -190,9 +198,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_77235005-ea90-4ec0-ad29-807a752c1cb9"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Staircase.e57"
                 }

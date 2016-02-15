@@ -109,27 +109,41 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_af179661-50b4-4e63-9e8c-907400b7a01c"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scans"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "Indoor scans: initial survey in a serie of three, register interior spacial configuration prior to reconfiguration by removal of walls."
-                },
-                "http://data.duraark.eu/vocab/buildm/event": {
-                    "@value": "Test and evaluate automated rebuilding of BIM models from point clouds"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scans"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "Indoor scans: initial survey in a serie of three, register interior spacial configuration prior to reconfiguration by removal of walls."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/event": [
+                    {
+                        "@value": "Test and evaluate automated rebuilding of BIM models from point clouds"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/CITA_Byg72_ScanJune2015/Byg72_BasedOn_1st_Scan_Alternative.ifc"
                 }
@@ -145,27 +159,41 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_af179661-50b4-4e63-9e8c-907400b7a01c"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scans"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "Indoor scans: initial survey in a serie of three, register interior spacial configuration prior to reconfiguration by removal of walls."
-                },
-                "http://data.duraark.eu/vocab/buildm/event": {
-                    "@value": "Test and evaluate automated rebuilding of BIM models from point clouds"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scans"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "Indoor scans: initial survey in a serie of three, register interior spacial configuration prior to reconfiguration by removal of walls."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/event": [
+                    {
+                        "@value": "Test and evaluate automated rebuilding of BIM models from point clouds"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/CITA_Byg72_ScanJune2015/CITA_Byg72_1st_Scan.e57"
                 }

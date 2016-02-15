@@ -106,9 +106,11 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_16337e4f-232c-4d8e-ad1e-f2d25ffcc0ca"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "public"
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "public"
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57"
                 }

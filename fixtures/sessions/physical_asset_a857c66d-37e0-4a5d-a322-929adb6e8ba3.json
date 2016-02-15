@@ -104,27 +104,41 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_a857c66d-37e0-4a5d-a322-929adb6e8ba3"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Preview"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/dateCreated": {
-                    "@value": "20151217"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "E57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "SCAN"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "2 floors interiror survey of one family row-house. Exterior scan positions the house in it's row."
-                },
-                "http://data.duraark.eu/vocab/buildm/event": {
-                    "@value": "Comparison of architects BIM-model and built ground-truth."
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Preview"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/dateCreated": [
+                    {
+                        "@value": "20151217"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "E57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "SCAN"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "2 floors interiror survey of one family row-house. Exterior scan positions the house in it's row."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/event": [
+                    {
+                        "@value": "Comparison of architects BIM-model and built ground-truth."
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "undisclosed"
                 }
@@ -140,27 +154,41 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_a857c66d-37e0-4a5d-a322-929adb6e8ba3"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Preview"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/dateCreated": {
-                    "@value": "20151217"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "E57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "SCAN"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "2 floors interiror survey of one family row-house. Exterior scan positions the house in it's row."
-                },
-                "http://data.duraark.eu/vocab/buildm/event": {
-                    "@value": "Comparison of architects BIM-model and built ground-truth."
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Preview"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/dateCreated": [
+                    {
+                        "@value": "20151217"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "E57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "SCAN"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "2 floors interiror survey of one family row-house. Exterior scan positions the house in it's row."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/event": [
+                    {
+                        "@value": "Comparison of architects BIM-model and built ground-truth."
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "undisclosed"
                 }

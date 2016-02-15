@@ -116,27 +116,41 @@
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_ba05e0a5-c3d8-4e9c-be95-61e00320db84"
                 },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": {
-                    "@value": "Public"
-                },
-                "http://data.duraark.eu/vocab/buildm/creator": {
-                    "@value": "CITA"
-                },
-                "http://data.duraark.eu/vocab/buildm/format": {
-                    "@value": "e57"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasType": {
-                    "@value": "Scans"
-                },
-                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": {
-                    "@value": ".zip"
-                },
-                "http://data.duraark.eu/vocab/buildm/description": {
-                    "@value": "Capture and describe spacial dimensions and prominent arrival: courtyard/entrance/lobby/garden. Outdoor-Indoor-Outdoor scans."
-                },
-                "http://data.duraark.eu/vocab/buildm/event": {
-                    "@value": "Planning and preparation of erection of two installations. One outdoor, courtyard infront of building or garden. And one indoor entrance/lobby. Visualization."
-                },
+                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
+                    {
+                        "@value": "Public"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/creator": [
+                    {
+                        "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/format": [
+                    {
+                        "@value": "e57"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasType": [
+                    {
+                        "@value": "Scans"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/hasFormatDetails": [
+                    {
+                        "@value": ".zip"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/description": [
+                    {
+                        "@value": "Capture and describe spacial dimensions and prominent arrival: courtyard/entrance/lobby/garden. Outdoor-Indoor-Outdoor scans."
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/event": [
+                    {
+                        "@value": "Planning and preparation of erection of two installations. One outdoor, courtyard infront of building or garden. And one indoor entrance/lobby. Visualization."
+                    }
+                ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_DesignMuseum/DesignMuseum_Full.e57"
                 }
