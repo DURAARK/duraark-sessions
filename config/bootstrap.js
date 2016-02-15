@@ -49,25 +49,12 @@ function initSessions() {
 
           console.log('processing files: #', session.files.length);
           _.forEach(session.files, function(file) {
-            console.log('     file: ' + file.path);
+            // console.log('     file: ' + file.path);
             Files.create(file).then(function(fileRecord) {
-              console.log('       created');
               file.id = fileRecord.id;
-
-              console.log('fileid:       ', file.id);
-              console.log('fileRecordid: ', fileRecord.id);
-              // var foundFile = _.findWhere(session.files, { 'path': fileRecord.path});
-              // if (foundFile) {
-              //   console.log('      id: ', id);
-              //   foundFile.id = fileRecord.id;
-              // } else {
-              //   throw Error('This should not happen, investigate!');
-              // }
             });
           });
 
-          console.log('Session: ', session);
-          
           Sessions.create(session).then(function(sessionRecord) {
             console.log('[init] Added session: ' + session.label)
           });
