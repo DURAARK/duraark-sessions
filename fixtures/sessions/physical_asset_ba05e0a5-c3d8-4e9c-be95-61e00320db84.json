@@ -164,7 +164,8 @@
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_DesignMuseum/DesignMuseum_Full.e57",
             "type": "e57",
-            "size": 5887470592
+            "size": 5887470592,
+            "downloadAllowed": true
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

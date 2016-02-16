@@ -245,17 +245,20 @@
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57",
             "type": "e57",
-            "size": 6293386240
+            "size": 6293386240,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building2014.e57",
             "type": "e57",
-            "size": 3496070144
+            "size": 3496070144,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
             "type": "ifc",
-            "size": 177522583
+            "size": 177522583,
+            "downloadAllowed": true
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

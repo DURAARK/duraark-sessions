@@ -216,27 +216,32 @@
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57",
             "type": "e57",
-            "size": 3433420800
+            "size": 3433420800,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57",
             "type": "e57",
-            "size": 8244007936
+            "size": 8244007936,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57",
             "type": "e57",
-            "size": 6538689536
+            "size": 6538689536,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57",
             "type": "e57",
-            "size": 9424406528
+            "size": 9424406528,
+            "downloadAllowed": true
         },
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Staircase.e57",
             "type": "e57",
-            "size": 5177419776
+            "size": 5177419776,
+            "downloadAllowed": true
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

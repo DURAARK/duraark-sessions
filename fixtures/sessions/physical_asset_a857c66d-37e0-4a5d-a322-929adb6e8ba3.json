@@ -140,7 +140,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "1Floor.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57",
@@ -190,7 +190,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "2Floor.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/2Floor.e57",
@@ -202,12 +202,14 @@
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57",
             "type": "e57",
-            "size": 2812039168
+            "size": 2812039168,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/2Floor.e57",
             "type": "e57",
-            "size": 5641739264
+            "size": 5641739264,
+            "downloadAllowed": false
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

@@ -154,7 +154,8 @@
         {
             "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57",
             "type": "e57",
-            "size": 14393704448
+            "size": 14393704448,
+            "downloadAllowed": true
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

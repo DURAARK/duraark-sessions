@@ -1,11 +1,11 @@
 {
     "state": "archived",
-    "label": "Villa Pierce",
-    "streetAddress": "FINNGATAN 19",
-    "description": "Built in late 19th-century, situated in central Lund in the famous area of .Professorstaden'.",
+    "label": "Isblocket",
+    "streetAddress": "Arenagatan 10",
+    "description": "The building is connected to the underlying parking garage and connects to every other floor . There will be retail space on the ground floor and a passage through the neighborhood .",
     "physicalAssets": [
         {
-            "label": "Villa Pierce",
+            "label": "Isblocket",
             "buildm": {
                 "@id": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
@@ -16,47 +16,52 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/name": [
                     {
-                        "@value": "Villa Pierce"
+                        "@value": "Isblocket"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/owner": [
                     {
-                        "@value": "Paul Pierce"
+                        "@value": "Otto Holding Vagnslidret 1 AB"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/buildingArea": [
+                    {
+                        "@value": "6200 m2"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/floorCount": [
                     {
-                        "@value": "4"
+                        "@value": "7"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/numberOfRooms": [
                     {
-                        "@value": "Family Housing"
+                        "@value": "Office"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/architecturalStyle": [
                     {
-                        "@value": "Nordic Classicism"
+                        "@value": "Modern"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/description": [
                     {
-                        "@value": "Built in late 19th-century, situated in central Lund in the famous area of .Professorstaden'."
+                        "@value": "The building is connected to the underlying parking garage and connects to every other floor . There will be retail space on the ground floor and a passage through the neighborhood ."
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/location": [
                     {
-                        "@value": "Professorstaden is a neighborhood in Lund, located east of downtown. It is included in the statistical district of Tuna but since 2014 also approved as an official neighborhood with established limits. The area is located in Lund Allahelgona parish. The settlement consists almost exclusively of villas, often large and lavish and largely built by professors of Lund University (hence it's name).\r The area has been widely recognized as Professorstaden, but it was until 2014 never used officially. It was therefore not certain precisely the geographical area Professor The area covers east-northeast of the Botanical Garden, and the university institutions at Bishop Street included."
+                        "@value": "In the rapidly expanding Hyllie FOJAB architects have been commissioned to plan and design a new office building at the station square . Hyllie is the first station when crossing Øresundsbridge from Denmark to Sweden with train."
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/streetAddress": [
                     {
-                        "@value": "FINNGATAN 19"
+                        "@value": "Arenagatan 10"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/postalCodeStart": [
                     {
-                        "@value": "223 62"
+                        "@value": "215 32"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/addressRegion": [
@@ -66,36 +71,30 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/postalLocality": [
                     {
-                        "@value": "LUND"
+                        "@value": "MALMØ"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/architect": [
+                    {
+                        "@value": "FOJAB arkitekter"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/startDate": [
                     {
-                        "@value": "Late 19th-century"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/rebuildingDate": [
-                    {
                         "@value": "2014"
                     }
                 ],
-                "http://data.duraark.eu/vocab/buildm/modificationDetails": [
+                "http://data.duraark.eu/vocab/buildm/completionDate": [
                     {
-                        "@value": "Renovation"
+                        "@value": "2015"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_50b541e1a39b8fc7d27fa95cf5071a45"
+                        "@value": "http://data.duraark.eu/e57file_78f1e0bf9632d522843502b5f0e1ea3e"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_2df7137b8f10372a8e677ed5ff11809b"
-                    },
-                    {
-                        "@value": "http://data.duraark.eu/e57file_4f3c7a3ab915a28f148563aaa8ed058b"
-                    },
-                    {
-                        "@value": "http://data.duraark.eu/e57file_a10cea0c0d9bb8b874f4d736c65130c7"
+                        "@value": "http://data.duraark.eu/ifcspffile_8697df0cb74da66a7ab32ca7c2966474"
                     }
                 ]
             }
@@ -103,10 +102,10 @@
     ],
     "digitalObjects": [
         {
-            "label": "Villa_Pierce.e57",
+            "label": "FOJAB_Isblocket_5thFloor.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_50b541e1a39b8fc7d27fa95cf5071a45",
+                "@id": "http://data.duraark.eu/e57file_78f1e0bf9632d522843502b5f0e1ea3e",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
                 },
@@ -118,6 +117,11 @@
                 "http://data.duraark.eu/vocab/buildm/creator": [
                     {
                         "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/dateCreated": [
+                    {
+                        "@value": "20151217"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/format": [
@@ -132,21 +136,21 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/description": [
                     {
-                        "@value": "Complete indoor survey."
+                        "@value": "Interiror survey of 1 floor open office landscape. Building under construction, interior installations & facade."
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "FOJAB_Isblocket_5thFloor.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/Villa_Pierce.e57",
-            "size": 5745429504
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket_5thFloor.e57",
+            "size": 7511023616
         },
         {
-            "label": "VillaPierce_1Floor.e57",
+            "label": "FOJAB_Isblocket.ifc",
             "buildm": {
-                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_2df7137b8f10372a8e677ed5ff11809b",
+                "@type": "http://data.duraark.eu/vocab/buildm/IFCSPFFile",
+                "@id": "http://data.duraark.eu/ifcspffile_8697df0cb74da66a7ab32ca7c2966474",
                 "http://data.duraark.eu/vocab/buildm/represents": {
                     "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
                 },
@@ -158,6 +162,11 @@
                 "http://data.duraark.eu/vocab/buildm/creator": [
                     {
                         "@value": "CITA"
+                    }
+                ],
+                "http://data.duraark.eu/vocab/buildm/dateCreated": [
+                    {
+                        "@value": "20151217"
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/format": [
@@ -172,118 +181,30 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/description": [
                     {
-                        "@value": "Complete indoor survey."
+                        "@value": "Interiror survey of 1 floor open office landscape. Building under construction, interior installations & facade."
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "FOJAB_Isblocket.ifc"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_1Floor.e57",
-            "size": 1904343040
-        },
-        {
-            "label": "VillaPierce_2Floor.e57",
-            "buildm": {
-                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_4f3c7a3ab915a28f148563aaa8ed058b",
-                "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
-                },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
-                    {
-                        "@value": "Preview"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/creator": [
-                    {
-                        "@value": "CITA"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/format": [
-                    {
-                        "@value": "E57"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/hasType": [
-                    {
-                        "@value": "SCAN"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/description": [
-                    {
-                        "@value": "Complete indoor survey."
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
-                }
-            },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_2Floor.e57",
-            "size": 1919105024
-        },
-        {
-            "label": "VillaPierce_Basement.e57",
-            "buildm": {
-                "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_a10cea0c0d9bb8b874f4d736c65130c7",
-                "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
-                },
-                "http://data.duraark.eu/vocab/buildm/rightsDetails": [
-                    {
-                        "@value": "Preview"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/creator": [
-                    {
-                        "@value": "CITA"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/format": [
-                    {
-                        "@value": "E57"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/hasType": [
-                    {
-                        "@value": "SCAN"
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/description": [
-                    {
-                        "@value": "Complete indoor survey."
-                    }
-                ],
-                "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
-                }
-            },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_Basement.e57",
-            "size": 1923593216
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket.ifc",
+            "size": 31102395
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/Villa_Pierce.e57",
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket_5thFloor.e57",
             "type": "e57",
-            "size": 5745429504
+            "size": 7511023616,
+            "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_1Floor.e57",
-            "type": "e57",
-            "size": 1904343040
-        },
-        {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_2Floor.e57",
-            "type": "e57",
-            "size": 1919105024
-        },
-        {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/FOJAB/VillaPierce/NEW_withmultiplescans/VillaPierce_Basement.e57",
-            "type": "e57",
-            "size": 1923593216
+            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket.ifc",
+            "type": "ifc",
+            "size": 31102395,
+            "downloadAllowed": false
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

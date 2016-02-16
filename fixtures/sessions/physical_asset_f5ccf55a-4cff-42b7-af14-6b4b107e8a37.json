@@ -149,7 +149,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "LE34_Hojbroplads_1_PREVIEW.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57",
@@ -184,7 +184,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "LE34_Hojbroplads_2-Floor_PREVIEW.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57",
@@ -219,7 +219,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "LE34_Hojbroplads_3-Floor_PREVIEW.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57",
@@ -254,7 +254,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "LE34_Hojbroplads_4-Floor_PREVIEW.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57",
@@ -289,7 +289,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "LE34_Hojbroplads_Facade_PREVIEW.e57"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_Facade_PREVIEW.e57",
@@ -301,27 +301,32 @@
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57",
             "type": "e57",
-            "size": 2349816832
+            "size": 2349816832,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57",
             "type": "e57",
-            "size": 20056717312
+            "size": 20056717312,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57",
             "type": "e57",
-            "size": 23130642432
+            "size": 23130642432,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57",
             "type": "e57",
-            "size": 16593071104
+            "size": 16593071104,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_Facade_PREVIEW.e57",
             "type": "e57",
-            "size": 7215480832
+            "size": 7215480832,
+            "downloadAllowed": false
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

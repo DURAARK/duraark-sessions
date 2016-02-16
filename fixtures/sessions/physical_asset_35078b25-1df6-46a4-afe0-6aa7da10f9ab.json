@@ -126,7 +126,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "CCO_DTU-Building324_Construction_Architectural.ifc"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Architectural.ifc",
@@ -146,7 +146,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "CCO_DTU-Building324_Construction_Electrical.ifc"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Electrical.ifc",
@@ -166,7 +166,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "CCO_DTU-Building324_Construction_Structure.ifc"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Structure.ifc",
@@ -186,7 +186,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "CCO_DTU-Building324_Construction_Ventilation.ifc"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Ventilation.ifc",
@@ -198,22 +198,26 @@
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Architectural.ifc",
             "type": "ifc",
-            "size": 20292492
+            "size": 20292492,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Electrical.ifc",
             "type": "ifc",
-            "size": 53909551
+            "size": 53909551,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Structure.ifc",
             "type": "ifc",
-            "size": 71904029
+            "size": 71904029,
+            "downloadAllowed": false
         },
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Ventilation.ifc",
             "type": "ifc",
-            "size": 58045253
+            "size": 58045253,
+            "downloadAllowed": false
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",

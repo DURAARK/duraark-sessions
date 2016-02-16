@@ -97,7 +97,7 @@
                     }
                 ],
                 "http://data.duraark.eu/vocab/buildm/filename": {
-                    "@value": "undisclosed"
+                    "@value": "CCO_DTU-Building-204_FM_CONF.ifc"
                 }
             },
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
@@ -109,7 +109,8 @@
         {
             "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
             "type": "ifc",
-            "size": 38702739
+            "size": 38702739,
+            "downloadAllowed": false
         }
     ],
     "createdAt": "2016-02-11T22:48:24.118Z",
