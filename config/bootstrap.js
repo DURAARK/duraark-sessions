@@ -34,7 +34,7 @@ function initSessions() {
         console.log('\n[bootstrapping] "Session" fixtures cached, skipping creation.\n');
         return;
       } else {
-        console.log('Looking for fixed session configuration at: ', fixedSessionsPath);
+        console.log('Looking for fixed sessions in: ', fixedSessionsPath);
 
         try {
           var sessionFiles = FileService.getFileList({
