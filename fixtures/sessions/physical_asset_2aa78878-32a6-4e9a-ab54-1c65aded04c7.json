@@ -146,7 +146,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0_02.e57n",
             "size": 6293386240
         },
         {
@@ -191,7 +191,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building2014.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0_02.e57n",
             "size": 3496070144
         },
         {
@@ -243,14 +243,14 @@
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0_02.e57n",
             "type": "e57",
             "size": 6293386240,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0_02.e57n",
             "type": "e57",
             "size": 3496070144,
             "downloadAllowed": true,

@@ -45,14 +45,14 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_UMTS_Exhibition/CITA_UMTS_Exhibition.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_UMTS_Exhibition/master/CITA_UMTS_Exhibition-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_UMTS_Exhibition/master/CITA_UMTS_Exhibition-0_04.e57n",
             "size": 14880409600
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_UMTS_Exhibition/master/CITA_UMTS_Exhibition-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_UMTS_Exhibition/master/CITA_UMTS_Exhibition-0_04.e57n",
             "type": "e57",
             "size": 14880409600,
             "downloadAllowed": true,

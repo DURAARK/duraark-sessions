@@ -130,14 +130,14 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0_04.e57n",
             "size": 17238603776
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0_04.e57n",
             "type": "e57",
             "size": 17238603776,
             "downloadAllowed": true,

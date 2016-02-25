@@ -143,7 +143,7 @@
                     "@value": "FOJAB_Isblocket_5thFloor.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0_02.e57n",
             "size": 7511023616
         },
         {
@@ -195,7 +195,7 @@
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0_02.e57n",
             "type": "e57",
             "size": 7511023616,
             "downloadAllowed": false,

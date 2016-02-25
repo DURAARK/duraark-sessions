@@ -198,7 +198,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/CITA_Byg72_ScanJune2015/CITA_Byg72_1st_Scan.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanJune2015/master/CITA_Byg72_1st_Scan-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanJune2015/master/CITA_Byg72_1st_Scan-0_02.e57n",
             "size": 13756925952
         }
     ],
@@ -212,7 +212,7 @@
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/CITA_Byg72_ScanJune2015/Byg72_BasedOn_1st_Scan_Alternative.ifc"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanJune2015/master/CITA_Byg72_1st_Scan-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanJune2015/master/CITA_Byg72_1st_Scan-0_02.e57n",
             "type": "e57",
             "size": 13756925952,
             "downloadAllowed": true,

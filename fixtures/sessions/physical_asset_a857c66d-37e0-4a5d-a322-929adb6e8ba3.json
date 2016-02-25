@@ -143,7 +143,7 @@
                     "@value": "1Floor.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/1Floor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/1Floor-0_04.e57n",
             "size": 2812039168
         },
         {
@@ -193,21 +193,21 @@
                     "@value": "2Floor.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/2Floor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/2Floor-0_04.e57n",
             "size": 5641739264
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/1Floor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/1Floor-0_04.e57n",
             "type": "e57",
             "size": 2812039168,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/WhiteArchitects/LimhamnsLæge/1Floor.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/2Floor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/WhiteArchitects/LimhamnsLæge/master/2Floor-0_04.e57n",
             "type": "e57",
             "size": 5641739264,
             "downloadAllowed": false,

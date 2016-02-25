@@ -220,7 +220,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC-0_04.e57n",
             "size": 929260544
         },
         {
@@ -260,7 +260,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC-0_04.e57n",
             "size": 912049152
         },
         {
@@ -300,7 +300,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC-0_04.e57n",
             "size": 900180992
         },
         {
@@ -340,7 +340,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC-0_04.e57n",
             "size": 918572032
         },
         {
@@ -380,7 +380,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC-0_04.e57n",
             "size": 885238784
         },
         {
@@ -420,7 +420,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC-0_04.e57n",
             "size": 2613208064
         },
         {
@@ -460,7 +460,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC-0_04.e57n",
             "size": 653494272
         },
         {
@@ -500,7 +500,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC-0_04.e57n",
             "size": 1027216384
         },
         {
@@ -540,7 +540,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC-0_04.e57n",
             "size": 4160780288
         },
         {
@@ -580,7 +580,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC-0_04.e57n",
             "size": 1032441856
         },
         {
@@ -620,7 +620,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC-0_04.e57n",
             "size": 1030127616
         },
         {
@@ -660,7 +660,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC-0_04.e57n",
             "size": 2605626368
         },
         {
@@ -700,7 +700,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC-0_04.e57n",
             "size": 581481472
         },
         {
@@ -740,7 +740,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC-0_04.e57n",
             "size": 586473472
         },
         {
@@ -780,7 +780,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC-0_04.e57n",
             "size": 588390400
         },
         {
@@ -820,7 +820,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC-0_04.e57n",
             "size": 586980352
         },
         {
@@ -860,7 +860,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC-0_04.e57n",
             "size": 33937408
         },
         {
@@ -900,7 +900,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC-0_04.e57n",
             "size": 33547264
         },
         {
@@ -940,7 +940,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC-0_04.e57n",
             "size": 33351680
         },
         {
@@ -980,7 +980,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC-0_04.e57n",
             "size": 54077440
         },
         {
@@ -1020,7 +1020,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC-0_04.e57n",
             "size": 143185920
         },
         {
@@ -1060,7 +1060,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC-0_04.e57n",
             "size": 224009216
         },
         {
@@ -1100,7 +1100,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC-0_04.e57n",
             "size": 581521408
         },
         {
@@ -1140,7 +1140,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC-0_04.e57n",
             "size": 373863424
         },
         {
@@ -1180,7 +1180,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC-0_04.e57n",
             "size": 1526106112
         },
         {
@@ -1220,189 +1220,189 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC-0_04.e57n",
             "size": 3450212352
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 929260544,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-DarkPoints300_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 912049152,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 900180992,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StandardFilters-DistanceBased_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 918572032,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-StrayPoints3-0-002-50_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 885238784,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_QualityOfScan-Cleanness-Unclean_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 2613208064,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ReferenceScans_QualityOfPlanning-Poor_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 653494272,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_000-Res1-5-Qua3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 1027216384,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_001-Res1-4-Qua3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 4160780288,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_002-Res1-2-Qua3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 1032441856,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_003-Res1-4-Qua4x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 1030127616,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen_ScanPrecision_004-Res1-4-Qua6x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 2605626368,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_QualityOfPlanning-Better_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 581481472,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-005-Res1-5-Q2x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 586473472,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-006-Res1-5-Q3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 588390400,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-007-Res1-5-Q4x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 586980352,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-008-Res1-5-Q6x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 33937408,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-009-Res1-20-Q4x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 33547264,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-010-Res1-20-Q6x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 33351680,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-011-Res1-20-Q8x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 54077440,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-012-Res1-16-Q3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 143185920,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-013-Res1-10-Q3x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 224009216,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-014-Res1-8-Q2x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 581521408,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-015-Res1-5-Q2x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 373863424,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-016-Res1-4-Q1x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 1526106112,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_KADK-Festsalen/CITA_KADK-Festsalen-QualityOfScan_ScannerSettings-017-Res1-2-Q1x_PUBLIC.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_KADK_Festsalen/master/CITA_KADK-Festsalen-QualityOfScanScannerSettings-018-Res1-1-Q1_PUBLIC-0_04.e57n",
             "type": "e57",
             "size": 3450212352,
             "downloadAllowed": true,

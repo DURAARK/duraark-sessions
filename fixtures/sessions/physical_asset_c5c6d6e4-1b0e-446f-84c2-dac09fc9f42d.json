@@ -145,14 +145,14 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Byg72-ScanAugust2015/CITA_Byg72_2nd_Scan.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanAugust2015/master/CITA_Byg72_2nd_Scan-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanAugust2015/master/CITA_Byg72_2nd_Scan-0_02.e57n",
             "size": 9592209408
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanAugust2015/master/CITA_Byg72_2nd_Scan-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanAugust2015/master/CITA_Byg72_2nd_Scan-0_02.e57n",
             "type": "e57",
             "size": 9592209408,
             "downloadAllowed": true,
