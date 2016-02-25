@@ -7,7 +7,7 @@
         {
             "label": "DTU Chemistry",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8",
+                "@id": "http://data.duraark.eu/resource/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -76,7 +76,7 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/ifcspffile_5f8e5edb63823d009bce0b6a525be77d"
+                        "@value": "http://data.duraark.eu/resource/ifcspffile_5f8e5edb63823d009bce0b6a525be77d"
                     }
                 ]
             }
@@ -87,9 +87,9 @@
             "label": "CCO_DTU-Building-204_FM_CONF.ifc",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/IFCSPFFile",
-                "@id": "http://data.duraark.eu/ifcspffile_5f8e5edb63823d009bce0b6a525be77d",
+                "@id": "http://data.duraark.eu/resource/ifcspffile_5f8e5edb63823d009bce0b6a525be77d",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_cd528af6-e8ee-4ab2-a202-22df2cb9f3c8"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -100,14 +100,14 @@
                     "@value": "CCO_DTU-Building-204_FM_CONF.ifc"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
             "size": 38702739
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building-204/CCO_DTU-Building-204_FM_CONF.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
             "type": "ifc",
             "size": 38702739,
             "downloadAllowed": false

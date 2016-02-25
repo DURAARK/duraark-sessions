@@ -7,7 +7,7 @@
         {
             "label": "Kronborg Castle",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_af360052-b440-4bca-a5e1-b26a309acf65",
+                "@id": "http://data.duraark.eu/resource/physical_asset_af360052-b440-4bca-a5e1-b26a309acf65",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -86,7 +86,7 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_dac2a4b52e13ba618d0eb4ff1d492103"
+                        "@value": "http://data.duraark.eu/resource/e57file_dac2a4b52e13ba618d0eb4ff1d492103"
                     }
                 ]
             }
@@ -94,12 +94,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_Kronborg.e57",
+            "label": "CITA_Kronborg-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_dac2a4b52e13ba618d0eb4ff1d492103",
+                "@id": "http://data.duraark.eu/resource/e57file_dac2a4b52e13ba618d0eb4ff1d492103",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_af360052-b440-4bca-a5e1-b26a309acf65"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_af360052-b440-4bca-a5e1-b26a309acf65"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -130,15 +130,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
             "size": 17238603776
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
+            "type": "e57n",
             "size": 17238603776,
             "downloadAllowed": true
         }

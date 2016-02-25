@@ -7,7 +7,7 @@
         {
             "label": "LUNDS NATION LANDSARKIVET, STUDENTBOSTÄDER",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7",
+                "@id": "http://data.duraark.eu/resource/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -91,13 +91,13 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_eb507843d0c0c60d2e97116d6885fc3e"
+                        "@value": "http://data.duraark.eu/resource/e57file_eb507843d0c0c60d2e97116d6885fc3e"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_1bda579821faeebb239f943d5e8bfa49"
+                        "@value": "http://data.duraark.eu/resource/e57file_1bda579821faeebb239f943d5e8bfa49"
                     },
                     {
-                        "@value": "http://data.duraark.eu/ifcspffile_c5f18f540fe1ae5ae61cf4f7db2d2a7f"
+                        "@value": "http://data.duraark.eu/resource/ifcspffile_c5f18f540fe1ae5ae61cf4f7db2d2a7f"
                     }
                 ]
             }
@@ -105,12 +105,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "FOJAB_Landsarkivet_Building1900_1970.e57",
+            "label": "FOJAB_Landsarkivet_Building1900_1970-0.02.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_eb507843d0c0c60d2e97116d6885fc3e",
+                "@id": "http://data.duraark.eu/resource/e57file_eb507843d0c0c60d2e97116d6885fc3e",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -146,16 +146,16 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0.02.e57n",
             "size": 6293386240
         },
         {
-            "label": "FOJAB_Landsarkivet_Building2014.e57",
+            "label": "FOJAB_Landsarkivet_Building2014-0.02.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_1bda579821faeebb239f943d5e8bfa49",
+                "@id": "http://data.duraark.eu/resource/e57file_1bda579821faeebb239f943d5e8bfa49",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -191,16 +191,16 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building2014.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building2014.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0.02.e57n",
             "size": 3496070144
         },
         {
             "label": "FOJAB_Landsarkivet.ifc",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/IFCSPFFile",
-                "@id": "http://data.duraark.eu/ifcspffile_c5f18f540fe1ae5ae61cf4f7db2d2a7f",
+                "@id": "http://data.duraark.eu/resource/ifcspffile_c5f18f540fe1ae5ae61cf4f7db2d2a7f",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_2aa78878-32a6-4e9a-ab54-1c65aded04c7"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -236,26 +236,26 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/derivative_copy/FOJAB_Landsarkivet.ifc",
             "size": 177522583
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building1900_1970.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building1900_1970-0.02.e57n",
+            "type": "e57n",
             "size": 6293386240,
             "downloadAllowed": true
         },
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet_Building2014.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/master/FOJAB_Landsarkivet_Building2014-0.02.e57n",
+            "type": "e57n",
             "size": 3496070144,
             "downloadAllowed": true
         },
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/03_IFC_E57/FOJAB_Landsarkivet/FOJAB_Landsarkivet.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/FOJAB_Landsarkivet/derivative_copy/FOJAB_Landsarkivet.ifc",
             "type": "ifc",
             "size": 177522583,
             "downloadAllowed": true

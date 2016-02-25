@@ -7,7 +7,7 @@
         {
             "label": "The Royal Danish Academy of Fine Arts\r\nSchools of Architecture, Bygning 72",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_4dd31484-08d5-4c32-8b2f-16caa7f88ae9",
+                "@id": "http://data.duraark.eu/resource/physical_asset_4dd31484-08d5-4c32-8b2f-16caa7f88ae9",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -91,7 +91,7 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_e88549a77c34b18176639867aac65753"
+                        "@value": "http://data.duraark.eu/resource/e57file_e88549a77c34b18176639867aac65753"
                     }
                 ]
             }
@@ -99,12 +99,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_Byg72_3rd_Scan_09-2015.e57",
+            "label": "CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_e88549a77c34b18176639867aac65753",
+                "@id": "http://data.duraark.eu/resource/e57file_e88549a77c34b18176639867aac65753",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_4dd31484-08d5-4c32-8b2f-16caa7f88ae9"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_4dd31484-08d5-4c32-8b2f-16caa7f88ae9"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -145,15 +145,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
             "size": 14393704448
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
+            "type": "e57n",
             "size": 14393704448,
             "downloadAllowed": true
         }

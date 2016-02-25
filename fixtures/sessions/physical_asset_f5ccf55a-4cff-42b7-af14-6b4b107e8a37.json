@@ -7,7 +7,7 @@
         {
             "label": "Hojbro Plads 4",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37",
+                "@id": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -101,19 +101,19 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_f6cdaca4fee10f89819ab16abd74e641"
+                        "@value": "http://data.duraark.eu/resource/e57file_f6cdaca4fee10f89819ab16abd74e641"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_c9afdb3edc4e8fa29ae8af9a847daf8d"
+                        "@value": "http://data.duraark.eu/resource/e57file_c9afdb3edc4e8fa29ae8af9a847daf8d"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_d3171185cbd1e70e79455232d24080f2"
+                        "@value": "http://data.duraark.eu/resource/e57file_d3171185cbd1e70e79455232d24080f2"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_893f037b80887d0b84f18dfd83de0de4"
+                        "@value": "http://data.duraark.eu/resource/e57file_893f037b80887d0b84f18dfd83de0de4"
                     },
                     {
-                        "@value": "http://data.duraark.eu/e57file_a9d5851d6bfe8c455dcede761519ddb7"
+                        "@value": "http://data.duraark.eu/resource/e57file_a9d5851d6bfe8c455dcede761519ddb7"
                     }
                 ]
             }
@@ -121,12 +121,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "LE34_Hojbroplads_1_PREVIEW.e57",
+            "label": "LE34_Hojbroplads_1_PREVIEW-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_f6cdaca4fee10f89819ab16abd74e641",
+                "@id": "http://data.duraark.eu/resource/e57file_f6cdaca4fee10f89819ab16abd74e641",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -152,16 +152,16 @@
                     "@value": "LE34_Hojbroplads_1_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1_PREVIEW-0.04.e57n",
             "size": 2349816832
         },
         {
-            "label": "LE34_Hojbroplads_2-Floor_PREVIEW.e57",
+            "label": "LE34_Hojbroplads_2-Floor_PREVIEW-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_c9afdb3edc4e8fa29ae8af9a847daf8d",
+                "@id": "http://data.duraark.eu/resource/e57file_c9afdb3edc4e8fa29ae8af9a847daf8d",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -187,16 +187,16 @@
                     "@value": "LE34_Hojbroplads_2-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_PREVIEW-0.04.e57n",
             "size": 20056717312
         },
         {
-            "label": "LE34_Hojbroplads_3-Floor_PREVIEW.e57",
+            "label": "LE34_Hojbroplads_3-Floor_PREVIEW-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_d3171185cbd1e70e79455232d24080f2",
+                "@id": "http://data.duraark.eu/resource/e57file_d3171185cbd1e70e79455232d24080f2",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -222,16 +222,16 @@
                     "@value": "LE34_Hojbroplads_3-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_PREVIEW-0.04.e57n",
             "size": 23130642432
         },
         {
-            "label": "LE34_Hojbroplads_4-Floor_PREVIEW.e57",
+            "label": "LE34_Hojbroplads_4-Floor_PREVIEW-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_893f037b80887d0b84f18dfd83de0de4",
+                "@id": "http://data.duraark.eu/resource/e57file_893f037b80887d0b84f18dfd83de0de4",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -257,16 +257,16 @@
                     "@value": "LE34_Hojbroplads_4-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_PREVIEW-0.04.e57n",
             "size": 16593071104
         },
         {
-            "label": "LE34_Hojbroplads_Facade_PREVIEW.e57",
+            "label": "LE34_Hojbroplads_Facade_PREVIEW-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_a9d5851d6bfe8c455dcede761519ddb7",
+                "@id": "http://data.duraark.eu/resource/e57file_a9d5851d6bfe8c455dcede761519ddb7",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_f5ccf55a-4cff-42b7-af14-6b4b107e8a37"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -292,39 +292,39 @@
                     "@value": "LE34_Hojbroplads_Facade_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_Facade_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_PREVIEW-0.04.e57n",
             "size": 7215480832
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1_PREVIEW-0.04.e57n",
+            "type": "e57n",
             "size": 2349816832,
             "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_PREVIEW-0.04.e57n",
+            "type": "e57n",
             "size": 20056717312,
             "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_PREVIEW-0.04.e57n",
+            "type": "e57n",
             "size": 23130642432,
             "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_PREVIEW-0.04.e57n",
+            "type": "e57n",
             "size": 16593071104,
             "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_Facade_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_PREVIEW-0.04.e57n",
+            "type": "e57n",
             "size": 7215480832,
             "downloadAllowed": false
         }

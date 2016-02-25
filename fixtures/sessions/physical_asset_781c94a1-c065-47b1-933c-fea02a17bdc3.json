@@ -7,7 +7,7 @@
         {
             "label": "Nygade1-3",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3",
+                "@id": "http://data.duraark.eu/resource/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -101,7 +101,7 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_1a7fbb71a4e6fd6989c761bff07ef2f5"
+                        "@value": "http://data.duraark.eu/resource/e57file_1a7fbb71a4e6fd6989c761bff07ef2f5"
                     }
                 ]
             }
@@ -109,12 +109,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "ZESO_Nygade_PREVIEW.e57",
+            "label": "ZESO_Nygade_PREVIEW-0.06.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_1a7fbb71a4e6fd6989c761bff07ef2f5",
+                "@id": "http://data.duraark.eu/resource/e57file_1a7fbb71a4e6fd6989c761bff07ef2f5",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -140,15 +140,15 @@
                     "@value": "ZESO_Nygade_PREVIEW.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/ZESO/ZESO_Nygade_PREVIEW.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/ZESO/master/ZESO_Nygade_PREVIEW-0.06.e57n",
             "size": 32244563968
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/02_E57/ZESO/ZESO_Nygade_PREVIEW.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/ZESO/master/ZESO_Nygade_PREVIEW-0.06.e57n",
+            "type": "e57n",
             "size": 32244563968,
             "downloadAllowed": false
         }

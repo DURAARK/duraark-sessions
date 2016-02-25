@@ -7,7 +7,7 @@
         {
             "label": "Isblocket",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d",
+                "@id": "http://data.duraark.eu/resource/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -91,10 +91,10 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_78f1e0bf9632d522843502b5f0e1ea3e"
+                        "@value": "http://data.duraark.eu/resource/e57file_78f1e0bf9632d522843502b5f0e1ea3e"
                     },
                     {
-                        "@value": "http://data.duraark.eu/ifcspffile_8697df0cb74da66a7ab32ca7c2966474"
+                        "@value": "http://data.duraark.eu/resource/ifcspffile_8697df0cb74da66a7ab32ca7c2966474"
                     }
                 ]
             }
@@ -102,12 +102,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "FOJAB_Isblocket_5thFloor.e57",
+            "label": "FOJAB_Isblocket_5thFloor-0.02.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_78f1e0bf9632d522843502b5f0e1ea3e",
+                "@id": "http://data.duraark.eu/resource/e57file_78f1e0bf9632d522843502b5f0e1ea3e",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -143,16 +143,16 @@
                     "@value": "FOJAB_Isblocket_5thFloor.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket_5thFloor.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
             "size": 7511023616
         },
         {
             "label": "FOJAB_Isblocket.ifc",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/IFCSPFFile",
-                "@id": "http://data.duraark.eu/ifcspffile_8697df0cb74da66a7ab32ca7c2966474",
+                "@id": "http://data.duraark.eu/resource/ifcspffile_8697df0cb74da66a7ab32ca7c2966474",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_58d71eee-dc93-4fd6-ad2a-3c281ff98d8d"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -188,20 +188,20 @@
                     "@value": "FOJAB_Isblocket.ifc"
                 }
             },
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
             "size": 31102395
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket_5thFloor.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "type": "e57n",
             "size": 7511023616,
             "downloadAllowed": false
         },
         {
-            "path": "/tmp/duraark-data/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket.ifc",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
             "type": "ifc",
             "size": 31102395,
             "downloadAllowed": false

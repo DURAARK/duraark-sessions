@@ -7,7 +7,7 @@
         {
             "label": "Kunsthallen Nikolaj",
             "buildm": {
-                "@id": "http://data.duraark.eu/physical_asset_16337e4f-232c-4d8e-ad1e-f2d25ffcc0ca",
+                "@id": "http://data.duraark.eu/resource/physical_asset_16337e4f-232c-4d8e-ad1e-f2d25ffcc0ca",
                 "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -91,7 +91,7 @@
                 ],
                 "http://data.duraark.eu/vocab/buildm/isRepresentedBy": [
                     {
-                        "@value": "http://data.duraark.eu/e57file_2566144e3886ee4f3d86b5500a348dc0"
+                        "@value": "http://data.duraark.eu/resource/e57file_2566144e3886ee4f3d86b5500a348dc0"
                     }
                 ]
             }
@@ -99,12 +99,12 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_NikolajKunsthal.e57",
+            "label": "CITA_NikolajKunsthal-0.04.e57n",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-                "@id": "http://data.duraark.eu/e57file_2566144e3886ee4f3d86b5500a348dc0",
+                "@id": "http://data.duraark.eu/resource/e57file_2566144e3886ee4f3d86b5500a348dc0",
                 "http://data.duraark.eu/vocab/buildm/represents": {
-                    "@value": "http://data.duraark.eu/physical_asset_16337e4f-232c-4d8e-ad1e-f2d25ffcc0ca"
+                    "@value": "http://data.duraark.eu/resource/physical_asset_16337e4f-232c-4d8e-ad1e-f2d25ffcc0ca"
                 },
                 "http://data.duraark.eu/vocab/buildm/rightsDetails": [
                     {
@@ -115,15 +115,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57"
                 }
             },
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
             "size": 3789486080
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/tmp/duraark-data/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57",
-            "type": "e57",
+            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
+            "type": "e57n",
             "size": 3789486080,
             "downloadAllowed": true
         }
