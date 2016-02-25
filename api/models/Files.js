@@ -11,6 +11,7 @@ module.exports = {
         path: 'string',
         type: 'string',
         size: 'integer',
+        downloadURL: 'string',
         atime: 'date',
         mtime: 'date',
         ctime: 'date'
