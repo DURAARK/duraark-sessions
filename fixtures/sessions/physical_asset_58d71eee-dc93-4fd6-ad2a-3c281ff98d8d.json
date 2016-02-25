@@ -102,7 +102,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "label": "FOJAB_Isblocket_5thFloor.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_78f1e0bf9632d522843502b5f0e1ea3e",
@@ -143,7 +143,7 @@
                     "@value": "FOJAB_Isblocket_5thFloor.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
             "size": 7511023616
         },
         {
@@ -188,21 +188,21 @@
                     "@value": "FOJAB_Isblocket.ifc"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
             "size": 31102395
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/master/FOJAB_Isblocket_5thFloor-0.02.e57n",
+            "type": "e57",
             "size": 7511023616,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/03_IFC-E57/Fojab/Isblocket/FOJAB_Isblocket_5thFloor.e57"
         },
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
+            "path": "/duraark-storage/sessions/fixed/Fojab/Isblocket/derivative_copy/FOJAB_Isblocket.ifc",
             "type": "ifc",
             "size": 31102395,
             "downloadAllowed": false,

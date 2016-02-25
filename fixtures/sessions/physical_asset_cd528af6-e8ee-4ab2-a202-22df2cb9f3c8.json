@@ -100,14 +100,14 @@
                     "@value": "CCO_DTU-Building-204_FM_CONF.ifc"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
             "size": 38702739
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/Fojab/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building-204/derivative_copy/CCO_DTU-Building-204_FM_CONF.ifc",
             "type": "ifc",
             "size": 38702739,
             "downloadAllowed": false,

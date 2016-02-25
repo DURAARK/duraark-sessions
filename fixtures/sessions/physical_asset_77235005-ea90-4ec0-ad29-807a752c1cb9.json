@@ -111,7 +111,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_Diakon_1stFloor-0.04.e57n",
+            "label": "CITA_Diakon_1stFloor.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_58f3f769890bfd0d45090353ac07692d",
@@ -127,11 +127,11 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0.04.e57n",
             "size": 3433420800
         },
         {
-            "label": "CITA_Diakon_Basement-0.04.e57n",
+            "label": "CITA_Diakon_Basement.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_bea1fc1d7193d113677683dc06e0ea8e",
@@ -147,11 +147,11 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0.04.e57n",
             "size": 8244007936
         },
         {
-            "label": "CITA_Diakon_GroundFloor-0.04.e57n",
+            "label": "CITA_Diakon_GroundFloor.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_cf44f21fc01c04945544b066580da782",
@@ -167,11 +167,11 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0.04.e57n",
             "size": 6538689536
         },
         {
-            "label": "CITA_Diakon_Outside-0.04.e57n",
+            "label": "CITA_Diakon_Outside.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_0cd12775aabf509d38cdc5235fa40710",
@@ -187,11 +187,11 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0.04.e57n",
             "size": 9424406528
         },
         {
-            "label": "CITA_Diakon_Staircase-0.04.e57n",
+            "label": "CITA_Diakon_Staircase.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_e65e3ccb9ca87eb54884508c8518d7e1",
@@ -207,43 +207,43 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Staircase.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0.04.e57n",
             "size": 5177419776
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0.04.e57n",
+            "type": "e57",
             "size": 3433420800,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57"
         },
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0.04.e57n",
+            "type": "e57",
             "size": 8244007936,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57"
         },
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0.04.e57n",
+            "type": "e57",
             "size": 6538689536,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57"
         },
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0.04.e57n",
+            "type": "e57",
             "size": 9424406528,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57"
         },
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0.04.e57n",
+            "type": "e57",
             "size": 5177419776,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Staircase.e57"

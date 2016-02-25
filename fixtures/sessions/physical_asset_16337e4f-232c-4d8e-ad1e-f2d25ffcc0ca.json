@@ -99,7 +99,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_NikolajKunsthal-0.04.e57n",
+            "label": "CITA_NikolajKunsthal.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_2566144e3886ee4f3d86b5500a348dc0",
@@ -115,15 +115,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
             "size": 3789486080
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_NikolajKunsthal/master/CITA_NikolajKunsthal-0.04.e57n",
+            "type": "e57",
             "size": 3789486080,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_NikolajKunsthal/CITA_NikolajKunsthal.e57"

@@ -109,7 +109,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "DesignMuseum_Full-0.02.e57n",
+            "label": "DesignMuseum_Full.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_a1b487285fe94f3fa4a25b0caec71987",
@@ -155,15 +155,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_DesignMuseum/DesignMuseum_Full.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
             "size": 5887470592
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
+            "type": "e57",
             "size": 5887470592,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_DesignMuseum/DesignMuseum_Full.e57"

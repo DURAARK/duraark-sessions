@@ -99,7 +99,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
+            "label": "CITA_Byg72_3rd_Scan_09-2015.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_e88549a77c34b18176639867aac65753",
@@ -145,15 +145,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
             "size": 14393704448
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Byg72_ScanSeptember2015/master/CITA_Byg72_3rd_Scan_09-2015-0.02.e57n",
+            "type": "e57",
             "size": 14393704448,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Byg72-ScanSeptember2015/CITA_Byg72_3rd_Scan_09-2015.e57"

@@ -94,7 +94,7 @@
     ],
     "digitalObjects": [
         {
-            "label": "CITA_Kronborg-0.04.e57n",
+            "label": "CITA_Kronborg.e57",
             "buildm": {
                 "@type": "http://data.duraark.eu/vocab/buildm/E57File",
                 "@id": "http://data.duraark.eu/resource/e57file_dac2a4b52e13ba618d0eb4ff1d492103",
@@ -130,15 +130,15 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57"
                 }
             },
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
             "size": 17238603776
         }
     ],
     "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
     "files": [
         {
-            "path": "/afs/cgv.tugraz.at/Fraunhofer/Projekte/DuraArK/datasets/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
-            "type": "e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Kronborg/master/CITA_Kronborg-0.04.e57n",
+            "type": "e57",
             "size": 17238603776,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Kronborg/CITA_Kronborg.e57"
