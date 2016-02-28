@@ -129,7 +129,7 @@
                     "@value": "CCO_DTU-Building324_Construction_Architectural.ifc"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Architectural.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Architectural.ifc",
             "size": 20292492
         },
         {
@@ -149,7 +149,7 @@
                     "@value": "CCO_DTU-Building324_Construction_Electrical.ifc"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Electrical.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Electrical.ifc",
             "size": 53909551
         },
         {
@@ -169,7 +169,7 @@
                     "@value": "CCO_DTU-Building324_Construction_Structure.ifc"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Structure.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Structure.ifc",
             "size": 71904029
         },
         {
@@ -189,35 +189,35 @@
                     "@value": "CCO_DTU-Building324_Construction_Ventilation.ifc"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Ventilation.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Ventilation.ifc",
             "size": 58045253
         }
     ],
-    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "sessionFolder": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Architectural.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Architectural.ifc",
             "type": "ifc",
             "size": 20292492,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Architectural.ifc"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Electrical.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Electrical.ifc",
             "type": "ifc",
             "size": 53909551,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Electrical.ifc"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Structure.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Structure.ifc",
             "type": "ifc",
             "size": 71904029,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/03_CONFIDENTIAL/01_IFC/CCO/DTU-Building324_Construction/CCO_DTU-Building324_Construction_Structure.ifc"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/derivative_copy/CCO_DTU-Building324_Construction_Ventilation.ifc",
+            "path": "/duraark-storage/sessions/fixed/CCO/DTU-Building324_Construction/master/CCO_DTU-Building324_Construction_Ventilation.ifc",
             "type": "ifc",
             "size": 58045253,
             "downloadAllowed": false,

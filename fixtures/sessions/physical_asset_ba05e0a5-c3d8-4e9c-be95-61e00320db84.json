@@ -155,14 +155,14 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_DesignMuseum/DesignMuseum_Full.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0_02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
             "size": 5887470592
         }
     ],
-    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "sessionFolder": "/duraark-storage/sessions/fixed/CITA_DesignMuseum",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0_02.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_DesignMuseum/master/DesignMuseum_Full-0.02.e57n",
             "type": "e57",
             "size": 5887470592,
             "downloadAllowed": true,

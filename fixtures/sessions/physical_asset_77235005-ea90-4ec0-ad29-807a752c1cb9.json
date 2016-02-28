@@ -127,7 +127,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor_0_04.e57n",
             "size": 3433420800
         },
         {
@@ -147,7 +147,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement_0_04.e57n",
             "size": 8244007936
         },
         {
@@ -167,7 +167,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor_0_04.e57n",
             "size": 6538689536
         },
         {
@@ -187,7 +187,7 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside_0_04.e57n",
             "size": 9424406528
         },
         {
@@ -207,42 +207,42 @@
                     "@value": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Staircase.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase_0_04.e57n",
             "size": 5177419776
         }
     ],
-    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "sessionFolder": "/duraark-storage/sessions/fixed/CITA_Diakonissen",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_1stFloor_0_04.e57n",
             "type": "e57",
             "size": 3433420800,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_1stFloor.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Basement_0_04.e57n",
             "type": "e57",
             "size": 8244007936,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Basement.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_GroundFloor_0_04.e57n",
             "type": "e57",
             "size": 6538689536,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_GroundFloor.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Outside_0_04.e57n",
             "type": "e57",
             "size": 9424406528,
             "downloadAllowed": true,
             "downloadURL": "http://duraark.tib.eu/data/public/BuildingData/02_E57/CITA_Diakonissen/CITA_Diakon_Outside.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/CITA_Diakonissen/master/CITA_Diakon_Staircase_0_04.e57n",
             "type": "e57",
             "size": 5177419776,
             "downloadAllowed": true,

@@ -152,7 +152,7 @@
                     "@value": "LE34_Hojbroplads_1_PREVIEW.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1-Floor_0_04.e57n",
             "size": 2349816832
         },
         {
@@ -187,7 +187,7 @@
                     "@value": "LE34_Hojbroplads_2-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_0_04.e57n",
             "size": 20056717312
         },
         {
@@ -222,7 +222,7 @@
                     "@value": "LE34_Hojbroplads_3-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_0_04.e57n",
             "size": 23130642432
         },
         {
@@ -257,7 +257,7 @@
                     "@value": "LE34_Hojbroplads_4-Floor_PREVIEW.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_0_04.e57n",
             "size": 16593071104
         },
         {
@@ -292,42 +292,42 @@
                     "@value": "LE34_Hojbroplads_Facade_PREVIEW.e57"
                 }
             },
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_0_04.e57n",
             "size": 7215480832
         }
     ],
-    "sessionFolder": "/duraark-storage/sessions/nygade_1001-fixed",
+    "sessionFolder": "/duraark-storage/sessions/fixed/LE34/Hojbroplads",
     "files": [
         {
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_1-Floor_0_04.e57n",
             "type": "e57",
             "size": 2349816832,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_1_PREVIEW.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_2-Floor_0_04.e57n",
             "type": "e57",
             "size": 20056717312,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_2-Floor_PREVIEW.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_3-Floor_0_04.e57n",
             "type": "e57",
             "size": 23130642432,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_3-Floor_PREVIEW.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_4-Floor_0_04.e57n",
             "type": "e57",
             "size": 16593071104,
             "downloadAllowed": false,
             "downloadURL": "http://duraark.tib.eu/data/CITA/01_DataSets/02_PREVIEW/02_E57/LE34/Hojbroplads/LE34_Hojbroplads_4-Floor_PREVIEW.e57"
         },
         {
-            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_PREVIEW-0_04.e57n",
+            "path": "/duraark-storage/sessions/fixed/LE34/Hojbroplads/master/LE34_Hojbroplads_Facade_0_04.e57n",
             "type": "e57",
             "size": 7215480832,
             "downloadAllowed": false,
