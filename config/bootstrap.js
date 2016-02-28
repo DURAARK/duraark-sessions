@@ -56,7 +56,7 @@ function initSessions() {
           });
 
           Sessions.create(session).then(function(sessionRecord) {
-            console.log('[init] Added session: ' + JSON.stringify(sessionRecord, null, 4));
+            console.log('[init] Added session: ' + sessionRecord.label);
           });
         });
       }

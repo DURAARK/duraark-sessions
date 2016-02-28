@@ -1,7 +1,7 @@
 {
   "state": "archived",
-  "label": "Lyslab 03",
-  "address": "Somewhere, Kopenhagen",
+  "label": "Lyslab 3",
+  "address": "Knabrostræde 6-8, Nytorv 5-5A",
   "description": "Electrical appliance showcase dataset",
   "physicalAssets": [
       {
@@ -99,7 +99,7 @@
   ],
   "digitalObjects": [
       {
-          "label": "ZESO_Nygade_PREVIEW.e57",
+          "label": "LysLab_Scan03.e57",
           "buildm": {
               "@type": "http://data.duraark.eu/vocab/buildm/E57File",
               "@id": "http://data.duraark.eu/resource/e57file_1a7fbb71a4e68d6989c761bff07ef2f5",

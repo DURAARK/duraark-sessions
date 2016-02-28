@@ -1,139 +1,93 @@
 {
   "state": "archived",
   "label": "Nygade 1005-1006",
-  "address": "Somewhere, Kopenhagen",
+  "address": "Knabrostræde 6-8, Nytorv 5-5A",
   "description": "Electrical appliance showcase dataset",
-  "physicalAssets": [
-      {
-          "label": "Nygade 1005-1006",
-          "buildm": {
-              "@id": "http://data.duraark.eu/resource/physical_asset_781c94a1-a065-47b1-933c-fea02a17bdc3",
-              "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
-              "http://data.duraark.eu/vocab/buildm/rightsDetails": [
-                  {
-                      "@value": "Preview"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/name": [
-                  {
-                      "@value": "Nygade 1005-1006"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/owner": [
-                  {
-                      "@value": "NYGADE ApS"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/buildingArea": [
-                  {
-                      "@value": ""
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/floorCount": [
-                  {
-                      "@value": "1"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/numberOfRooms": [
-                  {
-                      "@value": "2"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/description": [
-                  {
-                      "@value": "Office"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/location": [
-                  {
-                      "@value": "Located in central Copenhagen next to Nytorv square"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/streetAddress": [
-                  {
-                      "@value": "Knabrostræde 6-8, Nytorv 5-5A"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/postalCodeStart": [
-                  {
-                      "@value": "1164"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/addressRegion": [
-                  {
-                      "@value": "København K"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/postalLocality": [
-                  {
-                      "@value": "Copenhagen"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/architect": [
-                  {
-                      "@value": "ZESO"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/contributor": [
-                  {
-                      "@value": "JL Engineering"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/startDate": [
-                  {
-                      "@value": "2015"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/completionDate": [
-                  {
-                      "@value": "ongoing - 2016"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/rebuildingDate": [
-                  {
-                      "@value": "2015"
-                  }
-              ]
-          }
+  "physicalAssets": [{
+    "label": "Nygade 1005-1006",
+    "buildm": {
+      "@id": "http://data.duraark.eu/resource/physical_asset_781c94a1-a065-47b1-933c-fea02a17bdc3",
+      "@type": "http://data.duraark.eu/vocab/buildm/PhysicalAsset",
+      "http://data.duraark.eu/vocab/buildm/rightsDetails": [{
+        "@value": "Preview"
+      }],
+      "http://data.duraark.eu/vocab/buildm/name": [{
+        "@value": "Nygade 1005-1006"
+      }],
+      "http://data.duraark.eu/vocab/buildm/owner": [{
+        "@value": "NYGADE ApS"
+      }],
+      "http://data.duraark.eu/vocab/buildm/buildingArea": [{
+        "@value": ""
+      }],
+      "http://data.duraark.eu/vocab/buildm/floorCount": [{
+        "@value": "1"
+      }],
+      "http://data.duraark.eu/vocab/buildm/numberOfRooms": [{
+        "@value": "2"
+      }],
+      "http://data.duraark.eu/vocab/buildm/description": [{
+        "@value": "Office"
+      }],
+      "http://data.duraark.eu/vocab/buildm/location": [{
+        "@value": "Located in central Copenhagen next to Nytorv square"
+      }],
+      "http://data.duraark.eu/vocab/buildm/streetAddress": [{
+        "@value": "Knabrostræde 6-8, Nytorv 5-5A"
+      }],
+      "http://data.duraark.eu/vocab/buildm/postalCodeStart": [{
+        "@value": "1164"
+      }],
+      "http://data.duraark.eu/vocab/buildm/addressRegion": [{
+        "@value": "København K"
+      }],
+      "http://data.duraark.eu/vocab/buildm/postalLocality": [{
+        "@value": "Copenhagen"
+      }],
+      "http://data.duraark.eu/vocab/buildm/architect": [{
+        "@value": "ZESO"
+      }],
+      "http://data.duraark.eu/vocab/buildm/contributor": [{
+        "@value": "JL Engineering"
+      }],
+      "http://data.duraark.eu/vocab/buildm/startDate": [{
+        "@value": "2015"
+      }],
+      "http://data.duraark.eu/vocab/buildm/completionDate": [{
+        "@value": "ongoing - 2016"
+      }],
+      "http://data.duraark.eu/vocab/buildm/rebuildingDate": [{
+        "@value": "2015"
+      }]
+    }
+  }],
+  "digitalObjects": [{
+    "label": "Nygade_Scan1005-1006.e57",
+    "buildm": {
+      "@type": "http://data.duraark.eu/vocab/buildm/E57File",
+      "@id": "http://data.duraark.eu/resource/e57file_1a7fdb71a4e68d6989c761bff07ef2f5",
+      "http://data.duraark.eu/vocab/buildm/represents": {
+        "@value": "http://data.duraark.eu/resource/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3"
+      },
+      "http://data.duraark.eu/vocab/buildm/rightsDetails": [{
+        "@value": "Preview"
+      }],
+      "http://data.duraark.eu/vocab/buildm/creator": [{
+        "@value": "CITA, ZESO"
+      }],
+      "http://data.duraark.eu/vocab/buildm/format": [{
+        "@value": "e57"
+      }],
+      "http://data.duraark.eu/vocab/buildm/hasType": [{
+        "@value": "Scan"
+      }],
+      "http://data.duraark.eu/vocab/buildm/filename": {
+        "@value": "Nygade_Scan1005-1006.e57"
       }
-  ],
-  "digitalObjects": [
-      {
-          "label": "Nygade_Scan1005-1006.e57",
-          "buildm": {
-              "@type": "http://data.duraark.eu/vocab/buildm/E57File",
-              "@id": "http://data.duraark.eu/resource/e57file_1a7fdb71a4e68d6989c761bff07ef2f5",
-              "http://data.duraark.eu/vocab/buildm/represents": {
-                  "@value": "http://data.duraark.eu/resource/physical_asset_781c94a1-c065-47b1-933c-fea02a17bdc3"
-              },
-              "http://data.duraark.eu/vocab/buildm/rightsDetails": [
-                  {
-                      "@value": "Preview"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/creator": [
-                  {
-                      "@value": "CITA, ZESO"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/format": [
-                  {
-                      "@value": "e57"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/hasType": [
-                  {
-                      "@value": "Scan"
-                  }
-              ],
-              "http://data.duraark.eu/vocab/buildm/filename": {
-                  "@value": "Nygade_Scan1005-1006.e57"
-              }
-          },
-          "path": "/duraark-storage/sessions/nygade_1005-1006-fixed/master/Nygade_Scan1005-1006.e57",
-          "size": 624563968
-      }
-  ],
+    },
+    "path": "/duraark-storage/sessions/nygade_1005-1006-fixed/master/Nygade_Scan1005-1006.e57",
+    "size": 624563968
+  }],
   "config": {
     "sda": {
       "topics": ["Haus 30 (general context)", "Haus 30 (political context)"]
