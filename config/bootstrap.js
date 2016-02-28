@@ -30,7 +30,7 @@ function initSessions() {
       }
     })
     .then(function(records) {
-      if (records.length) {
+      if (false && records.length) {
         console.log('\n[bootstrapping] "Session" fixtures cached, skipping creation.\n');
         return;
       } else {
@@ -47,7 +47,7 @@ function initSessions() {
         _.forEach(sessionFiles, function(sessionFile) {
           var session = require(sessionFile.path);
 
-          console.log('processing files: #', session.files.length);
+          // console.log('processing files: #', session.files.length);
           _.forEach(session.files, function(file) {
             // console.log('     file: ' + file.path);
             Files.create(file).then(function(fileRecord) {
@@ -56,7 +56,7 @@ function initSessions() {
           });
 
           Sessions.create(session).then(function(sessionRecord) {
-            console.log('[init] Added session: ' + session.label)
+            console.log('[init] Added session: ' + JSON.stringify(sessionRecord, null, 4));
           });
         });
       }
