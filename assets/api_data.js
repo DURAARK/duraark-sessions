@@ -3,7 +3,7 @@ define({ "api": [
     "type": "get",
     "url": "/sessions/:id",
     "title": "Get Session",
-    "version": "0.8.0",
+    "version": "1.0.0",
     "name": "GetSession",
     "group": "Session",
     "permission": [
@@ -11,16 +11,16 @@ define({ "api": [
         "name": "none"
       }
     ],
-    "description": "<p>A session contains files and metadata related to a building, as well as other session state. Requesting a sessions returns all that data. The 'Edit Building' section in the Workbench web application is using and manipulating this session data. Eventually the data is persisted into the long-term archive via the <a href=\"/api/v0.7/digitalpreservation\"><strong>duraark-digitalpreservation</strong></a> service.</p> ",
+    "description": "<p>A session contains files and metadata related to a building, as well as other session state. Requesting a sessions returns all that data. The 'Edit Building' section in the Workbench web application is using and manipulating this session data. Eventually the data is persisted into the long-term archive via the <a href=\"/api/v0.7/digitalpreservation\"><strong>duraark-digitalpreservation</strong></a> service.</p>",
     "parameter": {
       "fields": {
         "Parameter": [
           {
             "group": "Parameter",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "id",
-            "description": "<p>Session's unique ID.</p> "
+            "description": "<p>Session's unique ID.</p>"
           }
         ]
       }
@@ -37,87 +37,87 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "label",
-            "description": "<p>Display name of the Session.</p> "
+            "description": "<p>Display name of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "address",
-            "description": "<p>Address of the building worked on in the Session.</p> "
+            "description": "<p>Address of the building worked on in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "description",
-            "description": "<p>Description of the Session.</p> "
+            "description": "<p>Description of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Object</p> ",
+            "type": "Object",
             "optional": false,
             "field": "config",
-            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p> "
+            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "physicalAssets",
-            "description": "<p>List of PhysicalAssets in the Session.</p> "
+            "description": "<p>List of PhysicalAssets in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "digitalObjects",
-            "description": "<p>List of DigitalObjects in the Session.</p> "
+            "description": "<p>List of DigitalObjects in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "files",
-            "description": "<p>An array of 'files' which are part of the Session.</p> "
+            "description": "<p>An array of 'files' which are part of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "sessionFolder",
-            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p> "
+            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "url",
-            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p> "
+            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "createdAt",
-            "description": "<p>Creation date of the Session.</p> "
+            "description": "<p>Creation date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "modifiedAt",
-            "description": "<p>date of the Session.</p> "
+            "description": "<p>date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "ID",
-            "description": "<p>of the Session.</p> "
+            "description": "<p>of the Session.</p>"
           }
         ]
       },
@@ -136,7 +136,7 @@ define({ "api": [
             "group": "Error 4xx",
             "optional": false,
             "field": "NotFound",
-            "description": "<p>The Session was not found.</p> "
+            "description": "<p>The Session was not found.</p>"
           }
         ]
       },
@@ -155,7 +155,7 @@ define({ "api": [
     "type": "post",
     "url": "/sessions/addFilesToSession",
     "title": "Add file(s) to Session",
-    "version": "0.8.0",
+    "version": "1.0.0",
     "name": "PostAddFilesToSession",
     "group": "Session",
     "permission": [
@@ -163,23 +163,23 @@ define({ "api": [
         "name": "none"
       }
     ],
-    "description": "<p>Files which were uploaded in <a href=\"/#api-Session-uploadFiles\"><strong>Upload file(s)</strong></a> have to be added to a session to be usable in the Workbench. The output of a file upload described in <a href=\"/#api-Session-uploadFiles\"><strong>Upload file(s)</strong></a> can directly be used as input for the 'files' parameter of this endpoint. If the files are successfully added to a session the response contains amongst other data an 'url' parameter. This URL can be visited to work with the added files in the Workbench. The default URL links to the 'files' section in the Workbench. Change the link to fit your needs (see the <strong>Success</strong> description below for options).</p> ",
+    "description": "<p>Files which were uploaded in <a href=\"#api-Session-uploadFiles\"><strong>Upload file(s)</strong></a> have to be added to a session to be usable in the Workbench. The output of a file upload described in <a href=\"#api-Session-uploadFiles\"><strong>Upload file(s)</strong></a> can directly be used as input for the 'files' parameter of this endpoint. If the files are successfully added to a session the response contains amongst other data an 'url' parameter. This URL can be visited to work with the added files in the Workbench. The default URL links to the 'files' section in the Workbench. Change the link to fit your needs (see the <strong>Success</strong> description below for options).</p>",
     "parameter": {
       "fields": {
         "Parameter": [
           {
             "group": "Parameter",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "id",
-            "description": "<p>Session's unique ID.</p> "
+            "description": "<p>Session's unique ID.</p>"
           },
           {
             "group": "Parameter",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "files",
-            "description": "<p>An array with filepaths as returned by <a href=\"#api-Session-PostUploadFiles\">the upload endpoint</a>.</p> "
+            "description": "<p>An array with filepaths as returned by <a href=\"#api-Session-PostUploadFiles\">the upload endpoint</a>.</p>"
           }
         ]
       }
@@ -189,87 +189,87 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "label",
-            "description": "<p>Display name of the Session.</p> "
+            "description": "<p>Display name of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "address",
-            "description": "<p>Address of the building worked on in the Session.</p> "
+            "description": "<p>Address of the building worked on in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "description",
-            "description": "<p>Description of the Session.</p> "
+            "description": "<p>Description of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Object</p> ",
+            "type": "Object",
             "optional": false,
             "field": "config",
-            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p> "
+            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "physicalAssets",
-            "description": "<p>List of PhysicalAssets in the Session.</p> "
+            "description": "<p>List of PhysicalAssets in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "digitalObjects",
-            "description": "<p>List of DigitalObjects in the Session.</p> "
+            "description": "<p>List of DigitalObjects in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "files",
-            "description": "<p>An array of 'files' which are part of the Session.</p> "
+            "description": "<p>An array of 'files' which are part of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "sessionFolder",
-            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p> "
+            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "url",
-            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p> "
+            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "createdAt",
-            "description": "<p>Creation date of the Session.</p> "
+            "description": "<p>Creation date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "modifiedAt",
-            "description": "<p>date of the Session.</p> "
+            "description": "<p>date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "ID",
-            "description": "<p>of the Session.</p> "
+            "description": "<p>of the Session.</p>"
           }
         ]
       },
@@ -288,7 +288,7 @@ define({ "api": [
     "type": "post",
     "url": "/sessions",
     "title": "Create new Session",
-    "version": "0.8.0",
+    "version": "1.0.0",
     "name": "PostSession",
     "group": "Session",
     "permission": [
@@ -296,44 +296,44 @@ define({ "api": [
         "name": "none"
       }
     ],
-    "description": "<p>Creates a new Session on the server. A session represents a 'building' the user is working on. It contains files and metadata related to a building. After the initial creation the session is empty, no files are associated with it yet. You can use the <a href=\"#api-Session-PostUploadFiles\"><strong>Upload file(s)</strong></a> in combination with <a href=\"#api-Session-PostUploadFiles\"><strong>Add file(s) to Session</strong></a> to add files to a session. Alternatively the Workbench web application allows to upload files in a graphical way (which is using this API in the background).</p> ",
+    "description": "<p>Creates a new Session on the server. A session represents a 'building' the user is working on. It contains files and metadata related to a building. After the initial creation the session is empty, no files are associated with it yet. You can use the <a href=\"#api-Session-PostUploadFiles\"><strong>Upload file(s)</strong></a> in combination with <a href=\"#api-Session-PostUploadFiles\"><strong>Add file(s) to Session</strong></a> to add files to a session. Alternatively the Workbench web application allows to upload files in a graphical way (which is using this API in the background).</p>",
     "parameter": {
       "fields": {
         "Parameter": [
           {
             "group": "Parameter",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "label",
-            "description": "<p>Display name of the Session.</p> "
+            "description": "<p>Display name of the Session.</p>"
           },
           {
             "group": "Parameter",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "address",
-            "description": "<p>(Optional) Address of the building worked on in the Session.</p> "
+            "description": "<p>(Optional) Address of the building worked on in the Session.</p>"
           },
           {
             "group": "Parameter",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "description",
-            "description": "<p>(Optional) Description of the Session.</p> "
+            "description": "<p>(Optional) Description of the Session.</p>"
           },
           {
             "group": "Parameter",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "files",
-            "description": "<p>(Optional) An array of 'files' which will be moved to the session folder from the 'uploads' folder. The files have to exist in the 'uploads' folder before creating the session, otherwise an error will be thrown.</p> "
+            "description": "<p>(Optional) An array of 'files' which will be moved to the session folder from the 'uploads' folder. The files have to exist in the 'uploads' folder before creating the session, otherwise an error will be thrown.</p>"
           },
           {
             "group": "Parameter",
-            "type": "<p>Object</p> ",
+            "type": "Object",
             "optional": false,
             "field": "config",
-            "description": "<p>(Optional) Configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p> "
+            "description": "<p>(Optional) Configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p>"
           }
         ]
       }
@@ -350,87 +350,87 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "label",
-            "description": "<p>Display name of the Session.</p> "
+            "description": "<p>Display name of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "address",
-            "description": "<p>Address of the building worked on in the Session.</p> "
+            "description": "<p>Address of the building worked on in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "description",
-            "description": "<p>Description of the Session.</p> "
+            "description": "<p>Description of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Object</p> ",
+            "type": "Object",
             "optional": false,
             "field": "config",
-            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p> "
+            "description": "<p>Optional configuration options for this Session. Via the 'topics' object you can filter the enable only a set of the available enrichment topics. Via the 'geoTools' array you can enable only a set of available geometric tools.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "physicalAssets",
-            "description": "<p>List of PhysicalAssets in the Session.</p> "
+            "description": "<p>List of PhysicalAssets in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Array</p> ",
+            "type": "Array",
             "optional": false,
             "field": "digitalObjects",
-            "description": "<p>List of DigitalObjects in the Session.</p> "
+            "description": "<p>List of DigitalObjects in the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "files",
-            "description": "<p>An array of 'files' which are part of the Session.</p> "
+            "description": "<p>An array of 'files' which are part of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "sessionFolder",
-            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p> "
+            "description": "<p>The name of the session folder where master, derivative and tmp files are stored.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "url",
-            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p> "
+            "description": "<p>URL linking to the Session in the Workbench. Replace '/files' with the entrypoint that suits you, i.e. '/metadata', '/geometricenrichment', '/semanticenrichment' or '/digitalpreservation'.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "createdAt",
-            "description": "<p>Creation date of the Session.</p> "
+            "description": "<p>Creation date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Date</p> ",
+            "type": "Date",
             "optional": false,
             "field": "modifiedAt",
-            "description": "<p>date of the Session.</p> "
+            "description": "<p>date of the Session.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "ID",
-            "description": "<p>of the Session.</p> "
+            "description": "<p>of the Session.</p>"
           }
         ]
       }
@@ -450,7 +450,7 @@ define({ "api": [
         "name": "none"
       }
     ],
-    "description": "<p>To work with files in a session you have to upload them to the system first. DURAARK provides an upload functionality to do that via this endpoint. A file is first uploaded to the server but is not yet added to a session. To add it to a session use <a href=\"/#api-Session-addFilesToSession\"><strong>Add file(s) to Session</strong></a>. The response from a successful upload can directly be used as input for the <a href=\"/#api-Session-addFilesToSession\"><strong>Add file(s) to Session</strong></a> functionality.</p> ",
+    "description": "<p>To work with files in a session you have to upload them to the system first. DURAARK provides an upload functionality to do that via this endpoint. A file is first uploaded to the server but is not yet added to a session. To add it to a session use <a href=\"/#api-Session-addFilesToSession\"><strong>Add file(s) to Session</strong></a>. The response from a successful upload can directly be used as input for the <a href=\"/#api-Session-addFilesToSession\"><strong>Add file(s) to Session</strong></a> functionality.</p>",
     "examples": [
       {
         "title": "Example usage:",
@@ -463,38 +463,38 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "path",
-            "description": "<p>The path where the file is stored after the upload. Use this filepath as reference when adding the file to an existing sessions (see <a href=\"#api-Session-PostAddFilesToSession\">Add file(s) to Session</a>)</p> "
+            "description": "<p>The path where the file is stored after the upload. Use this filepath as reference when adding the file to an existing sessions (see <a href=\"#api-Session-PostAddFilesToSession\">Add file(s) to Session</a>)</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>Number</p> ",
+            "type": "Number",
             "optional": false,
             "field": "size",
-            "description": "<p>The file size of the uploaded file.</p> "
+            "description": "<p>The file size of the uploaded file.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "atime",
-            "description": "<p>Last access time of the file.</p> "
+            "description": "<p>Last access time of the file.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "mtime",
-            "description": "<p>Last modification time of the file.</p> "
+            "description": "<p>Last modification time of the file.</p>"
           },
           {
             "group": "Success 200",
-            "type": "<p>String</p> ",
+            "type": "String",
             "optional": false,
             "field": "ctime",
-            "description": "<p>Creation time of the file.</p> "
+            "description": "<p>Creation time of the file.</p>"
           }
         ]
       },

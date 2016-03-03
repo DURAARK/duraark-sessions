@@ -53,10 +53,10 @@
   },
   "apidoc": {
     "name": "duraark-sessions",
-    "version": "0.8.0",
+    "version": "1.0.0",
     "description": "API documentation for the 'duraark-session' service (part of the DURAARK Service Platform).",
     "title": "duraark-sessions - API documentation",
-    "url": "https://juliet.cgv.tugraz.at/api/v0.7/sessions",
+    "url": "http://data.duraark.eu/services/api/sessions",
     "order": [
       "PostSession",
       "GetSession",

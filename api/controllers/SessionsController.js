@@ -11,7 +11,7 @@ var path = require('path'),
 module.exports = {
   /**
    * @api {post} /sessions Create new Session
-   * @apiVersion 0.8.0
+   * @apiVersion 1.0.0
    * @apiName PostSession
    * @apiGroup Session
    * @apiPermission none
@@ -71,7 +71,7 @@ module.exports = {
 
   /**
    * @api {get} /sessions/:id Get Session
-   * @apiVersion 0.8.0
+   * @apiVersion 1.0.0
    * @apiName GetSession
    * @apiGroup Session
    * @apiPermission none
@@ -132,13 +132,13 @@ module.exports = {
 
   /**
    * @api {post} /sessions/addFilesToSession Add file(s) to Session
-   * @apiVersion 0.8.0
+   * @apiVersion 1.0.0
    * @apiName PostAddFilesToSession
    * @apiGroup Session
    * @apiPermission none
    *
-   * @apiDescription Files which were uploaded in <a href="/#api-Session-uploadFiles"><strong>Upload file(s)</strong></a> have to be added to a
-   * session to be usable in the Workbench. The output of a file upload described in <a href="/#api-Session-uploadFiles"><strong>Upload file(s)</strong></a>
+   * @apiDescription Files which were uploaded in <a href="#api-Session-uploadFiles"><strong>Upload file(s)</strong></a> have to be added to a
+   * session to be usable in the Workbench. The output of a file upload described in <a href="#api-Session-uploadFiles"><strong>Upload file(s)</strong></a>
    * can directly be used as input for the 'files' parameter of this endpoint. If the files are successfully added to a session the response contains
    * amongst other data an 'url' parameter. This URL can be visited to work with the added files in the Workbench. The default URL links to the 'files'
    * section in the Workbench. Change the link to fit your needs (see the <strong>Success</strong> description below for options).
