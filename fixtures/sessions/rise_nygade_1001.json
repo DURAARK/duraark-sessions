@@ -3,7 +3,7 @@
   "label": "Nygade 1001",
   "address": "Knabrostræde 6-8, Nytorv 5-5A",
   "description": "Electrical appliance showcase dataset",
-  "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/Nygade_Scan1001.ifc.png",    
+  "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/nygade1001_rendering_texturedgeometry.png", 
   "physicalAssets": [
       {
           "label": "Nygade 1001",

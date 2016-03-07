@@ -3,6 +3,7 @@
   "label": "Lyslab 3",
   "address": "Knabrostræde 6-8, Nytorv 5-5A",
   "description": "Electrical appliance showcase dataset",
+  "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/cloud_lyslab_03.png",
   "physicalAssets": [
       {
           "label": "Lyslab 3",
