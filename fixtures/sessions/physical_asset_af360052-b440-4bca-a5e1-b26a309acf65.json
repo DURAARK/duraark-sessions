@@ -3,6 +3,7 @@
     "label": "Kronborg Castle",
     "streetAddress": "Kronborg 2C",
     "description": "Kronborg is one of the most important Renaissance castles in Northern Europe. Immortalized as Elsinore in William Shakespeare's play Hamlet.  Part of UNESCO's World Heritage Sites list.",
+    "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/CITA_Kronborg.jpg",   
     "physicalAssets": [
         {
             "label": "Kronborg Castle",

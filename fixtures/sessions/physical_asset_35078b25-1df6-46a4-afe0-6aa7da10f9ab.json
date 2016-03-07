@@ -3,6 +3,7 @@
     "label": "DTU Compute",
     "streetAddress": "Danmarks Tekniske Universitet, Bygning 324",
     "description": "Part of a 0.5 billion USD upgrade of the campus",
+    "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/DTU-Building-204.png",    
     "physicalAssets": [
         {
             "label": "DTU Compute",
