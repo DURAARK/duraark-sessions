@@ -3,6 +3,7 @@
   "label": "Isblocket",
   "streetAddress": "Arenagatan 10",
   "description": "The building is connected to the underlying parking garage and connects to every other floor . There will be retail space on the ground floor and a passage through the neighborhood .",
+  "thumbnail": "http://duraark.tib.eu/data/public/BuildingData/04_thumbnails/selection/FojabIsblocket_Thumb.jpg",
   "physicalAssets": [{
     "label": "Isblocket",
     "buildm": {
